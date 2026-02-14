@@ -1,3 +1,5 @@
 .DS_Store
 .venv/
-data/raw/
+data/raw/*
+data/processed/*
+!data/processed/teams_stats_master.csv
