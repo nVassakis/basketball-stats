@@ -6,3 +6,5 @@ matplotlib
 jupyter
 seaborn
 requests
+scikit-learn
+xgboost
