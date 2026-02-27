@@ -28,7 +28,6 @@ def engineer_features():
     df['TSA'] = df['2FG_A'] + df['3FG_A'] + (0.44 * df['FT_A'])
     
     # Calculate raw TS% (Multiply TSA by 2 for the standard formula)
-    # Using .fillna(0) prevents errors if a player took literally 0 shots
     df['TS_PCT_raw'] = (df['PTS'] / (2 * df['TSA'])).fillna(0)
 
     # ---------------------------------------------------------
