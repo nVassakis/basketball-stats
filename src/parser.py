@@ -223,7 +223,7 @@ def run_pipeline():
     master_df['Player'] = master_df['Player'].apply(greek_to_latin)
 
     # Load the JSON Mapping
-    mapping_file = os.path.join(BASE_DIR,'team_mapping.json')
+    mapping_file = os.path.join(BASE_DIR,'config/team_mapping.json')
     with open(mapping_file, 'r', encoding='utf-8') as f:
         team_mapping = json.load(f)
     print("Mapping loaded successfully.")

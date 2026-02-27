@@ -61,7 +61,7 @@ def download_player(player_data, save_dir):
 def run_scraper():
     # --- 1. LOAD TEAMS FROM TXT ---
     base_dir = get_project_root()
-    teams_file = os.path.join(base_dir, "teams.txt")
+    teams_file = os.path.join(base_dir, "config/teams.txt")
 
     teams_list = []
     if os.path.exists(teams_file):
