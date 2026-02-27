@@ -12,8 +12,24 @@ def engineer_features():
     df['DATE'] = pd.to_datetime(df['DATE'])
     df = df.sort_values(by=['DATE']).reset_index(drop=True)
 
+    # Calendar Features
+    print("Extracting Calendar Features...")
+    df['MONTH'] = df['DATE'].dt.month
+    df['DAY_OF_WEEK'] = df['DATE'].dt.dayofweek
+
     # Calculate 'USG' (Usage) - Total shots taken
     df['USG'] = df['2FG_A'] + df['3FG_A'] + df['FT_A']
+
+    # ---------------------------------------------------------
+    # True Shooting Percentage (Raw)
+    # ---------------------------------------------------------
+    print("Calculating True Shooting Percentage...")
+    # TSA = True Shooting Attempts
+    df['TSA'] = df['2FG_A'] + df['3FG_A'] + (0.44 * df['FT_A'])
+    
+    # Calculate raw TS% (Multiply TSA by 2 for the standard formula)
+    # Using .fillna(0) prevents errors if a player took literally 0 shots
+    df['TS_PCT_raw'] = (df['PTS'] / (2 * df['TSA'])).fillna(0)
 
     # ---------------------------------------------------------
     # Step 1: Short-Term Form -> Last 3 Games
@@ -28,6 +44,11 @@ def engineer_features():
     df['PTS_last_3'] = df.groupby('PLAYER')['PTS'].transform(get_last_3_avg)
     df['EFF_last_3'] = df.groupby('PLAYER')['EFF'].transform(get_last_3_avg)
     df['USG_last_3'] = df.groupby('PLAYER')['USG'].transform(get_last_3_avg)
+    df['AST_last_3'] = df.groupby('PLAYER')['AST'].transform(get_last_3_avg)
+    df['BLK_last_3'] = df.groupby('PLAYER')['BLK'].transform(get_last_3_avg)
+    df['STL_last_3'] = df.groupby('PLAYER')['STL'].transform(get_last_3_avg)
+    df['REB_last_3'] = df.groupby('PLAYER')['REB_TOT'].transform(get_last_3_avg)
+    df['TS_PCT_last_3'] = df.groupby('PLAYER')['TS_PCT_raw'].transform(get_last_3_avg)
 
 
     # ---------------------------------------------------------
@@ -44,6 +65,10 @@ def engineer_features():
     df['REB_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['REB_TOT'].transform(get_season_avg)
     df['EFF_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['EFF'].transform(get_season_avg)
     df['AST_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['AST'].transform(get_season_avg)
+    df['BLK_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['BLK'].transform(get_season_avg)
+    df['STL_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['STL'].transform(get_season_avg)
+    df['TS_PCT_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['TS_PCT_raw'].transform(get_season_avg)
+    df['USG_season_avg'] = df.groupby(['PLAYER', 'SEASON'])['USG'].transform(get_season_avg)
 
     # ---------------------------------------------------------
     # Step 3: Player vs. Opponent History
@@ -62,6 +87,41 @@ def engineer_features():
     # How well does the OPPONENT defend
     df['OPP_PTS_ALLOWED_PER_PLAYER'] = df.groupby(['OPPONENT', 'SEASON'])['PTS'].transform(get_season_avg)
     df['OPP_REB_ALLOWED_PER_PLAYER'] = df.groupby(['OPPONENT', 'SEASON'])['REB_TOT'].transform(get_season_avg)
+
+    # ---------------------------------------------------------
+    # Step 4.5: Lineup Context
+    # ---------------------------------------------------------
+    print("Calculating Scoring Vacuum (Lineup Context)...")
+
+    # 1. Calculate how much the active roster *usually* scores
+    df['ACTIVE_ROSTER_POWER'] = df.groupby(['TEAM', 'DATE'])['PTS_season_avg'].transform('sum')
+
+    # 2. Calculate the Team's *actual* historical points per game (PPG) before today
+    # First, get the true total points scored by the team in each game
+    df['team_game_total'] = df.groupby(['TEAM', 'DATE'])['PTS'].transform('sum')
+    
+    # Isolate unique games, calculate the rolling average, and merge it back
+    team_games = df[['TEAM', 'DATE', 'team_game_total']].drop_duplicates()
+    team_games['TEAM_SEASON_PPG'] = team_games.groupby('TEAM')['team_game_total'].transform(
+        lambda x: x.shift(1).expanding().mean()
+    )
+    
+    # Merge this baseline back into the main dataset
+    df = pd.merge(df, team_games[['TEAM', 'DATE', 'TEAM_SEASON_PPG']], on=['TEAM', 'DATE'], how='left')
+
+    # 3. Calculate the Vacuum
+    # If the team usually scores 80, but today's roster only averages 60, the vacuum is 20!
+    df['SCORING_VACUUM'] = df['TEAM_SEASON_PPG'] - df['ACTIVE_ROSTER_POWER']
+
+    # Clean up temporary columns to keep the database tidy
+    df = df.drop(columns=['team_game_total', 'ACTIVE_ROSTER_POWER', 'TEAM_SEASON_PPG'])
+
+    print("Calculating Team Hierarchy...")
+    
+    # Rank players on the same team, on the same day, by their historical usage
+    # Rank 1.0 = The Alpha Dog. Rank 5.0 = The 5th option on the court.
+    df['TEAM_USG_RANK'] = df.groupby(['TEAM', 'DATE'])['USG_season_avg'].rank(ascending=False, method='min')
+    
 
     # ---------------------------------------------------------
     # Step 5: Save the ML-Ready Data
