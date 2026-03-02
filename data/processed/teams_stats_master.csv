@@ -24,6 +24,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-08,2026,1,8,Akis Kolovelonis,Αεροδρομιακος - Glyfathers,Aerodromiakos,Glyfathers,15,14,0,0,0.0,7,12,58.33,0,2,0.0,2,4,0,6,2,4,4,5
 2025-26,2026-01-15,2026,1,15,Akis Kolovelonis,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,12,11,0,0,0.0,4,6,66.67,1,2,50.0,4,1,0,1,0,1,2,2
 2025-26,2026-01-29,2026,1,29,Akis Kolovelonis,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,5,10,0,0,0.0,5,9,55.56,0,6,0.0,0,2,0,6,0,6,3,4
+2025-26,2026-02-26,2026,2,26,Akis Kolovelonis,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,4,9,3,4,75.0,3,10,30.0,0,2,0.0,1,1,0,5,1,4,2,3
 2024-25,2024-09-30,2024,9,30,Anastasios Giogiakas,Αεροδρομιακος - Los Reys,Aerodromiakos,Los Reys,6,4,0,0,0.0,2,5,40.0,0,4,0.0,5,0,0,6,2,4,2,5
 2024-25,2024-10-08,2024,10,8,Anastasios Giogiakas,Beertouozoi - Αεροδρομιακος,Aerodromiakos,Beertouozoi,2,9,1,2,50.0,1,4,25.0,2,6,33.33,5,0,0,3,1,2,7,0
 2024-25,2024-10-14,2024,10,14,Anastasios Giogiakas,Αεροδρομιακος - Slow Motion,Aerodromiakos,Slow Motion,1,5,0,1,0.0,1,4,25.0,1,5,20.0,3,0,0,3,1,2,2,1
@@ -50,6 +51,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-12,2025,10,12,Anastasios Giogiakas,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,5,2,0,1,0.0,1,3,33.33,0,3,0.0,2,0,0,7,1,6,0,1
 2025-26,2025-11-20,2025,11,20,Anastasios Giogiakas,Αεροδρομιακος - Ανηθικοι Πιθηκοι,Aerodromiakos,Anithikoi Pithikoi,8,5,0,0,0.0,1,4,25.0,1,2,50.0,4,2,0,4,1,3,3,0
 2025-26,2026-02-09,2026,2,9,Anastasios Giogiakas,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,8,7,0,0,0.0,2,2,100.0,1,2,50.0,1,1,0,3,1,2,3,2
+2025-26,2026-02-18,2026,2,18,Anastasios Giogiakas,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,3,6,0,0,0.0,0,2,0.0,2,6,33.33,1,1,0,3,1,2,2,1
 2025-26,2025-09-24,2025,9,24,Antonios Tzanidakis,Clicka BC - Αεροδρομιακος,Aerodromiakos,Clicka BC,-10,1,1,2,50.0,0,1,0.0,0,6,0.0,1,0,0,2,0,2,6,1
 2025-26,2025-09-30,2025,9,30,Antonios Tzanidakis,Αεροδρομιακος - El Maestro,Aerodromiakos,El Maestro,-9,4,2,3,66.67,1,2,50.0,0,7,0.0,1,0,0,2,0,2,7,0
 2025-26,2025-10-15,2025,10,15,Antonios Tzanidakis,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,21,22,3,4,75.0,2,5,40.0,5,13,38.46,3,4,0,6,1,5,2,2
@@ -145,6 +147,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-29,2026,1,29,Argyris Sideris,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,2,7,1,2,50.0,3,10,30.0,0,2,0.0,1,0,1,6,1,5,3,0
 2025-26,2026-02-05,2026,2,5,Argyris Sideris,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,2,2,0,0,0.0,1,3,33.33,0,4,0.0,3,1,1,4,0,4,3,0
 2025-26,2026-02-09,2026,2,9,Argyris Sideris,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,10,11,2,2,100.0,0,2,0.0,3,8,37.5,0,0,0,7,0,7,1,2
+2025-26,2026-02-18,2026,2,18,Argyris Sideris,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,9,9,0,1,0.0,0,1,0.0,3,8,37.5,2,1,0,4,1,3,0,2
+2025-26,2026-02-26,2026,2,26,Argyris Sideris,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,2,3,0,0,0.0,0,4,0.0,1,5,20.0,1,2,0,5,2,3,1,1
 2024-25,2024-09-30,2024,9,30,Charis Sideris,Αεροδρομιακος - Los Reys,Aerodromiakos,Los Reys,-2,2,0,0,0.0,1,1,100.0,0,4,0.0,1,1,0,0,0,0,2,2
 2024-25,2024-10-08,2024,10,8,Charis Sideris,Beertouozoi - Αεροδρομιακος,Aerodromiakos,Beertouozoi,0,6,0,2,0.0,0,1,0.0,2,7,28.57,1,0,0,2,0,2,1,1
 2024-25,2024-10-14,2024,10,14,Charis Sideris,Αεροδρομιακος - Slow Motion,Aerodromiakos,Slow Motion,3,0,0,0,0.0,0,2,0.0,0,2,0.0,1,1,0,5,0,5,0,0
@@ -185,6 +189,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-08,2026,1,8,Charis Sideris,Αεροδρομιακος - Glyfathers,Aerodromiakos,Glyfathers,0,0,0,0,0.0,0,2,0.0,0,1,0.0,0,1,0,3,1,2,1,2
 2025-26,2026-01-15,2026,1,15,Charis Sideris,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,6,6,0,0,0.0,0,2,0.0,2,7,28.57,3,2,0,2,1,1,0,3
 2025-26,2026-01-29,2026,1,29,Charis Sideris,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,1,0,0,0,0.0,0,0,0.0,0,2,0.0,2,0,0,1,0,1,0,2
+2025-26,2026-02-18,2026,2,18,Charis Sideris,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,-4,0,0,0,0.0,0,1,0.0,0,4,0.0,1,1,0,0,0,0,1,0
+2025-26,2026-02-26,2026,2,26,Charis Sideris,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,-5,0,0,0,0.0,0,1,0.0,0,5,0.0,0,1,0,0,0,0,0,0
 2025-26,2025-09-30,2025,9,30,Christos Sideris,Αεροδρομιακος - El Maestro,Aerodromiakos,El Maestro,-1,0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,1,1,0,1,1,0
 2025-26,2025-10-12,2025,10,12,Christos Sideris,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,2,0,0,0,0.0,0,2,0.0,0,0,0.0,0,1,0,4,1,3,1,2
 2023-24,2023-09-25,2023,9,25,Christos Tsantoulis,Ποσειδωνες - Unflagged,Aerodromiakos,Poseidones,7,16,2,4,50.0,1,5,20.0,4,11,36.36,0,1,0,8,1,7,5,2
@@ -215,6 +221,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-29,2026,1,29,Christos Tsantoulis,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,20,18,2,2,100.0,2,8,25.0,4,12,33.33,5,1,0,11,5,6,1,3
 2025-26,2026-02-05,2026,2,5,Christos Tsantoulis,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,14,18,0,0,0.0,3,6,50.0,4,15,26.67,4,2,2,5,1,4,3,2
 2025-26,2026-02-09,2026,2,9,Christos Tsantoulis,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,-3,5,0,0,0.0,1,6,16.67,1,11,9.09,3,3,1,5,1,4,5,1
+2025-26,2026-02-26,2026,2,26,Christos Tsantoulis,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,-8,4,0,0,0.0,2,8,25.0,0,6,0.0,0,2,0,2,1,1,4,0
+2025-26,2026-02-26,2026,2,26,Dimitrios Mparlas,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,2,1,1,2,50.0,0,2,0.0,0,1,0.0,1,0,0,6,0,6,2,0
 2023-24,2023-09-25,2023,9,25,Georgios Euaggeliou,Ποσειδωνες - Unflagged,Aerodromiakos,Poseidones,-3,0,0,0,0.0,0,3,0.0,0,0,0.0,1,0,0,2,0,2,3,5
 2023-24,2023-10-06,2023,10,6,Georgios Euaggeliou,Voula Vikings - Unflagged,Aerodromiakos,Voula Vikings,1,2,0,0,0.0,1,6,16.67,0,2,0.0,0,1,1,6,3,3,2,5
 2023-24,2023-10-10,2023,10,10,Georgios Euaggeliou,Unflagged - Glyfada Bulls,Aerodromiakos,Unflagged,24,4,2,2,100.0,1,6,16.67,0,0,0.0,3,3,2,19,4,15,2,3
@@ -256,6 +264,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-24,2025,11,24,Georgios Euaggeliou,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,13,9,0,2,0.0,3,8,37.5,1,3,33.33,4,1,4,7,0,7,3,3
 2025-26,2026-01-08,2026,1,8,Georgios Euaggeliou,Αεροδρομιακος - Glyfathers,Aerodromiakos,Glyfathers,14,4,0,0,0.0,2,5,40.0,0,1,0.0,1,2,1,11,4,7,1,3
 2025-26,2026-01-29,2026,1,29,Georgios Euaggeliou,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,9,6,4,8,50.0,1,4,25.0,0,3,0.0,1,1,4,10,6,4,3,5
+2025-26,2026-02-18,2026,2,18,Georgios Euaggeliou,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,8,1,1,2,50.0,0,4,0.0,0,3,0.0,1,1,2,14,3,11,3,4
+2025-26,2026-02-26,2026,2,26,Georgios Euaggeliou,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,7,4,0,2,0.0,2,11,18.18,0,1,0.0,2,4,1,9,6,3,1,5
 2025-26,2025-11-03,2025,11,3,Georgios Vergopoulos,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,-1,4,0,0,0.0,2,5,40.0,0,2,0.0,2,0,0,3,1,2,5,2
 2023-24,2023-09-25,2023,9,25,Giannis Sofronis,Ποσειδωνες - Unflagged,Aerodromiakos,Poseidones,3,4,0,2,0.0,2,7,28.57,0,0,0.0,1,0,0,10,5,5,5,3
 2023-24,2023-10-06,2023,10,6,Giannis Sofronis,Voula Vikings - Unflagged,Aerodromiakos,Voula Vikings,12,4,0,1,0.0,2,9,22.22,0,0,0.0,3,3,0,12,1,11,2,3
@@ -284,6 +294,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-03,2025,11,3,Giannis Sofronis,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,1,0,0,2,0.0,0,4,0.0,0,0,0.0,0,0,0,8,1,7,1,3
 2025-26,2025-11-20,2025,11,20,Giannis Sofronis,Αεροδρομιακος - Ανηθικοι Πιθηκοι,Aerodromiakos,Anithikoi Pithikoi,5,3,1,2,50.0,1,7,14.29,0,0,0.0,3,1,0,6,2,4,1,2
 2025-26,2026-02-09,2026,2,9,Giannis Sofronis,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,2,2,0,0,0.0,1,4,25.0,0,0,0.0,1,1,0,3,0,3,2,3
+2025-26,2026-02-26,2026,2,26,Giannis Sofronis,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,4,2,0,0,0.0,1,6,16.67,0,0,0.0,0,2,0,6,3,3,1,3
 2024-25,2024-09-30,2024,9,30,Ioannis Adamakis,Αεροδρομιακος - Los Reys,Aerodromiakos,Los Reys,12,11,1,2,50.0,2,5,40.0,2,5,40.0,2,1,0,9,3,6,4,1
 2024-25,2024-10-08,2024,10,8,Ioannis Adamakis,Beertouozoi - Αεροδρομιακος,Aerodromiakos,Beertouozoi,21,19,3,7,42.86,5,8,62.5,2,5,40.0,1,2,0,10,5,5,1,1
 2024-25,2024-10-14,2024,10,14,Ioannis Adamakis,Αεροδρομιακος - Slow Motion,Aerodromiakos,Slow Motion,11,13,1,5,20.0,6,12,50.0,0,2,0.0,1,2,1,7,2,5,1,1
@@ -311,6 +322,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-29,2025,10,29,Ioannis Adamakis,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,-2,5,0,0,0.0,1,5,20.0,1,5,20.0,2,1,0,1,1,0,3,2
 2025-26,2025-11-20,2025,11,20,Ioannis Adamakis,Αεροδρομιακος - Ανηθικοι Πιθηκοι,Aerodromiakos,Anithikoi Pithikoi,5,10,0,0,0.0,2,4,50.0,2,5,40.0,1,0,0,2,0,2,3,3
 2025-26,2026-01-15,2026,1,15,Ioannis Adamakis,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,12,13,4,5,80.0,0,4,0.0,3,9,33.33,4,1,0,7,3,4,2,2
+2025-26,2026-02-18,2026,2,18,Ioannis Adamakis,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,2,9,0,0,0.0,0,2,0.0,3,12,25.0,1,0,1,3,1,2,1,0
 2025-26,2026-01-08,2026,1,8,Ioannis Giavris,Αεροδρομιακος - Glyfathers,Aerodromiakos,Glyfathers,-6,1,1,2,50.0,0,3,0.0,0,4,0.0,4,0,0,1,0,1,4,4
 2025-26,2026-02-05,2026,2,5,Ioannis Giavris,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,-4,1,1,2,50.0,0,1,0.0,0,5,0.0,1,1,0,2,0,2,2,3
 2025-26,2026-02-09,2026,2,9,Ioannis Giavris,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,2,3,0,0,0.0,0,1,0.0,1,3,33.33,1,0,0,5,1,4,4,1
@@ -352,6 +364,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-15,2026,1,15,Nikolaos Ntounis,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,17,13,4,5,80.0,3,9,33.33,1,2,50.0,0,1,1,10,1,9,0,2
 2025-26,2026-02-05,2026,2,5,Nikolaos Ntounis,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,11,4,0,0,0.0,2,7,28.57,0,0,0.0,1,3,0,9,5,4,1,3
 2025-26,2026-02-09,2026,2,9,Nikolaos Ntounis,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,7,2,0,0,0.0,1,5,20.0,0,0,0.0,2,1,0,7,2,5,1,2
+2025-26,2026-02-18,2026,2,18,Nikolaos Ntounis,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,8,10,2,4,50.0,4,7,57.14,0,4,0.0,2,0,1,9,2,7,5,4
 2023-24,2023-10-19,2023,10,19,Panagiotis Kapranis,Beertouozoi - Βουλιαγμενοι,Aerodromiakos,Beertouozoi,14,8,2,3,66.67,3,6,50.0,0,0,0.0,0,0,2,8,3,5,0,4
 2023-24,2023-10-26,2023,10,26,Panagiotis Kapranis,Α.Ο. Ναυμαχος - Βουλιαγμενοι,Aerodromiakos,A.O. Navmachos,20,13,5,12,41.67,4,10,40.0,0,0,0.0,2,0,0,19,10,9,1,3
 2023-24,2023-11-06,2023,11,6,Panagiotis Kapranis,Βουλιαγμενοι - Heart Brokers,Aerodromiakos,Vouliagmenoi,11,7,1,6,16.67,3,8,37.5,0,0,0.0,1,1,1,11,3,8,0,2
@@ -364,6 +377,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-15,2026,1,15,Panagiotis Kapranis,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,10,4,0,0,0.0,2,4,50.0,0,0,0.0,0,0,0,8,3,5,0,1
 2025-26,2026-01-29,2026,1,29,Panagiotis Kapranis,Αεροδρομιακος - Vouliagmeni Heat,Aerodromiakos,Vouliagmeni Heat,11,3,1,3,33.33,1,2,50.0,0,0,0.0,1,0,1,10,4,6,1,1
 2025-26,2026-02-05,2026,2,5,Panagiotis Kapranis,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,15,4,0,2,0.0,2,8,25.0,0,0,0.0,0,0,0,19,11,8,0,1
+2025-26,2026-02-18,2026,2,18,Panagiotis Kapranis,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,3,0,0,2,0.0,0,1,0.0,0,0,0.0,1,0,0,7,5,2,2,3
 2024-25,2024-10-14,2024,10,14,Pantelis Mastichiadis,Αεροδρομιακος - Slow Motion,Aerodromiakos,Slow Motion,5,4,2,2,100.0,1,4,25.0,0,4,0.0,4,1,0,6,0,6,3,3
 2024-25,2024-10-24,2024,10,24,Pantelis Mastichiadis,Glyfada Bulls - Αεροδρομιακος,Aerodromiakos,Glyfada Bulls,5,9,2,4,50.0,2,6,33.33,1,4,25.0,3,0,0,4,2,2,2,4
 2024-25,2024-11-06,2024,11,6,Pantelis Mastichiadis,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,8,13,2,2,100.0,4,10,40.0,1,7,14.29,2,3,0,5,1,4,3,2
@@ -413,6 +427,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-03,2025,12,3,Theodoros Retsinas,Αεροδρομιακος - South Rebels,Aerodromiakos,South Rebels,9,6,0,0,0.0,3,7,42.86,0,0,0.0,2,1,1,6,1,5,3,4
 2025-26,2025-12-11,2025,12,11,Theodoros Retsinas,Hoston Celtics - Αεροδρομιακος,Aerodromiakos,Hoston Celtics,8,4,0,0,0.0,2,4,50.0,0,0,0.0,1,0,0,7,1,6,2,2
 2025-26,2025-12-19,2025,12,19,Theodoros Retsinas,Unleash the clowns - Αεροδρομιακος,Aerodromiakos,Unleash The Clowns,6,12,0,0,0.0,6,21,28.57,0,0,0.0,3,0,0,10,4,6,4,2
+2025-26,2026-02-18,2026,2,18,Theodoros Retsinas,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,3,2,0,0,0.0,1,6,16.67,0,0,0.0,1,0,0,8,4,4,3,1
 2024-25,2024-10-08,2024,10,8,Vasilis Sideris,Beertouozoi - Αεροδρομιακος,Aerodromiakos,Beertouozoi,19,18,6,9,66.67,6,11,54.55,0,0,0.0,3,0,0,9,4,5,3,3
 2024-25,2024-10-14,2024,10,14,Vasilis Sideris,Αεροδρομιακος - Slow Motion,Aerodromiakos,Slow Motion,6,10,2,7,28.57,4,10,40.0,0,0,0.0,0,1,0,9,3,6,3,3
 2024-25,2024-11-06,2024,11,6,Vasilis Sideris,Proteas Dads - Αεροδρομιακος,Aerodromiakos,Proteas Dads,7,18,12,16,75.0,3,11,27.27,0,0,0.0,0,0,0,5,1,4,4,4
@@ -449,6 +464,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-15,2026,1,15,Vasilis Sideris,Evriali Warriors - Αεροδρομιακος,Aerodromiakos,Evriali Warriors,14,11,5,8,62.5,3,8,37.5,0,1,0.0,1,1,0,14,7,7,4,0
 2025-26,2026-02-05,2026,2,5,Vasilis Sideris,Chicken Nuggets BC - Αεροδρομιακος,Aerodromiakos,Chicken Nuggets BC,12,16,2,3,66.67,7,20,35.0,0,1,0.0,0,0,0,12,6,6,1,3
 2025-26,2026-02-09,2026,2,9,Vasilis Sideris,Αεροδρομιακος - Clicka BC,Aerodromiakos,Clicka BC,12,13,1,4,25.0,6,14,42.86,0,0,0.0,0,0,0,15,7,8,5,4
+2025-26,2026-02-26,2026,2,26,Vasilis Sideris,El Maestro - Αεροδρομιακος,Aerodromiakos,El Maestro,2,4,2,4,50.0,1,8,12.5,0,0,0.0,0,1,0,9,1,8,3,2
 2024-25,2024-11-18,2024,11,18,Aris Moutafis,Αεροδρομιακος - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Aerodromiakos,8,11,2,3,66.67,3,3,100.0,1,8,12.5,2,2,0,2,0,2,1,4
 2024-25,2024-12-10,2024,12,10,Aris Moutafis,Vouliagmeni Heat - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Vouliagmeni Heat,6,16,4,7,57.14,0,3,0.0,4,13,30.77,4,1,0,2,0,2,2,4
 2024-25,2024-12-17,2024,12,17,Aris Moutafis,Los Reys - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Los Reys,22,18,3,4,75.0,3,5,60.0,3,7,42.86,0,2,0,9,4,5,0,3
@@ -560,6 +576,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-19,2026,1,19,Fotis Katsourakis,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,3,5,0,2,0.0,1,4,25.0,1,6,16.67,1,3,0,4,1,3,0,0
 2025-26,2026-01-27,2026,1,27,Fotis Katsourakis,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,1,3,0,0,0.0,0,3,0.0,1,5,20.0,0,0,0,9,1,8,4,3
 2025-26,2026-02-02,2026,2,2,Fotis Katsourakis,Ανηθικοι Πιθηκοι - Clicka BC,Anithikoi Pithikoi,Clicka BC,3,7,0,0,0.0,2,3,66.67,1,4,25.0,0,0,0,3,1,2,3,3
+2025-26,2026-02-11,2026,2,11,Fotis Katsourakis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,7,5,0,2,0.0,1,4,25.0,1,4,25.0,2,2,0,6,2,4,0,3
 2023-24,2023-12-19,2023,12,19,Giorgos Violaris,Unleash the clowns - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Unleash The Clowns,14,4,0,0,0.0,2,3,66.67,0,1,0.0,4,2,0,6,2,4,0,2
 2023-24,2024-01-08,2024,1,8,Giorgos Violaris,Ανηθικοι Πιθηκοι - Voularbanne Basket,Anithikoi Pithikoi,Voularbanne Basket,19,13,1,2,50.0,3,9,33.33,2,2,100.0,0,3,0,10,4,6,0,1
 2023-24,2024-02-08,2024,2,8,Giorgos Violaris,Los Reys - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Los Reys,27,13,1,2,50.0,6,15,40.0,0,1,0.0,1,5,3,20,9,11,4,4
@@ -593,6 +610,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-19,2026,1,19,Giorgos Violaris,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,4,6,0,0,0.0,3,9,33.33,0,1,0.0,1,0,0,4,2,2,0,4
 2025-26,2026-01-27,2026,1,27,Giorgos Violaris,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,8,8,2,4,50.0,3,8,37.5,0,1,0.0,2,0,0,11,2,9,5,1
 2025-26,2026-02-02,2026,2,2,Giorgos Violaris,Ανηθικοι Πιθηκοι - Clicka BC,Anithikoi Pithikoi,Clicka BC,12,4,0,0,0.0,2,7,28.57,0,1,0.0,1,3,0,11,6,5,1,2
+2025-26,2026-02-11,2026,2,11,Giorgos Violaris,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,12,12,0,2,0.0,6,11,54.55,0,1,0.0,1,3,1,8,3,5,5,1
 2023-24,2023-10-04,2023,10,4,Grigoris Anagnostopoulos,Ανηθικοι Πιθηκοι - Voularbanne Basket,Anithikoi Pithikoi,Voularbanne Basket,4,4,0,0,0.0,2,4,50.0,0,4,0.0,2,0,0,6,1,5,2,2
 2023-24,2023-10-09,2023,10,9,Grigoris Anagnostopoulos,Ανηθικοι Πιθηκοι - Proteas Dads,Anithikoi Pithikoi,Proteas Dads,-1,5,1,4,25.0,2,6,33.33,0,4,0.0,1,0,0,4,2,2,0,2
 2023-24,2023-11-06,2023,11,6,Grigoris Anagnostopoulos,Vouliagmeni Heat - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Vouliagmeni Heat,3,2,0,0,0.0,1,8,12.5,0,2,0.0,1,1,0,10,2,8,2,1
@@ -635,10 +653,12 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-19,2026,1,19,Ilias Mparmpoulousis,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,2,0,0,0,0.0,0,1,0.0,0,0,0.0,1,0,0,2,0,2,0,1
 2025-26,2026-01-27,2026,1,27,Ilias Mparmpoulousis,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,-3,2,0,2,0.0,1,6,16.67,0,1,0.0,2,0,0,1,0,1,0,5
 2025-26,2026-02-02,2026,2,2,Ilias Mparmpoulousis,Ανηθικοι Πιθηκοι - Clicka BC,Anithikoi Pithikoi,Clicka BC,0,0,0,0,0.0,0,3,0.0,0,0,0.0,4,0,0,1,0,1,2,3
+2025-26,2026-02-11,2026,2,11,Ilias Mparmpoulousis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,1,2,0,0,0.0,1,4,25.0,0,0,0.0,2,0,0,3,1,2,3,2
 2025-26,2025-09-15,2025,9,15,Ismail Qylalli,Ανηθικοι Πιθηκοι - Proteas Dads,Anithikoi Pithikoi,Proteas Dads,-3,0,0,2,0.0,0,1,0.0,0,0,0.0,0,0,0,1,0,1,1,3
 2025-26,2025-10-01,2025,10,1,Ismail Qylalli,Μ.Κ.Ο. - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,M.K.O.,5,0,0,0,0.0,0,0,0.0,0,0,0.0,0,3,0,3,2,1,1,3
 2025-26,2025-10-24,2025,10,24,Ismail Qylalli,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,8,0,0,0,0.0,0,3,0.0,0,0,0.0,2,2,0,8,3,5,1,3
 2025-26,2026-01-08,2026,1,8,Ismail Qylalli,Ανηθικοι Πιθηκοι - Evriali Warriors,Anithikoi Pithikoi,Evriali Warriors,-1,0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0,1,0,1,1,2
+2025-26,2026-02-11,2026,2,11,Ismail Qylalli,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,-1,0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0,1,1,0,1,2
 2023-24,2023-10-04,2023,10,4,Konstantinos Karampourniotis,Ανηθικοι Πιθηκοι - Voularbanne Basket,Anithikoi Pithikoi,Voularbanne Basket,20,14,2,5,40.0,6,6,100.0,0,0,0.0,1,1,1,8,2,6,2,1
 2023-24,2023-10-09,2023,10,9,Konstantinos Karampourniotis,Ανηθικοι Πιθηκοι - Proteas Dads,Anithikoi Pithikoi,Proteas Dads,9,12,4,13,30.77,4,4,100.0,0,0,0.0,2,0,0,6,2,4,2,3
 2023-24,2023-10-27,2023,10,27,Konstantinos Karampourniotis,Ανηθικοι Πιθηκοι - Chicken Nuggets BC,Anithikoi Pithikoi,Chicken Nuggets BC,34,23,2,2,100.0,9,12,75.0,1,3,33.33,3,2,0,16,5,11,5,3
@@ -749,6 +769,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Konstantinos Oikonomoy,Chicken Nuggets BC - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Chicken Nuggets BC,17,15,5,6,83.33,5,6,83.33,0,2,0.0,1,3,1,5,0,5,4,2
 2025-26,2026-01-19,2026,1,19,Konstantinos Oikonomoy,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,10,9,0,0,0.0,3,5,60.0,1,4,25.0,3,1,0,5,1,4,3,1
 2025-26,2026-01-27,2026,1,27,Konstantinos Oikonomoy,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,15,17,3,6,50.0,4,8,50.0,2,6,33.33,4,3,1,5,1,4,4,2
+2025-26,2026-02-11,2026,2,11,Konstantinos Oikonomoy,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,10,11,2,2,100.0,3,4,75.0,1,4,25.0,2,4,0,1,0,1,4,1
 2023-24,2023-10-04,2023,10,4,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Voularbanne Basket,Anithikoi Pithikoi,Voularbanne Basket,5,2,0,0,0.0,1,4,25.0,0,1,0.0,3,2,1,4,3,1,3,2
 2023-24,2023-10-09,2023,10,9,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Proteas Dads,Anithikoi Pithikoi,Proteas Dads,4,3,1,4,25.0,1,3,33.33,0,0,0.0,0,1,1,4,1,3,0,3
 2023-24,2023-10-27,2023,10,27,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Chicken Nuggets BC,Anithikoi Pithikoi,Chicken Nuggets BC,10,5,1,2,50.0,2,5,40.0,0,1,0.0,3,2,1,7,3,4,3,3
@@ -779,6 +800,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2024-25,2025-04-03,2025,4,3,Konstantinos Sullignakis,Chicken Nuggets BC - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Chicken Nuggets BC,3,6,1,4,25.0,1,7,14.29,1,2,50.0,2,2,1,3,2,1,1,2
 2024-25,2025-04-09,2025,4,9,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Αεροδρομιακος,Anithikoi Pithikoi,Aerodromiakos,9,5,1,3,33.33,2,8,25.0,0,0,0.0,3,0,0,9,3,6,0,3
 2025-26,2026-02-02,2026,2,2,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Clicka BC,Anithikoi Pithikoi,Clicka BC,2,0,0,0,0.0,0,1,0.0,0,0,0.0,2,0,0,2,1,1,1,4
+2025-26,2026-02-11,2026,2,11,Konstantinos Sullignakis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,2,2,0,0,0.0,1,4,25.0,0,2,0.0,2,0,1,3,1,2,1,2
 2023-24,2023-12-19,2023,12,19,Lampros Kaloudas,Unleash the clowns - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Unleash The Clowns,18,26,2,5,40.0,9,16,56.25,2,9,22.22,0,2,2,10,4,6,5,3
 2024-25,2024-10-11,2024,10,11,Manolis Syllignakis,Ανηθικοι Πιθηκοι - Voula Vikings,Anithikoi Pithikoi,Voula Vikings,6,11,3,8,37.5,4,14,28.57,0,0,0.0,0,1,0,10,5,5,1,1
 2024-25,2024-10-15,2024,10,15,Manolis Syllignakis,Ανηθικοι Πιθηκοι - Glyfathers,Anithikoi Pithikoi,Glyfathers,0,0,0,0,0.0,0,3,0.0,0,0,0.0,0,0,0,3,1,2,0,2
@@ -868,6 +890,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-08,2026,1,8,Teddy Mcrea,Ανηθικοι Πιθηκοι - Evriali Warriors,Anithikoi Pithikoi,Evriali Warriors,7,2,0,0,0.0,1,7,14.29,0,1,0.0,4,1,0,7,1,6,0,2
 2025-26,2026-01-12,2026,1,12,Teddy Mcrea,South Rebels - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,South Rebels,3,4,0,0,0.0,2,5,40.0,0,0,0.0,1,2,0,2,0,2,3,4
 2025-26,2026-01-27,2026,1,27,Teddy Mcrea,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,5,4,0,0,0.0,2,6,33.33,0,0,0.0,0,2,0,4,0,4,1,3
+2025-26,2026-02-11,2026,2,11,Teddy Mcrea,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,9,3,1,2,50.0,1,4,25.0,0,2,0.0,2,4,0,8,1,7,2,2
 2023-24,2023-11-13,2023,11,13,Telis Mourgkelis,Los Reys - Vouliagmeni Heat,Anithikoi Pithikoi,Los Reys,3,5,0,0,0.0,1,2,50.0,1,2,50.0,0,0,0,2,1,1,2,1
 2023-24,2023-11-22,2023,11,22,Telis Mourgkelis,Voularbanne Basket - Los Reys,Anithikoi Pithikoi,Voularbanne Basket,3,6,0,0,0.0,0,2,0.0,2,5,40.0,0,1,0,3,1,2,2,0
 2023-24,2023-11-29,2023,11,29,Telis Mourgkelis,Los Reys - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Los Reys,0,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,0,0,0,1
@@ -908,6 +931,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Telis Mourgkelis,South Rebels - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,South Rebels,3,4,2,2,100.0,1,6,16.67,0,4,0.0,5,1,0,5,0,5,3,2
 2025-26,2026-01-19,2026,1,19,Telis Mourgkelis,Hoston Celtics - Ανηθικοι Πιθηκοι,Anithikoi Pithikoi,Hoston Celtics,11,7,0,0,0.0,2,4,50.0,1,9,11.11,10,4,0,4,0,4,4,0
 2025-26,2026-01-27,2026,1,27,Telis Mourgkelis,Ανηθικοι Πιθηκοι - El Maestro,Anithikoi Pithikoi,El Maestro,1,10,4,7,57.14,0,2,0.0,2,12,16.67,0,1,0,8,3,5,3,4
+2025-26,2026-02-11,2026,2,11,Telis Mourgkelis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Anithikoi Pithikoi,Vouliagmeni Heat,6,9,2,4,50.0,2,4,50.0,1,11,9.09,6,1,0,5,0,5,1,3
 2023-24,2024-05-17,2024,5,17,Alexandros Zoupa,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,0,2,0,0,0.0,1,2,50.0,0,1,0.0,0,1,0,1,0,1,2,0
 2023-24,2023-10-02,2023,10,2,Anastasis Kladis,Proteas Dads - Chicken Nuggets BC,Chicken Nuggets BC,Proteas Dads,1,5,0,0,0.0,1,2,50.0,1,8,12.5,2,0,0,4,0,4,2,1
 2023-24,2023-10-11,2023,10,11,Anastasis Kladis,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,14,11,0,0,0.0,4,6,66.67,1,4,25.0,2,1,0,7,0,7,2,0
@@ -981,6 +1005,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-23,2026,1,23,Anastasis Kladis,Chicken Nuggets BC - El Maestro,Chicken Nuggets BC,El Maestro,5,11,1,2,50.0,5,10,50.0,0,7,0.0,3,2,0,8,3,5,6,3
 2025-26,2026-01-31,2026,1,31,Anastasis Kladis,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,26,13,1,1,100.0,0,1,0.0,4,8,50.0,5,2,0,11,1,10,0,0
 2025-26,2026-02-05,2026,2,5,Anastasis Kladis,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,11,10,1,1,100.0,0,6,0.0,3,6,50.0,3,1,0,7,0,7,1,0
+2025-26,2026-02-17,2026,2,17,Anastasis Kladis,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,31,24,2,2,100.0,5,6,83.33,4,10,40.0,4,4,0,7,2,5,1,2
+2025-26,2026-02-27,2026,2,27,Anastasis Kladis,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,23,14,0,0,0.0,4,4,100.0,2,9,22.22,4,4,0,10,1,9,2,1
 2024-25,2024-10-09,2024,10,9,Andreas Helge Bourazanis,Chicken Nuggets BC - 1Support,Chicken Nuggets BC,1Support,2,4,1,4,25.0,0,1,0.0,1,6,16.67,0,3,1,3,0,3,0,2
 2024-25,2024-11-19,2024,11,19,Andreas Helge Bourazanis,Chicken Nuggets BC - Partuzan,Chicken Nuggets BC,Partuzan,4,6,0,0,0.0,0,0,0.0,2,7,28.57,2,2,0,2,0,2,3,3
 2024-25,2025-03-17,2025,3,17,Andreas Helge Bourazanis,Chicken Nuggets BC - Hoston Celtics,Chicken Nuggets BC,Hoston Celtics,5,5,0,0,0.0,1,1,100.0,1,4,25.0,1,1,0,1,0,1,0,3
@@ -1074,6 +1100,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-17,2026,1,17,Antonis Vlamis,Glyfathers - Chicken Nuggets BC,Chicken Nuggets BC,Glyfathers,4,3,0,2,0.0,0,1,0.0,1,7,14.29,2,2,0,6,1,5,0,1
 2025-26,2026-01-31,2026,1,31,Antonis Vlamis,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,7,6,0,2,0.0,0,2,0.0,2,6,33.33,4,0,0,7,3,4,2,2
 2025-26,2026-02-05,2026,2,5,Antonis Vlamis,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,2,3,0,0,0.0,0,2,0.0,1,4,25.0,3,1,0,7,2,5,7,3
+2025-26,2026-02-14,2026,2,14,Antonis Vlamis,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,5,5,0,0,0.0,1,2,50.0,1,7,14.29,2,1,0,7,1,6,3,1
+2025-26,2026-02-17,2026,2,17,Antonis Vlamis,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,9,0,0,0,0.0,0,1,0.0,0,3,0.0,3,2,0,9,2,7,1,4
 2023-24,2023-10-02,2023,10,2,Konstantinos Stavrou,Proteas Dads - Chicken Nuggets BC,Chicken Nuggets BC,Proteas Dads,2,5,0,0,0.0,1,4,25.0,1,4,25.0,0,0,0,3,1,2,0,0
 2023-24,2023-10-11,2023,10,11,Konstantinos Stavrou,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,9,7,0,0,0.0,2,8,25.0,1,2,50.0,0,0,0,9,1,8,0,0
 2023-24,2023-10-20,2023,10,20,Konstantinos Stavrou,Chicken Nuggets BC - Los Reys,Chicken Nuggets BC,Los Reys,-1,3,0,0,0.0,0,2,0.0,1,4,25.0,0,0,0,1,0,1,0,1
@@ -1118,6 +1146,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Konstantinos Stavrou,Chicken Nuggets BC - Ανηθικοι Πιθηκοι,Chicken Nuggets BC,Anithikoi Pithikoi,10,9,0,0,0.0,3,6,50.0,1,2,50.0,0,0,1,4,1,3,0,1
 2025-26,2026-01-17,2026,1,17,Konstantinos Stavrou,Glyfathers - Chicken Nuggets BC,Chicken Nuggets BC,Glyfathers,2,1,1,2,50.0,0,1,0.0,0,2,0.0,2,0,0,3,0,3,0,1
 2025-26,2026-02-05,2026,2,5,Konstantinos Stavrou,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,6,11,2,4,50.0,3,7,42.86,1,6,16.67,0,0,1,6,2,4,1,2
+2025-26,2026-02-17,2026,2,17,Konstantinos Stavrou,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,9,11,1,3,33.33,2,9,22.22,2,6,33.33,2,0,1,10,3,7,2,1
+2025-26,2026-02-27,2026,2,27,Konstantinos Stavrou,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,4,2,0,0,0.0,1,4,25.0,0,1,0.0,1,0,0,7,1,6,2,3
 2023-24,2023-10-02,2023,10,2,Konstantinos Tertikas,Proteas Dads - Chicken Nuggets BC,Chicken Nuggets BC,Proteas Dads,12,8,0,0,0.0,4,7,57.14,0,3,0.0,2,0,0,8,3,5,0,1
 2023-24,2023-11-09,2023,11,9,Konstantinos Tertikas,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,25,18,0,1,0.0,9,14,64.29,0,1,0.0,2,1,1,11,4,7,1,2
 2023-24,2023-11-20,2023,11,20,Konstantinos Tertikas,Chicken Nuggets BC - San Antonio Sperms,Chicken Nuggets BC,San Antonio Sperms,13,12,4,4,100.0,1,3,33.33,2,2,100.0,2,1,1,5,2,3,6,3
@@ -1144,6 +1174,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-13,2025,10,13,Konstantinos Tertikas,Chicken Nuggets BC - El Maestro,Chicken Nuggets BC,El Maestro,3,5,1,2,50.0,2,8,25.0,0,2,0.0,3,2,0,5,1,4,3,2
 2025-26,2025-10-29,2025,10,29,Konstantinos Tertikas,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,11,11,2,4,50.0,3,4,75.0,1,4,25.0,4,0,1,5,0,5,4,0
 2025-26,2025-11-28,2025,11,28,Konstantinos Tertikas,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,19,13,3,4,75.0,2,3,66.67,2,4,50.0,1,2,0,7,2,5,0,2
+2025-26,2026-02-14,2026,2,14,Konstantinos Tertikas,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,12,11,2,4,50.0,3,8,37.5,1,2,50.0,2,1,0,8,1,7,2,1
 2023-24,2023-10-02,2023,10,2,Miltiadis Giannopoulos,Proteas Dads - Chicken Nuggets BC,Chicken Nuggets BC,Proteas Dads,3,3,0,0,0.0,0,3,0.0,1,1,100.0,1,1,0,2,2,0,1,1
 2023-24,2023-10-11,2023,10,11,Miltiadis Giannopoulos,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,-1,0,0,0,0.0,0,7,0.0,0,0,0.0,1,0,1,6,3,3,2,4
 2023-24,2023-10-20,2023,10,20,Miltiadis Giannopoulos,Chicken Nuggets BC - Los Reys,Chicken Nuggets BC,Los Reys,-1,0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,0,1,0,1,1,2
@@ -1210,6 +1241,9 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Miltiadis Giannopoulos,Chicken Nuggets BC - Ανηθικοι Πιθηκοι,Chicken Nuggets BC,Anithikoi Pithikoi,4,2,0,0,0.0,1,3,33.33,0,0,0.0,0,1,0,3,1,2,0,4
 2025-26,2026-01-17,2026,1,17,Miltiadis Giannopoulos,Glyfathers - Chicken Nuggets BC,Chicken Nuggets BC,Glyfathers,1,0,0,0,0.0,0,3,0.0,0,1,0.0,0,0,0,8,1,7,3,3
 2025-26,2026-01-23,2026,1,23,Miltiadis Giannopoulos,Chicken Nuggets BC - El Maestro,Chicken Nuggets BC,El Maestro,12,12,0,0,0.0,6,9,66.67,0,1,0.0,0,1,0,3,1,2,0,3
+2025-26,2026-02-14,2026,2,14,Miltiadis Giannopoulos,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,0,2,0,0,0.0,1,2,50.0,0,2,0.0,0,0,0,2,0,2,1,1
+2025-26,2026-02-17,2026,2,17,Miltiadis Giannopoulos,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,-1,2,0,0,0.0,1,5,20.0,0,2,0.0,0,0,1,3,0,3,1,2
+2025-26,2026-02-27,2026,2,27,Miltiadis Giannopoulos,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,1,2,0,0,0.0,1,4,25.0,0,3,0.0,0,0,0,6,0,6,1,3
 2024-25,2024-10-17,2024,10,17,Orestis Pitsavas,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,8,5,1,1,100.0,2,3,66.67,0,1,0.0,0,0,0,6,0,6,1,0
 2024-25,2024-11-04,2024,11,4,Orestis Pitsavas,Chicken Nuggets BC - Glyfada Bulls,Chicken Nuggets BC,Glyfada Bulls,9,5,1,2,50.0,2,7,28.57,0,1,0.0,2,1,1,9,1,8,2,2
 2024-25,2024-11-12,2024,11,12,Orestis Pitsavas,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,10,10,1,3,33.33,3,7,42.86,1,3,33.33,0,1,0,8,3,5,1,1
@@ -1289,6 +1323,9 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-17,2026,1,17,Orfeas Fatis,Glyfathers - Chicken Nuggets BC,Chicken Nuggets BC,Glyfathers,-2,6,4,5,80.0,1,6,16.67,0,1,0.0,1,0,1,0,0,0,3,3
 2025-26,2026-01-31,2026,1,31,Orfeas Fatis,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,-8,5,1,2,50.0,2,8,25.0,0,4,0.0,0,1,0,2,1,1,5,3
 2025-26,2026-02-05,2026,2,5,Orfeas Fatis,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,4,6,0,0,0.0,3,9,33.33,0,6,0.0,3,3,0,5,2,3,1,1
+2025-26,2026-02-14,2026,2,14,Orfeas Fatis,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,20,25,1,4,25.0,6,8,75.0,4,6,66.67,3,0,0,4,0,4,5,0
+2025-26,2026-02-17,2026,2,17,Orfeas Fatis,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,11,12,0,0,0.0,3,6,50.0,2,8,25.0,2,3,0,6,1,5,3,2
+2025-26,2026-02-27,2026,2,27,Orfeas Fatis,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,2,4,0,0,0.0,2,8,25.0,0,6,0.0,4,0,0,10,1,9,4,1
 2023-24,2023-10-02,2023,10,2,Panagiotis Katsoulas,Proteas Dads - Chicken Nuggets BC,Chicken Nuggets BC,Proteas Dads,9,7,0,0,0.0,2,2,100.0,1,3,33.33,2,0,0,4,1,3,2,3
 2023-24,2023-10-11,2023,10,11,Panagiotis Katsoulas,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,17,10,3,4,75.0,2,7,28.57,1,3,33.33,4,5,0,9,2,7,3,3
 2023-24,2023-10-20,2023,10,20,Panagiotis Katsoulas,Chicken Nuggets BC - Los Reys,Chicken Nuggets BC,Los Reys,5,8,3,4,75.0,1,6,16.67,1,4,25.0,2,1,0,4,2,2,1,3
@@ -1356,6 +1393,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-23,2026,1,23,Panagiotis Katsoulas,Chicken Nuggets BC - El Maestro,Chicken Nuggets BC,El Maestro,8,11,3,4,75.0,4,12,33.33,0,2,0.0,5,1,0,4,2,2,2,4
 2025-26,2026-01-31,2026,1,31,Panagiotis Katsoulas,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,6,6,0,0,0.0,3,11,27.27,0,1,0.0,2,0,0,9,4,5,2,4
 2025-26,2026-02-05,2026,2,5,Panagiotis Katsoulas,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,4,9,3,6,50.0,3,8,37.5,0,1,0.0,2,1,0,4,1,3,3,1
+2025-26,2026-02-14,2026,2,14,Panagiotis Katsoulas,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,10,6,0,0,0.0,3,7,42.86,0,2,0.0,3,1,0,9,1,8,3,2
+2025-26,2026-02-17,2026,2,17,Panagiotis Katsoulas,Vouliagmeni Heat - Chicken Nuggets BC,Chicken Nuggets BC,Vouliagmeni Heat,10,12,1,2,50.0,4,8,50.0,1,5,20.0,2,2,0,6,3,3,3,5
 2023-24,2024-01-27,2024,1,27,Paris Tzolos,San Antonio Sperms - Chicken Nuggets BC,Chicken Nuggets BC,San Antonio Sperms,0,3,1,5,20.0,1,3,33.33,0,0,0.0,0,0,0,4,0,4,1,4
 2023-24,2024-02-07,2024,2,7,Paris Tzolos,Ποσειδωνες - Chicken Nuggets BC,Chicken Nuggets BC,Poseidones,9,5,1,5,20.0,2,2,100.0,0,0,0.0,0,0,0,8,2,6,0,2
 2023-24,2024-02-12,2024,2,12,Paris Tzolos,Chicken Nuggets BC - Los Reys,Chicken Nuggets BC,Los Reys,7,4,0,1,0.0,2,2,100.0,0,0,0.0,1,1,0,4,1,3,2,3
@@ -1407,6 +1446,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-31,2026,1,31,Paris Tzolos,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,10,12,1,3,33.33,4,8,50.0,1,2,50.0,0,0,0,5,1,4,0,3
 2025-26,2025-12-17,2025,12,17,Romanos Kokkinakis,Chicken Nuggets BC - Ανηθικοι Πιθηκοι,Chicken Nuggets BC,Anithikoi Pithikoi,0,0,0,0,0.0,0,2,0.0,0,1,0.0,1,0,0,3,0,3,1,2
 2025-26,2026-01-07,2026,1,7,Romanos Kokkinakis,Chicken Nuggets BC - Proteas Dads,Chicken Nuggets BC,Proteas Dads,-2,3,3,6,50.0,0,3,0.0,0,1,0.0,1,0,0,1,1,0,0,2
+2025-26,2026-02-27,2026,2,27,Romanos Kokkinakis,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,5,9,0,2,0.0,3,6,50.0,1,4,25.0,1,1,0,5,1,4,3,3
 2023-24,2023-10-19,2023,10,19,Thanasis Dimitriadis,Beertouozoi - Βουλιαγμενοι,Chicken Nuggets BC,Beertouozoi,0,3,1,2,50.0,1,6,16.67,0,1,0.0,1,1,0,3,2,1,1,2
 2023-24,2023-10-26,2023,10,26,Thanasis Dimitriadis,Α.Ο. Ναυμαχος - Βουλιαγμενοι,Chicken Nuggets BC,A.O. Navmachos,-6,2,0,0,0.0,1,4,25.0,0,0,0.0,1,0,0,0,0,0,6,2
 2023-24,2023-11-02,2023,11,2,Thanasis Dimitriadis,Βουλιαγμενοι - Unflagged,Chicken Nuggets BC,Vouliagmenoi,3,4,0,1,0.0,2,10,20.0,0,1,0.0,3,1,0,6,3,3,1,2
@@ -1427,6 +1467,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-31,2026,1,31,Thanasis Dimitriadis,Unleash the clowns - Chicken Nuggets BC,Chicken Nuggets BC,Unleash The Clowns,2,0,0,0,0.0,0,1,0.0,0,0,0.0,1,1,0,3,1,2,2,0
 2025-26,2026-02-05,2026,2,5,Thanasis Dimitriadis,Chicken Nuggets BC - Αεροδρομιακος,Chicken Nuggets BC,Aerodromiakos,7,2,0,0,0.0,1,3,33.33,0,0,0.0,2,0,0,6,2,4,1,1
 2025-26,2026-01-23,2026,1,23,Theofilos Garoufalidis,Chicken Nuggets BC - El Maestro,Chicken Nuggets BC,El Maestro,10,6,0,0,0.0,3,3,100.0,0,0,0.0,1,1,0,3,1,2,1,1
+2025-26,2026-02-14,2026,2,14,Theofilos Garoufalidis,South Rebels - Chicken Nuggets BC,Chicken Nuggets BC,South Rebels,4,0,0,0,0.0,0,2,0.0,0,1,0.0,3,0,0,5,3,2,1,2
+2025-26,2026-02-27,2026,2,27,Theofilos Garoufalidis,Clicka BC - Chicken Nuggets BC,Chicken Nuggets BC,Clicka BC,8,6,0,0,0.0,3,4,75.0,0,1,0.0,2,1,0,5,3,2,4,3
 2023-24,2023-10-11,2023,10,11,Alexandros Georgantas,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,14,9,0,0,0.0,0,0,0.0,3,7,42.86,3,0,1,6,1,5,1,0
 2023-24,2023-11-01,2023,11,1,Alexandros Georgantas,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,12,11,0,0,0.0,1,3,33.33,3,8,37.5,4,3,0,3,1,2,2,5
 2023-24,2023-11-08,2023,11,8,Alexandros Georgantas,Clicka BC - Los Reys,Clicka BC,Los Reys,16,16,0,0,0.0,5,7,71.43,2,14,14.29,5,2,0,9,1,8,2,4
@@ -1499,6 +1541,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-09,2026,1,9,Alexandros Vlachos,Vouliagmeni Heat - Clicka BC,Clicka BC,Vouliagmeni Heat,4,3,1,2,50.0,1,1,100.0,0,2,0.0,1,1,1,2,0,2,1,1
 2025-26,2026-02-02,2026,2,2,Alexandros Vlachos,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,16,15,3,6,50.0,3,10,30.0,2,4,50.0,3,5,0,7,2,5,2,4
 2025-26,2026-02-09,2026,2,9,Alexandros Vlachos,Αεροδρομιακος - Clicka BC,Clicka BC,Aerodromiakos,4,6,0,0,0.0,0,6,0.0,2,3,66.67,4,1,0,2,0,2,2,1
+2025-26,2026-02-27,2026,2,27,Alexandros Vlachos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,15,12,4,7,57.14,4,8,50.0,0,8,0.0,2,4,0,14,4,10,2,1
 2023-24,2023-10-20,2023,10,20,Andreas Zoukas,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,11,14,6,14,42.86,4,9,44.44,0,2,0.0,4,2,1,10,3,7,5,3
 2023-24,2023-11-01,2023,11,1,Andreas Zoukas,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,11,18,4,6,66.67,4,19,21.05,2,2,100.0,2,1,0,11,5,6,4,1
 2023-24,2023-11-17,2023,11,17,Andreas Zoukas,Clicka BC - San Antonio Sperms,Clicka BC,San Antonio Sperms,15,12,0,0,0.0,6,15,40.0,0,1,0.0,2,3,0,10,2,8,2,2
@@ -1719,6 +1762,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Michalis Frantzeskos,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,3,10,1,2,50.0,3,6,50.0,1,7,14.29,0,1,0,2,2,0,0,1
 2025-26,2026-02-02,2026,2,2,Michalis Frantzeskos,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,8,14,4,6,66.67,2,3,66.67,2,11,18.18,3,3,0,2,1,1,2,1
 2025-26,2026-02-09,2026,2,9,Michalis Frantzeskos,Αεροδρομιακος - Clicka BC,Clicka BC,Aerodromiakos,8,11,0,0,0.0,1,3,33.33,3,10,30.0,3,2,0,2,1,1,1,2
+2025-26,2026-02-27,2026,2,27,Michalis Frantzeskos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,-10,3,0,0,0.0,0,5,0.0,1,9,11.11,0,1,0,0,0,0,1,0
 2024-25,2024-10-16,2024,10,16,Michalis Malaxianakis,Μ.Κ.Ο. - Clicka BC,Clicka BC,M.K.O.,5,3,1,2,50.0,1,4,25.0,0,0,0.0,2,1,0,5,1,4,2,4
 2024-25,2024-11-25,2024,11,25,Michalis Malaxianakis,Clicka BC - Glyfada Bulls,Clicka BC,Glyfada Bulls,4,5,1,2,50.0,2,4,50.0,0,0,0.0,1,0,0,4,2,2,3,3
 2024-25,2024-12-05,2024,12,5,Michalis Malaxianakis,Clicka BC - Αεροδρομιακος,Clicka BC,Aerodromiakos,12,8,1,2,50.0,2,3,66.67,1,1,100.0,3,0,0,6,2,4,3,3
@@ -1794,6 +1838,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Nikitas Apikos,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,11,5,1,4,25.0,2,9,22.22,0,0,0.0,1,1,1,15,3,12,2,3
 2025-26,2026-02-02,2026,2,2,Nikitas Apikos,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,22,13,1,1,100.0,6,11,54.55,0,0,0.0,5,1,1,10,3,7,3,3
 2025-26,2026-02-09,2026,2,9,Nikitas Apikos,Αεροδρομιακος - Clicka BC,Clicka BC,Aerodromiakos,8,4,0,1,0.0,2,7,28.57,0,0,0.0,1,2,0,9,1,8,2,2
+2025-26,2026-02-27,2026,2,27,Nikitas Apikos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,5,5,1,4,25.0,2,9,22.22,0,0,0.0,2,0,0,11,5,6,3,1
 2025-26,2025-09-24,2025,9,24,Stauros Mertzanis,Clicka BC - Αεροδρομιακος,Clicka BC,Aerodromiakos,10,5,1,2,50.0,2,3,66.67,0,6,0.0,3,3,0,8,1,7,1,3
 2025-26,2025-09-29,2025,9,29,Stauros Mertzanis,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,18,10,0,0,0.0,2,3,66.67,2,5,40.0,8,1,0,3,0,3,0,3
 2025-26,2025-10-06,2025,10,6,Stauros Mertzanis,Clicka BC - Hoston Celtics,Clicka BC,Hoston Celtics,12,13,1,1,100.0,3,4,75.0,2,7,28.57,2,2,0,3,2,1,2,4
@@ -1807,6 +1852,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-14,2026,1,14,Stauros Mertzanis,Clicka BC - Hoston Celtics,Clicka BC,Hoston Celtics,19,17,2,2,100.0,6,7,85.71,1,4,25.0,5,1,0,1,0,1,1,0
 2025-26,2026-01-23,2026,1,23,Stauros Mertzanis,Clicka BC - Unleash the clowns,Clicka BC,Unleash The Clowns,10,10,2,3,66.67,4,6,66.67,0,2,0.0,2,2,0,1,0,1,0,2
 2025-26,2026-01-28,2026,1,28,Stauros Mertzanis,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,8,8,4,7,57.14,2,7,28.57,0,4,0.0,5,0,0,9,0,9,2,2
+2025-26,2026-02-27,2026,2,27,Stauros Mertzanis,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,23,16,3,4,75.0,2,3,66.67,3,8,37.5,5,4,0,6,1,5,1,0
 2023-24,2023-10-05,2023,10,5,Stelios Gialelis,Glyfathers - Clicka BC,Clicka BC,Glyfathers,7,15,7,10,70.0,1,4,25.0,2,7,28.57,5,1,0,2,0,2,5,3
 2023-24,2023-10-11,2023,10,11,Stelios Gialelis,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,2,5,1,2,50.0,2,5,40.0,0,2,0.0,4,0,0,2,0,2,3,0
 2023-24,2023-11-17,2023,11,17,Stelios Gialelis,Clicka BC - San Antonio Sperms,Clicka BC,San Antonio Sperms,4,3,0,0,0.0,0,2,0.0,1,5,20.0,5,0,0,4,0,4,2,2
@@ -1858,6 +1904,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-09,2026,1,9,Thanos Andrikopoulos,Vouliagmeni Heat - Clicka BC,Clicka BC,Vouliagmeni Heat,2,3,1,4,25.0,1,3,33.33,0,0,0.0,0,0,1,4,1,3,1,1
 2025-26,2026-01-23,2026,1,23,Thanos Andrikopoulos,Clicka BC - Unleash the clowns,Clicka BC,Unleash The Clowns,7,4,0,0,0.0,2,3,66.67,0,1,0.0,1,0,1,3,1,2,0,1
 2025-26,2026-01-28,2026,1,28,Thanos Andrikopoulos,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,1,3,1,2,50.0,1,3,33.33,0,0,0.0,0,0,0,2,1,1,1,1
+2025-26,2026-02-27,2026,2,27,Thanos Andrikopoulos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,7,6,0,1,0.0,3,7,42.86,0,1,0.0,1,1,1,7,4,3,3,1
 2023-24,2023-10-11,2023,10,11,Vaggelis Papastamelos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,0,0,0,0,0.0,0,2,0.0,0,0,0.0,0,0,0,2,1,1,0,0
 2023-24,2023-10-20,2023,10,20,Vaggelis Papastamelos,Proteas Dads - Clicka BC,Clicka BC,Proteas Dads,1,0,0,0,0.0,0,0,0.0,0,1,0.0,0,0,0,2,1,1,0,2
 2023-24,2023-11-01,2023,11,1,Vaggelis Papastamelos,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,3,2,0,0,0.0,1,2,50.0,0,0,0.0,0,0,0,2,1,1,0,3
@@ -1890,6 +1937,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-14,2026,1,14,Vaggelis Papastamelos,Clicka BC - Hoston Celtics,Clicka BC,Hoston Celtics,15,7,0,0,0.0,2,4,50.0,1,1,100.0,1,3,1,5,0,5,0,3
 2025-26,2026-01-23,2026,1,23,Vaggelis Papastamelos,Clicka BC - Unleash the clowns,Clicka BC,Unleash The Clowns,9,3,0,0,0.0,0,0,0.0,1,1,100.0,0,1,0,5,1,4,0,0
 2025-26,2026-02-02,2026,2,2,Vaggelis Papastamelos,Ανηθικοι Πιθηκοι - Clicka BC,Clicka BC,Anithikoi Pithikoi,2,2,0,0,0.0,1,2,50.0,0,1,0.0,0,0,0,2,1,1,0,0
+2025-26,2026-02-27,2026,2,27,Vaggelis Papastamelos,Clicka BC - Chicken Nuggets BC,Clicka BC,Chicken Nuggets BC,7,4,0,0,0.0,2,5,40.0,0,2,0.0,0,0,0,8,1,7,0,1
 2024-25,2024-10-01,2024,10,1,Aggelis Spuridon,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,4,8,1,3,33.33,2,5,40.0,1,5,20.0,2,0,0,3,1,2,0,3
 2024-25,2024-10-07,2024,10,7,Aggelis Spuridon,El Maestro - Heart Brokers,El Maestro,Heart Brokers,7,4,2,2,100.0,1,3,33.33,0,6,0.0,8,2,2,5,2,3,6,2
 2024-25,2024-10-15,2024,10,15,Aggelis Spuridon,Basketopateres - El Maestro,El Maestro,Basketopateres,2,2,2,2,100.0,0,3,0.0,0,5,0.0,5,2,0,1,0,1,0,4
@@ -1933,6 +1981,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-23,2026,1,23,Aggelis Spuridon,Chicken Nuggets BC - El Maestro,El Maestro,Chicken Nuggets BC,9,7,0,0,0.0,2,6,33.33,1,4,25.0,6,3,0,2,1,1,2,2
 2025-26,2026-01-27,2026,1,27,Aggelis Spuridon,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,5,3,1,2,50.0,1,3,33.33,0,4,0.0,4,3,1,7,1,6,6,2
 2025-26,2026-02-03,2026,2,3,Aggelis Spuridon,South Rebels - El Maestro,El Maestro,South Rebels,9,2,0,0,0.0,1,3,33.33,0,2,0.0,3,2,0,7,3,4,1,1
+2025-26,2026-02-26,2026,2,26,Aggelis Spuridon,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,8,10,0,0,0.0,2,7,28.57,2,3,66.67,3,0,0,4,2,2,3,0
 2024-25,2024-10-01,2024,10,1,Antonis Dimitriou,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,27,21,3,7,42.86,6,8,75.0,2,8,25.0,0,0,4,17,4,13,3,3
 2024-25,2024-10-07,2024,10,7,Antonis Dimitriou,El Maestro - Heart Brokers,El Maestro,Heart Brokers,39,25,3,4,75.0,5,6,83.33,4,7,57.14,6,0,1,17,3,14,5,0
 2024-25,2024-10-15,2024,10,15,Antonis Dimitriou,Basketopateres - El Maestro,El Maestro,Basketopateres,26,17,0,0,0.0,4,12,33.33,3,8,37.5,3,2,1,22,4,18,6,1
@@ -1953,7 +2002,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-23,2026,1,23,Antonis Dimitriou,Chicken Nuggets BC - El Maestro,El Maestro,Chicken Nuggets BC,33,28,3,5,60.0,5,8,62.5,5,11,45.45,5,1,2,11,1,10,3,2
 2025-26,2026-01-27,2026,1,27,Antonis Dimitriou,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,11,9,2,2,100.0,2,3,66.67,1,3,33.33,0,0,1,7,3,4,3,0
 2025-26,2026-02-03,2026,2,3,Antonis Dimitriou,South Rebels - El Maestro,El Maestro,South Rebels,20,15,3,8,37.5,6,12,50.0,0,7,0.0,6,2,1,16,5,11,2,2
-2025-26,2026-02-10,2026,2,10,Antonis Dimitriou,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,18,12,0,0,0.0,0,1,0.0,4,8,50.0,7,1,0,7,0,7,4,1
+2025-26,2026-02-10,2026,2,10,Antonis Dimitriou,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,18,12,0,0,0.0,0,1,0.0,4,8,50.0,7,1,0,7,0,7,4,2
 2024-25,2024-11-04,2024,11,4,Athanasios Kokolakis,El Maestro - Slow Motion,El Maestro,Slow Motion,3,3,0,0,0.0,0,0,0.0,1,5,20.0,2,3,0,0,0,0,1,3
 2024-25,2024-11-22,2024,11,22,Athanasios Kokolakis,El Maestro - South Rebels,El Maestro,South Rebels,-2,4,0,2,0.0,2,5,40.0,0,4,0.0,3,3,0,3,1,2,6,4
 2024-25,2024-12-04,2024,12,4,Athanasios Kokolakis,Saronics BC - El Maestro,El Maestro,Saronics BC,12,10,0,0,0.0,2,5,40.0,2,3,66.67,3,2,0,1,0,1,0,3
@@ -2029,6 +2078,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-03,2025,11,3,Euaggelos Marios Nikolou,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,0,4,2,8,25.0,1,7,14.29,0,2,0.0,1,2,2,6,4,2,1,3
 2025-26,2026-01-12,2026,1,12,Euaggelos Marios Nikolou,El Maestro - Vouliagmeni Heat,El Maestro,Vouliagmeni Heat,23,10,0,0,0.0,5,6,83.33,0,3,0.0,3,2,2,11,1,10,1,0
 2025-26,2026-01-27,2026,1,27,Euaggelos Marios Nikolou,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,3,8,0,1,0.0,4,7,57.14,0,2,0.0,0,0,0,3,2,1,2,4
+2025-26,2026-02-26,2026,2,26,Euaggelos Marios Nikolou,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,17,12,2,3,66.67,5,9,55.56,0,3,0.0,2,2,2,8,1,7,1,1
 2024-25,2024-10-01,2024,10,1,Giannis Dimas,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,3,5,0,0,0.0,1,1,100.0,1,3,33.33,0,0,0,0,0,0,0,3
 2024-25,2024-10-07,2024,10,7,Giannis Dimas,El Maestro - Heart Brokers,El Maestro,Heart Brokers,4,3,0,0,0.0,0,1,0.0,1,5,20.0,1,2,0,3,2,1,0,1
 2024-25,2024-10-29,2024,10,29,Giannis Dimas,El Maestro - Μ.Κ.Ο.,El Maestro,M.K.O.,-3,3,0,0,0.0,0,2,0.0,1,6,16.67,0,1,0,1,0,1,1,3
@@ -2098,6 +2148,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Giorgos Loukos,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,3,0,0,2,0.0,0,2,0.0,0,0,0.0,0,3,0,4,2,2,0,2
 2025-26,2026-02-03,2026,2,3,Giorgos Loukos,South Rebels - El Maestro,El Maestro,South Rebels,2,2,0,0,0.0,1,3,33.33,0,0,0.0,0,0,0,2,0,2,0,2
 2025-26,2026-02-10,2026,2,10,Giorgos Loukos,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,4,2,0,2,0.0,1,2,50.0,0,0,0.0,1,1,0,6,0,6,3,1
+2025-26,2026-02-26,2026,2,26,Giorgos Loukos,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,5,4,2,2,100.0,1,2,50.0,0,1,0.0,0,1,0,3,0,3,1,1
 2024-25,2024-10-01,2024,10,1,Konstantinos Ntounis,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,25,18,2,3,66.67,8,13,61.54,0,0,0.0,2,4,1,9,4,5,3,2
 2024-25,2024-10-01,2024,10,1,Konstantinos Ntounis,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,4,2,0,0,0.0,1,2,50.0,0,0,0.0,2,1,0,2,1,1,2,1
 2024-25,2024-10-07,2024,10,7,Konstantinos Ntounis,El Maestro - Heart Brokers,El Maestro,Heart Brokers,23,22,0,4,0.0,11,13,84.62,0,3,0.0,2,5,0,3,1,2,0,0
@@ -2161,6 +2212,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-25,2025,11,25,Konstantinos Ntounis,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,1,0,0,2,0.0,0,0,0.0,0,0,0.0,0,0,0,3,2,1,0,1
 2025-26,2025-12-08,2025,12,8,Konstantinos Ntounis,El Maestro - Proteas Dads,El Maestro,Proteas Dads,5,8,0,0,0.0,4,10,40.0,0,0,0.0,0,2,0,2,1,1,1,2
 2025-26,2025-12-15,2025,12,15,Konstantinos Ntounis,Clicka BC - El Maestro,El Maestro,Clicka BC,2,7,3,6,50.0,2,5,40.0,0,1,0.0,2,1,0,0,0,0,1,2
+2025-26,2026-02-26,2026,2,26,Konstantinos Ntounis,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,9,4,0,0,0.0,2,6,33.33,0,0,0.0,3,1,0,8,0,8,3,2
+2025-26,2026-02-26,2026,2,26,Konstantinos Ntounis,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,6,4,0,0,0.0,2,5,40.0,0,0,0.0,0,1,0,5,1,4,1,2
 2024-25,2024-10-01,2024,10,1,Kostas Sideris,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,-1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,0,0,1,0
 2024-25,2024-10-29,2024,10,29,Kostas Sideris,El Maestro - Μ.Κ.Ο.,El Maestro,M.K.O.,4,2,0,0,0.0,1,1,100.0,0,0,0.0,0,1,0,2,1,1,1,3
 2024-25,2024-11-04,2024,11,4,Kostas Sideris,El Maestro - Slow Motion,El Maestro,Slow Motion,0,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,3,1,2,3,2
@@ -2188,6 +2241,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-06,2025,10,6,Kostas Sideris,El Maestro - Vouliagmeni Heat,El Maestro,Vouliagmeni Heat,1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,1,0,1,0,3
 2025-26,2026-01-23,2026,1,23,Kostas Sideris,Chicken Nuggets BC - El Maestro,El Maestro,Chicken Nuggets BC,3,2,0,2,0.0,1,1,100.0,0,0,0.0,0,0,0,3,2,1,0,1
 2025-26,2026-01-27,2026,1,27,Kostas Sideris,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,0,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,0,0,0,3
+2025-26,2026-02-26,2026,2,26,Kostas Sideris,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,1,0,0,0,0.0,0,3,0.0,0,0,0.0,0,3,0,3,2,1,2,2
 2025-26,2025-09-18,2025,9,18,Michail Oikonomou,El Maestro - Clicka BC,El Maestro,Clicka BC,6,9,0,0,0.0,0,2,0.0,3,11,27.27,1,2,0,5,1,4,1,4
 2025-26,2025-09-24,2025,9,24,Michail Oikonomou,Chicken Nuggets BC - El Maestro,El Maestro,Chicken Nuggets BC,11,18,1,2,50.0,1,1,100.0,5,16,31.25,1,3,0,2,0,2,1,2
 2025-26,2025-09-30,2025,9,30,Michail Oikonomou,Αεροδρομιακος - El Maestro,El Maestro,Aerodromiakos,5,5,0,0,0.0,1,1,100.0,1,6,16.67,2,2,0,2,2,0,1,4
@@ -2204,6 +2258,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Michail Oikonomou,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,4,2,2,2,100.0,0,1,0.0,0,4,0.0,3,1,0,3,0,3,0,4
 2025-26,2026-02-03,2026,2,3,Michail Oikonomou,South Rebels - El Maestro,El Maestro,South Rebels,-3,3,0,0,0.0,0,1,0.0,1,10,10.0,2,1,0,2,0,2,1,5
 2025-26,2026-02-10,2026,2,10,Michail Oikonomou,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,7,12,0,0,0.0,0,2,0.0,4,15,26.67,3,1,0,6,1,5,2,1
+2025-26,2026-02-26,2026,2,26,Michail Oikonomou,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,-2,2,2,2,100.0,0,1,0.0,0,11,0.0,3,1,0,5,1,4,1,0
 2024-25,2024-10-01,2024,10,1,Panagiotis Fakinos,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,-3,0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,0,1,1,0,2,1
 2024-25,2024-11-04,2024,11,4,Panagiotis Fakinos,El Maestro - Slow Motion,El Maestro,Slow Motion,3,0,0,0,0.0,0,0,0.0,0,1,0.0,0,1,0,4,0,4,1,4
 2024-25,2024-12-20,2024,12,20,Panagiotis Fakinos,El Maestro - Nos,El Maestro,Nos Fathers,1,0,0,0,0.0,0,0,0.0,0,0,0.0,1,1,0,1,1,0,2,4
@@ -2249,6 +2304,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Sokratis Selenis,El Maestro - Vouliagmeni Heat,El Maestro,Vouliagmeni Heat,1,3,0,0,0.0,0,1,0.0,1,3,33.33,0,0,0,2,1,1,1,2
 2025-26,2026-01-23,2026,1,23,Sokratis Selenis,Chicken Nuggets BC - El Maestro,El Maestro,Chicken Nuggets BC,10,9,1,1,100.0,1,3,33.33,2,4,50.0,1,0,0,7,4,3,3,3
 2025-26,2026-02-10,2026,2,10,Sokratis Selenis,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,15,4,0,0,0.0,2,3,66.67,0,2,0.0,2,1,0,11,3,8,0,3
+2025-26,2026-02-26,2026,2,26,Sokratis Selenis,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,7,5,0,0,0.0,1,1,100.0,1,3,33.33,0,0,0,7,2,5,3,4
 2024-25,2024-10-01,2024,10,1,Spuros Tola,El Maestro - Hoston Celtics,El Maestro,Hoston Celtics,0,0,0,0,0.0,0,1,0.0,0,2,0.0,2,1,0,2,0,2,2,2
 2024-25,2024-10-07,2024,10,7,Spuros Tola,El Maestro - Heart Brokers,El Maestro,Heart Brokers,11,13,3,4,75.0,2,4,50.0,2,6,33.33,1,1,1,4,1,3,2,2
 2024-25,2024-10-15,2024,10,15,Spuros Tola,Basketopateres - El Maestro,El Maestro,Basketopateres,24,17,0,0,0.0,4,5,80.0,3,7,42.86,3,2,0,7,3,4,0,1
@@ -2284,6 +2340,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Spuros Tola,El Maestro - Vouliagmeni Heat,El Maestro,Vouliagmeni Heat,10,7,1,2,50.0,0,2,0.0,2,3,66.67,3,1,0,4,2,2,1,3
 2025-26,2026-01-27,2026,1,27,Spuros Tola,Ανηθικοι Πιθηκοι - El Maestro,El Maestro,Anithikoi Pithikoi,8,12,1,4,25.0,1,3,33.33,3,5,60.0,0,1,0,3,1,2,1,0
 2025-26,2026-02-10,2026,2,10,Spuros Tola,Evriali Warriors - El Maestro,El Maestro,Evriali Warriors,4,6,0,1,0.0,3,5,60.0,0,4,0.0,2,0,0,6,5,1,3,2
+2025-26,2026-02-26,2026,2,26,Spuros Tola,El Maestro - Αεροδρομιακος,El Maestro,Aerodromiakos,8,9,1,3,33.33,4,4,100.0,0,6,0.0,2,0,1,6,3,3,2,2
 2024-25,2024-10-15,2024,10,15,Stamatis Keratiotis,Basketopateres - El Maestro,El Maestro,Basketopateres,0,1,1,2,50.0,0,2,0.0,0,0,0.0,0,0,0,2,0,2,0,1
 2024-25,2024-12-04,2024,12,4,Stamatis Keratiotis,Saronics BC - El Maestro,El Maestro,Saronics BC,-1,2,0,0,0.0,1,5,20.0,0,0,0.0,0,0,0,1,0,1,0,0
 2024-25,2024-12-12,2024,12,12,Stamatis Keratiotis,Basketopateres - El Maestro,El Maestro,Basketopateres,0,0,0,0,0.0,0,3,0.0,0,0,0.0,0,1,0,3,0,3,1,1
@@ -2330,6 +2387,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-24,2026,1,24,Alexios Glentis,Evriali Warriors - Glyfathers,Evriali Warriors,Glyfathers,-1,0,0,0,0.0,0,4,0.0,0,0,0.0,0,0,0,3,0,3,0,2
 2025-26,2026-01-27,2026,1,27,Alexios Glentis,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,4,3,1,2,50.0,1,4,25.0,0,0,0.0,0,0,0,7,2,5,2,3
 2025-26,2026-02-10,2026,2,10,Alexios Glentis,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,9,6,0,0,0.0,3,9,33.33,0,0,0.0,1,1,0,8,1,7,1,1
+2025-26,2026-02-26,2026,2,26,Alexios Glentis,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,1,10,2,4,50.0,4,12,33.33,0,1,0.0,0,0,0,3,0,3,1,1
 2024-25,2024-10-21,2024,10,21,Alkiviadis Lauranos,1Support - Evriali Warriors,Evriali Warriors,1Support,-7,0,0,4,0.0,0,5,0.0,0,0,0.0,0,0,0,3,1,2,1,2
 2024-25,2024-11-20,2024,11,20,Alkiviadis Lauranos,Evriali Warriors - Voula Vikings,Evriali Warriors,Voula Vikings,-6,0,0,2,0.0,0,3,0.0,0,2,0.0,0,0,0,2,2,0,1,3
 2024-25,2024-11-30,2024,11,30,Alkiviadis Lauranos,Evriali Warriors - Slow Motion,Evriali Warriors,Slow Motion,2,3,1,2,50.0,1,3,33.33,0,0,0.0,1,0,0,3,0,3,2,1
@@ -2397,11 +2455,13 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Andreas Nikolaidis,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,3,5,1,1,100.0,2,3,66.67,0,1,0.0,1,1,0,0,0,0,2,5
 2025-26,2026-02-07,2026,2,7,Andreas Nikolaidis,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,18,21,7,10,70.0,4,8,50.0,2,9,22.22,1,1,0,9,0,9,0,2
 2025-26,2026-02-10,2026,2,10,Andreas Nikolaidis,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,25,25,4,9,44.44,6,8,75.0,3,3,100.0,3,2,0,3,0,3,1,1
+2025-26,2026-02-26,2026,2,26,Andreas Nikolaidis,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,13,15,3,3,100.0,3,6,50.0,2,4,50.0,0,1,0,3,0,3,1,1
 2024-25,2024-10-21,2024,10,21,Dimitrios Vlachos,1Support - Evriali Warriors,Evriali Warriors,1Support,4,2,0,0,0.0,1,2,50.0,0,1,0.0,0,0,0,5,1,4,1,3
 2024-25,2024-12-04,2024,12,4,Dimitrios Vlachos,South Rebels - Evriali Warriors,Evriali Warriors,South Rebels,-1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,1,0,1,2,3
 2025-26,2026-01-27,2026,1,27,Dimitrios Vlachos,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,0,2,0,0,0.0,1,2,50.0,0,0,0.0,0,0,0,0,0,0,1,1
 2025-26,2026-02-07,2026,2,7,Dimitrios Vlachos,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,-3,2,0,0,0.0,1,5,20.0,0,0,0.0,0,0,0,3,3,0,4,1
 2025-26,2026-02-10,2026,2,10,Dimitrios Vlachos,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,4,4,0,0,0.0,2,4,50.0,0,1,0.0,0,1,0,3,0,3,1,3
+2025-26,2026-02-26,2026,2,26,Dimitrios Vlachos,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,-4,0,0,2,0.0,0,3,0.0,0,0,0.0,0,0,0,1,1,0,0,2
 2024-25,2025-02-08,2025,2,8,Dimitris Skinopoulos,Slow Motion - Evriali Warriors,Evriali Warriors,Slow Motion,9,12,4,4,100.0,4,14,28.57,0,1,0.0,4,0,0,6,0,6,2,2
 2024-25,2025-03-08,2025,3,8,Dimitris Skinopoulos,Evriali Warriors - Sharpshooters,Evriali Warriors,Sharpshooters,3,8,0,3,0.0,4,10,40.0,0,0,0.0,2,1,0,2,0,2,1,2
 2024-25,2025-03-11,2025,3,11,Dimitris Skinopoulos,Μ.Κ.Ο. - Evriali Warriors,Evriali Warriors,M.K.O.,8,10,4,4,100.0,3,10,30.0,0,0,0.0,1,1,0,4,1,3,1,1
@@ -2440,6 +2500,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Dimitris Vasalakis,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,2,0,0,0,0.0,0,2,0.0,0,1,0.0,2,1,0,4,0,4,2,2
 2025-26,2026-02-07,2026,2,7,Dimitris Vasalakis,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,7,4,0,0,0.0,2,7,28.57,0,0,0.0,0,0,0,8,1,7,0,4
 2025-26,2026-02-10,2026,2,10,Dimitris Vasalakis,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,1,0,0,0,0.0,0,2,0.0,0,0,0.0,0,0,0,4,3,1,1,3
+2025-26,2026-02-26,2026,2,26,Dimitris Vasalakis,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,13,10,4,6,66.67,3,5,60.0,0,0,0.0,1,0,0,6,1,5,0,1
 2024-25,2024-10-21,2024,10,21,Georgios Ntontos,1Support - Evriali Warriors,Evriali Warriors,1Support,-3,3,3,3,100.0,0,1,0.0,0,0,0.0,0,0,0,0,0,0,5,2
 2024-25,2024-11-14,2024,11,14,Georgios Ntontos,Evriali Warriors - Basketopateres,Evriali Warriors,Basketopateres,4,2,0,0,0.0,1,1,100.0,0,0,0.0,1,0,0,1,0,1,0,1
 2024-25,2024-12-04,2024,12,4,Georgios Ntontos,South Rebels - Evriali Warriors,Evriali Warriors,South Rebels,0,3,0,0,0.0,0,2,0.0,1,1,100.0,0,0,0,2,1,1,3,1
@@ -2500,6 +2561,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-02-07,2026,2,7,Ioannis Karagiannis,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,2,7,0,0,0.0,2,4,50.0,1,6,16.67,0,0,0,4,1,3,2,3
 2025-26,2026-02-07,2026,2,7,Ioannis Karagiannis,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,-1,4,0,0,0.0,2,6,33.33,0,2,0.0,0,1,0,1,0,1,1,1
 2025-26,2026-02-10,2026,2,10,Ioannis Karagiannis,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,1,2,0,0,0.0,1,3,33.33,0,3,0.0,2,1,0,3,1,2,2,2
+2025-26,2026-02-26,2026,2,26,Ioannis Karagiannis,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,3,2,0,0,0.0,1,7,14.29,0,1,0.0,7,0,0,4,1,3,3,2
 2024-25,2024-11-14,2024,11,14,Ioannis Sapoutzis,Evriali Warriors - Basketopateres,Evriali Warriors,Basketopateres,12,13,0,0,0.0,2,4,50.0,3,6,50.0,2,3,0,2,2,0,3,1
 2024-25,2024-11-20,2024,11,20,Ioannis Sapoutzis,Evriali Warriors - Voula Vikings,Evriali Warriors,Voula Vikings,7,5,0,0,0.0,1,2,50.0,1,3,33.33,0,1,0,5,0,5,1,2
 2024-25,2024-11-30,2024,11,30,Ioannis Sapoutzis,Evriali Warriors - Slow Motion,Evriali Warriors,Slow Motion,2,6,1,3,33.33,1,3,33.33,1,6,16.67,1,2,0,2,1,1,0,3
@@ -2557,6 +2619,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Nikos Nikolaidis,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,2,2,0,0,0.0,1,2,50.0,0,1,0.0,0,0,0,2,0,2,0,4
 2025-26,2026-02-07,2026,2,7,Nikos Nikolaidis,Unleash the clowns - Evriali Warriors,Evriali Warriors,Unleash The Clowns,10,2,0,0,0.0,1,2,50.0,0,1,0.0,2,1,0,7,1,6,0,4
 2025-26,2026-02-10,2026,2,10,Nikos Nikolaidis,Evriali Warriors - El Maestro,Evriali Warriors,El Maestro,20,14,0,0,0.0,4,6,66.67,2,7,28.57,5,7,0,2,0,2,1,2
+2025-26,2026-02-26,2026,2,26,Nikos Nikolaidis,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,3,0,0,0,0.0,0,2,0.0,0,4,0.0,1,1,2,6,1,5,1,1
 2024-25,2024-10-21,2024,10,21,Odusseas Androutsos,1Support - Evriali Warriors,Evriali Warriors,1Support,6,6,1,2,50.0,1,3,33.33,1,2,50.0,1,2,0,2,0,2,1,2
 2024-25,2024-11-20,2024,11,20,Odusseas Androutsos,Evriali Warriors - Voula Vikings,Evriali Warriors,Voula Vikings,0,0,0,0,0.0,0,0,0.0,0,2,0.0,1,0,0,1,0,1,0,1
 2024-25,2024-11-30,2024,11,30,Odusseas Androutsos,Evriali Warriors - Slow Motion,Evriali Warriors,Slow Motion,1,3,1,2,50.0,1,1,100.0,0,1,0.0,0,0,0,0,0,0,0,3
@@ -2651,6 +2714,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-15,2026,1,15,Paschalis Eazarian,Evriali Warriors - Αεροδρομιακος,Evriali Warriors,Aerodromiakos,10,10,0,0,0.0,2,4,50.0,2,4,50.0,3,0,0,3,0,3,2,1
 2025-26,2026-01-24,2026,1,24,Paschalis Eazarian,Evriali Warriors - Glyfathers,Evriali Warriors,Glyfathers,10,8,0,0,0.0,4,7,57.14,0,4,0.0,0,2,0,10,1,9,3,1
 2025-26,2026-01-27,2026,1,27,Paschalis Eazarian,Evriali Warriors - Hoston Celtics,Evriali Warriors,Hoston Celtics,7,8,2,2,100.0,3,3,100.0,0,3,0.0,1,1,0,2,0,2,2,0
+2025-26,2026-02-26,2026,2,26,Paschalis Eazarian,Evriali Warriors - Proteas Dads,Evriali Warriors,Proteas Dads,8,10,4,4,100.0,3,10,30.0,0,3,0.0,0,2,0,6,0,6,0,0
 2023-24,2023-11-23,2023,11,23,Athanasios Mpoltsis,Glyfathers - Vouliagmeni Heat,Glyfathers,Vouliagmeni Heat,4,2,0,1,0.0,1,1,100.0,0,0,0.0,1,0,0,2,1,1,0,1
 2023-24,2023-11-30,2023,11,30,Athanasios Mpoltsis,Proteas Dads - Glyfathers,Glyfathers,Proteas Dads,2,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,2,2,0,0,0
 2023-24,2024-02-02,2024,2,2,Athanasios Mpoltsis,Ανηθικοι Πιθηκοι - Glyfathers,Glyfathers,Anithikoi Pithikoi,3,0,0,0,0.0,0,0,0.0,0,0,0.0,0,1,0,2,1,1,0,1
@@ -3086,6 +3150,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-14,2026,1,14,Aggelos Digenis,Clicka BC - Hoston Celtics,Hoston Celtics,Clicka BC,11,14,2,3,66.67,6,12,50.0,0,3,0.0,2,0,0,5,2,3,0,2
 2025-26,2026-01-27,2026,1,27,Aggelos Digenis,Evriali Warriors - Hoston Celtics,Hoston Celtics,Evriali Warriors,10,20,7,21,33.33,5,12,41.67,1,6,16.67,3,7,0,10,5,5,4,2
 2025-26,2026-02-02,2026,2,2,Aggelos Digenis,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,10,21,3,9,33.33,6,15,40.0,2,7,28.57,1,2,2,7,3,4,3,1
+2025-26,2026-02-13,2026,2,13,Aggelos Digenis,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,30,23,4,5,80.0,8,14,57.14,1,2,50.0,3,3,0,14,4,10,5,2
+2025-26,2026-02-25,2026,2,25,Aggelos Digenis,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,13,9,5,8,62.5,2,6,33.33,0,4,0.0,7,2,1,8,1,7,3,2
 2024-25,2024-10-01,2024,10,1,Antonis Madouros,El Maestro - Hoston Celtics,Hoston Celtics,El Maestro,-1,2,0,0,0.0,1,5,20.0,0,0,0.0,0,0,1,1,0,1,1,3
 2024-25,2024-10-14,2024,10,14,Antonis Madouros,Hoston Celtics - Heart Brokers,Hoston Celtics,Heart Brokers,-1,1,1,4,25.0,0,4,0.0,0,0,0.0,0,0,0,5,1,4,0,3
 2023-24,2023-11-03,2023,11,3,Aris Lizardos,Α.Ο. Ναυμαχος - Hoston Celtics,Hoston Celtics,A.O. Navmachos,-4,0,0,0,0.0,0,5,0.0,0,0,0.0,0,0,0,6,1,5,5,3
@@ -3141,6 +3207,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-27,2026,1,27,Giorgos Katsadoros,Evriali Warriors - Hoston Celtics,Hoston Celtics,Evriali Warriors,6,4,2,2,100.0,1,6,16.67,0,0,0.0,0,1,1,9,2,7,4,4
 2025-26,2026-02-02,2026,2,2,Giorgos Katsadoros,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,7,8,0,1,0.0,4,11,36.36,0,0,0.0,0,0,0,8,4,4,1,3
 2025-26,2026-02-06,2026,2,6,Giorgos Katsadoros,Voula Vikings - Oldy Wan Kenobi,Hoston Celtics,Voula Vikings,24,14,0,0,0.0,7,10,70.0,0,0,0.0,2,1,0,11,2,9,1,1
+2025-26,2026-02-11,2026,2,11,Giorgos Katsadoros,The Hustlers - Voula Vikings,Hoston Celtics,The Hustlers,2,4,0,0,0.0,2,6,33.33,0,0,0.0,0,0,0,4,1,3,2,1
+2025-26,2026-02-25,2026,2,25,Giorgos Katsadoros,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,11,8,0,0,0.0,4,9,44.44,0,0,0.0,0,0,0,9,2,7,1,3
 2024-25,2025-01-13,2025,1,13,Haris Egisegian,Hoston Celtics - Chicken Nuggets BC,Hoston Celtics,Chicken Nuggets BC,-1,3,0,0,0.0,0,2,0.0,1,5,20.0,1,0,0,6,2,4,5,4
 2024-25,2025-02-17,2025,2,17,Haris Egisegian,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,-1,6,0,0,0.0,3,5,60.0,0,6,0.0,0,1,0,2,0,2,2,5
 2024-25,2025-02-24,2025,2,24,Haris Egisegian,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,1,2,2,3,66.67,0,6,0.0,0,1,0.0,1,3,1,3,2,1,1,3
@@ -3158,6 +3226,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-11,2025,12,11,Haris Egisegian,Hoston Celtics - Αεροδρομιακος,Hoston Celtics,Aerodromiakos,2,6,2,2,100.0,2,6,33.33,0,5,0.0,0,1,0,6,3,3,2,1
 2025-26,2026-01-27,2026,1,27,Haris Egisegian,Evriali Warriors - Hoston Celtics,Hoston Celtics,Evriali Warriors,0,3,0,0,0.0,0,7,0.0,1,5,20.0,1,1,1,5,1,4,0,3
 2025-26,2026-02-02,2026,2,2,Haris Egisegian,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,-7,0,0,0,0.0,0,5,0.0,0,3,0.0,0,0,0,3,1,2,2,2
+2025-26,2026-02-25,2026,2,25,Haris Egisegian,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,3,14,1,2,50.0,5,12,41.67,1,8,12.5,2,1,1,8,0,8,8,3
 2023-24,2023-10-02,2023,10,2,Ilias Panagiotou,Νos Fathers - Hoston Celtics,Hoston Celtics,Nos Fathers,5,4,2,4,50.0,1,1,100.0,0,5,0.0,5,2,0,4,1,3,3,2
 2023-24,2023-10-18,2023,10,18,Ilias Panagiotou,Glyfada Bulls - Hoston Celtics,Hoston Celtics,Glyfada Bulls,5,5,0,2,0.0,1,3,33.33,1,6,16.67,1,2,0,7,1,6,1,1
 2023-24,2023-11-10,2023,11,10,Ilias Panagiotou,Hoston Celtics - Slow Motion,Hoston Celtics,Slow Motion,10,8,1,2,50.0,2,5,40.0,1,2,50.0,2,1,1,5,1,4,2,0
@@ -3202,6 +3271,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-15,2025,12,15,Ilias Panagiotou,Hoston Celtics - Glyfathers,Hoston Celtics,Glyfathers,15,16,0,0,0.0,2,3,66.67,4,8,50.0,1,3,0,3,0,3,3,1
 2025-26,2026-01-07,2026,1,7,Ilias Panagiotou,South Rebels - Hoston Celtics,Hoston Celtics,South Rebels,3,13,3,6,50.0,2,6,33.33,2,7,28.57,0,3,0,2,1,1,3,3
 2025-26,2026-01-14,2026,1,14,Ilias Panagiotou,Clicka BC - Hoston Celtics,Hoston Celtics,Clicka BC,-1,9,0,0,0.0,0,7,0.0,3,10,30.0,1,0,0,5,1,4,2,1
+2025-26,2026-02-13,2026,2,13,Ilias Panagiotou,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,-7,8,0,0,0.0,1,8,12.5,2,13,15.38,2,1,0,3,2,1,3,3
+2025-26,2026-02-25,2026,2,25,Ilias Panagiotou,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,8,12,0,0,0.0,0,3,0.0,4,9,44.44,5,2,0,5,0,5,8,1
 2023-24,2023-10-11,2023,10,11,Konstantinos Kakavogiannis,Los Reys - Ποσειδωνες,Hoston Celtics,Los Reys,1,3,1,2,50.0,1,10,10.0,0,0,0.0,0,1,0,8,2,6,1,2
 2023-24,2023-10-20,2023,10,20,Konstantinos Kakavogiannis,Chicken Nuggets BC - Los Reys,Hoston Celtics,Chicken Nuggets BC,11,10,0,0,0.0,2,3,66.67,2,3,66.67,2,0,0,4,1,3,3,2
 2023-24,2023-10-23,2023,10,23,Konstantinos Kakavogiannis,Los Reys - Αεροδρομιακος,Hoston Celtics,Aerodromiakos,8,13,3,5,60.0,5,14,35.71,0,2,0.0,1,5,0,6,2,4,4,2
@@ -3329,6 +3400,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-15,2025,12,15,Lampros Chatziilias,Hoston Celtics - Glyfathers,Hoston Celtics,Glyfathers,4,2,0,0,0.0,1,3,33.33,0,0,0.0,1,1,0,3,1,2,1,0
 2025-26,2026-01-19,2026,1,19,Lampros Chatziilias,Hoston Celtics - Ανηθικοι Πιθηκοι,Hoston Celtics,Anithikoi Pithikoi,2,2,0,0,0.0,1,8,12.5,0,0,0.0,1,0,0,7,4,3,1,1
 2025-26,2026-02-02,2026,2,2,Lampros Chatziilias,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,10,0,0,0,0.0,0,6,0.0,0,1,0.0,3,4,1,10,3,7,1,1
+2025-26,2026-02-13,2026,2,13,Lampros Chatziilias,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,12,4,0,0,0.0,2,9,22.22,0,0,0.0,0,4,0,12,5,7,1,2
 2023-24,2024-01-19,2024,1,19,Nikitas Vafeiadis,Hoston Celtics - Νos Fathers,Hoston Celtics,Nos Fathers,5,4,0,0,0.0,2,8,25.0,0,0,0.0,0,2,0,7,2,5,2,4
 2023-24,2024-02-05,2024,2,5,Nikitas Vafeiadis,Βουλιαγμενοι - Hoston Celtics,Hoston Celtics,Vouliagmenoi,5,6,0,0,0.0,3,12,25.0,0,0,0.0,1,3,0,4,1,3,0,0
 2023-24,2024-02-13,2024,2,13,Nikitas Vafeiadis,Μ.Κ.Ο. - Hoston Celtics,Hoston Celtics,M.K.O.,1,2,0,0,0.0,1,3,33.33,0,0,0.0,0,0,0,3,1,2,2,3
@@ -3420,6 +3492,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-14,2026,1,14,Savvas Kalaitzis,Clicka BC - Hoston Celtics,Hoston Celtics,Clicka BC,3,0,0,0,0.0,0,0,0.0,0,1,0.0,1,1,0,3,1,2,1,3
 2025-26,2026-01-19,2026,1,19,Savvas Kalaitzis,Hoston Celtics - Ανηθικοι Πιθηκοι,Hoston Celtics,Anithikoi Pithikoi,7,0,0,0,0.0,0,0,0.0,0,2,0.0,2,4,0,4,1,3,1,3
 2025-26,2026-01-27,2026,1,27,Savvas Kalaitzis,Evriali Warriors - Hoston Celtics,Hoston Celtics,Evriali Warriors,8,1,1,4,25.0,0,1,0.0,0,1,0.0,0,4,0,8,2,6,0,3
+2025-26,2026-02-13,2026,2,13,Savvas Kalaitzis,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,12,0,0,0,0.0,0,1,0.0,0,3,0.0,3,4,0,11,3,8,2,3
 2023-24,2023-09-25,2023,9,25,Stauros Lianos,Hoston Celtics - Αεροδρομιακος,Hoston Celtics,Aerodromiakos,10,3,1,2,50.0,1,6,16.67,0,1,0.0,1,4,0,12,6,6,3,3
 2023-24,2023-10-02,2023,10,2,Stauros Lianos,Νos Fathers - Hoston Celtics,Hoston Celtics,Nos Fathers,6,4,0,0,0.0,2,8,25.0,0,0,0.0,0,1,0,9,4,5,2,2
 2023-24,2023-11-03,2023,11,3,Stauros Lianos,Α.Ο. Ναυμαχος - Hoston Celtics,Hoston Celtics,A.O. Navmachos,6,0,0,2,0.0,0,4,0.0,0,1,0.0,0,3,1,12,3,9,3,3
@@ -3460,6 +3533,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-15,2025,12,15,Stauros Lianos,Hoston Celtics - Glyfathers,Hoston Celtics,Glyfathers,1,0,0,0,0.0,0,2,0.0,0,1,0.0,0,2,1,4,0,4,3,2
 2025-26,2026-01-07,2026,1,7,Stauros Lianos,South Rebels - Hoston Celtics,Hoston Celtics,South Rebels,5,1,1,2,50.0,0,3,0.0,0,1,0.0,0,3,0,6,1,5,0,4
 2025-26,2026-02-02,2026,2,2,Stauros Lianos,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,5,4,0,0,0.0,2,6,33.33,0,4,0.0,0,1,0,8,2,6,0,3
+2025-26,2026-02-25,2026,2,25,Stauros Lianos,Hoston Celtics - Vouliagmeni Heat,Hoston Celtics,Vouliagmeni Heat,21,12,1,2,50.0,4,7,57.14,1,2,50.0,2,1,0,12,4,8,1,4
 2023-24,2023-09-25,2023,9,25,Stauros Sinas,Hoston Celtics - Αεροδρομιακος,Hoston Celtics,Aerodromiakos,6,11,3,4,75.0,4,10,40.0,0,5,0.0,4,5,0,1,0,1,3,4
 2023-24,2023-10-02,2023,10,2,Stauros Sinas,Νos Fathers - Hoston Celtics,Hoston Celtics,Nos Fathers,5,8,2,3,66.67,3,5,60.0,0,3,0.0,1,0,0,3,0,3,1,2
 2023-24,2023-10-18,2023,10,18,Stauros Sinas,Glyfada Bulls - Hoston Celtics,Hoston Celtics,Glyfada Bulls,7,17,0,2,0.0,7,15,46.67,1,5,20.0,1,0,1,7,2,5,5,0
@@ -3494,6 +3568,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-15,2025,10,15,Stauros Sinas,Hoston Celtics - Ανηθικοι Πιθηκοι,Hoston Celtics,Anithikoi Pithikoi,2,6,0,0,0.0,3,9,33.33,0,1,0.0,3,4,0,1,0,1,5,2
 2025-26,2025-10-20,2025,10,20,Stauros Sinas,Hoston Celtics - Proteas Dads,Hoston Celtics,Proteas Dads,0,0,0,0,0.0,0,3,0.0,0,0,0.0,0,1,0,5,0,5,3,3
 2025-26,2025-10-24,2025,10,24,Stauros Sinas,Hoston Celtics - Ανηθικοι Πιθηκοι,Hoston Celtics,Anithikoi Pithikoi,4,1,1,2,50.0,0,0,0.0,0,2,0.0,2,1,1,5,0,5,3,5
+2025-26,2026-02-13,2026,2,13,Stauros Sinas,Unleash the clowns - Hoston Celtics,Hoston Celtics,Unleash The Clowns,-1,7,1,2,50.0,3,10,30.0,0,4,0.0,4,2,0,3,1,2,5,2
 2023-24,2024-04-15,2024,4,15,Alexandros Tsamatos,Proteas Dads - Vouliagmeni Heat,Proteas Dads,Vouliagmeni Heat,20,8,0,0,0.0,4,11,36.36,0,1,0.0,11,1,0,9,2,7,1,1
 2024-25,2024-11-11,2024,11,11,Alexandros Tsamatos,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,13,8,0,2,0.0,4,9,44.44,0,0,0.0,2,0,1,11,1,10,2,1
 2024-25,2024-12-16,2024,12,16,Alexandros Tsamatos,Proteas Dads - Ποσειδωνες,Proteas Dads,Poseidones,24,15,1,2,50.0,7,9,77.78,0,0,0.0,3,0,0,11,1,10,2,3
@@ -3549,6 +3624,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Charidimos Pappas,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,6,10,0,2,0.0,5,10,50.0,0,1,0.0,0,0,0,4,2,2,0,2
 2025-26,2026-02-02,2026,2,2,Charidimos Pappas,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,5,8,0,2,0.0,4,9,44.44,0,0,0.0,2,0,0,5,2,3,3,3
 2025-26,2026-02-09,2026,2,9,Charidimos Pappas,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,7,9,3,3,100.0,3,8,37.5,0,2,0.0,2,1,0,3,1,2,1,3
+2025-26,2026-02-18,2026,2,18,Charidimos Pappas,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,10,9,1,2,50.0,4,13,30.77,0,0,0.0,2,1,0,8,2,6,0,0
+2025-26,2026-02-26,2026,2,26,Charidimos Pappas,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,22,22,3,3,100.0,8,15,53.33,1,4,25.0,4,1,0,5,3,2,0,0
 2023-24,2023-10-02,2023,10,2,Christos Paraskeuas,Proteas Dads - Chicken Nuggets BC,Proteas Dads,Chicken Nuggets BC,16,15,3,4,75.0,6,9,66.67,0,1,0.0,1,2,1,7,1,6,5,2
 2023-24,2023-10-09,2023,10,9,Christos Paraskeuas,Ανηθικοι Πιθηκοι - Proteas Dads,Proteas Dads,Anithikoi Pithikoi,6,6,0,0,0.0,3,4,75.0,0,0,0.0,1,1,0,2,0,2,3,5
 2023-24,2023-10-23,2023,10,23,Christos Paraskeuas,San Antonio Sperms - Proteas Dads,Proteas Dads,San Antonio Sperms,6,7,1,2,50.0,3,5,60.0,0,0,0.0,2,0,0,6,1,5,6,2
@@ -3644,6 +3721,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-07,2026,1,7,Georgios Dellios,Chicken Nuggets BC - Proteas Dads,Proteas Dads,Chicken Nuggets BC,9,10,0,0,0.0,2,3,66.67,2,5,40.0,1,1,0,2,1,1,1,3
 2025-26,2026-01-16,2026,1,16,Georgios Dellios,Unleash the clowns - Proteas Dads,Proteas Dads,Unleash The Clowns,5,6,0,0,0.0,0,1,0.0,2,7,28.57,1,1,0,6,0,6,3,2
 2025-26,2026-02-09,2026,2,9,Georgios Dellios,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,15,12,0,0,0.0,0,0,0.0,4,6,66.67,1,1,0,3,1,2,0,1
+2025-26,2026-02-18,2026,2,18,Georgios Dellios,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,16,11,0,0,0.0,1,1,100.0,3,8,37.5,4,4,0,3,1,2,1,2
+2025-26,2026-02-26,2026,2,26,Georgios Dellios,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,1,2,0,2,0.0,1,1,100.0,0,7,0.0,5,2,0,2,1,1,1,0
 2025-26,2025-09-15,2025,9,15,Giorgos Giamalakis,Ανηθικοι Πιθηκοι - Proteas Dads,Proteas Dads,Anithikoi Pithikoi,-1,0,0,2,0.0,0,0,0.0,0,0,0.0,0,1,0,0,0,0,0,3
 2025-26,2025-09-22,2025,9,22,Giorgos Giamalakis,Proteas Dads - Μ.Κ.Ο.,Proteas Dads,M.K.O.,4,5,1,1,100.0,2,6,33.33,0,0,0.0,0,1,0,3,1,2,1,1
 2025-26,2025-10-01,2025,10,1,Giorgos Giamalakis,Proteas Dads - Hoston Celtics,Proteas Dads,Hoston Celtics,13,10,0,0,0.0,5,5,100.0,0,0,0.0,0,0,0,3,1,2,0,4
@@ -3659,6 +3738,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Giorgos Giamalakis,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,6,2,0,0,0.0,1,2,50.0,0,0,0.0,0,0,0,5,2,3,0,3
 2025-26,2026-02-02,2026,2,2,Giorgos Giamalakis,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,4,10,0,4,0.0,5,9,55.56,0,0,0.0,0,0,1,2,0,2,1,5
 2025-26,2026-02-09,2026,2,9,Giorgos Giamalakis,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,-1,0,0,0,0.0,0,1,0.0,0,1,0.0,0,0,0,2,2,0,1,2
+2025-26,2026-02-26,2026,2,26,Giorgos Giamalakis,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,8,4,0,0,0.0,2,9,22.22,0,2,0.0,2,1,1,9,4,5,0,1
 2023-24,2023-10-09,2023,10,9,Giorgos Psarakis,Ανηθικοι Πιθηκοι - Proteas Dads,Proteas Dads,Anithikoi Pithikoi,4,1,1,2,50.0,0,2,0.0,0,0,0.0,0,1,0,8,3,5,3,5
 2023-24,2023-10-20,2023,10,20,Giorgos Psarakis,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,8,6,0,1,0.0,3,5,60.0,0,0,0.0,0,0,0,7,4,3,2,4
 2023-24,2023-11-03,2023,11,3,Giorgos Psarakis,Vouliagmeni Heat - Proteas Dads,Proteas Dads,Vouliagmeni Heat,1,2,0,2,0.0,1,5,20.0,0,0,0.0,0,0,0,5,2,3,0,3
@@ -3692,6 +3772,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Giorgos Psarakis,Proteas Dads - South Rebels,Proteas Dads,South Rebels,9,7,3,5,60.0,2,5,40.0,0,0,0.0,0,1,0,6,2,4,0,1
 2025-26,2026-01-16,2026,1,16,Giorgos Psarakis,Unleash the clowns - Proteas Dads,Proteas Dads,Unleash The Clowns,16,10,0,0,0.0,5,14,35.71,0,0,0.0,4,1,1,10,3,7,1,3
 2025-26,2026-02-09,2026,2,9,Giorgos Psarakis,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,2,0,0,0,0.0,0,2,0.0,0,0,0.0,1,0,0,4,1,3,1,4
+2025-26,2026-02-26,2026,2,26,Giorgos Psarakis,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,2,3,1,2,50.0,1,5,20.0,0,0,0.0,1,0,0,5,2,3,2,4
 2023-24,2024-02-12,2024,2,12,Ioannis Plakomichelakis,Clicka BC - Proteas Dads,Proteas Dads,Clicka BC,-3,0,0,0,0.0,0,0,0.0,0,3,0.0,0,0,0,2,0,2,2,1
 2023-24,2024-04-29,2024,4,29,Ioannis Plakomichelakis,Proteas Dads - San Antonio Sperms,Proteas Dads,San Antonio Sperms,6,8,0,0,0.0,1,1,100.0,2,4,50.0,2,0,0,0,0,0,2,2
 2024-25,2024-11-20,2024,11,20,Ioannis Plakomichelakis,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,1,0,0,0,0.0,0,0,0.0,0,3,0.0,2,1,0,2,0,2,1,0
@@ -3749,6 +3830,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Kostas Fotopoulos,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,4,2,0,1,0.0,1,5,20.0,0,0,0.0,1,1,0,5,2,3,0,3
 2025-26,2026-02-02,2026,2,2,Kostas Fotopoulos,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,12,3,1,2,50.0,1,3,33.33,0,0,0.0,3,4,1,4,0,4,0,2
 2025-26,2026-02-09,2026,2,9,Kostas Fotopoulos,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,3,3,0,0,0.0,0,3,0.0,1,2,50.0,2,0,0,5,1,4,3,4
+2025-26,2026-02-18,2026,2,18,Kostas Fotopoulos,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,5,5,0,0,0.0,1,5,20.0,1,2,50.0,0,1,2,3,1,2,1,3
+2025-26,2026-02-26,2026,2,26,Kostas Fotopoulos,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,17,10,0,1,0.0,5,8,62.5,0,1,0.0,0,0,2,11,1,10,1,2
 2023-24,2023-10-02,2023,10,2,Manos Kouretsis,Proteas Dads - Chicken Nuggets BC,Proteas Dads,Chicken Nuggets BC,7,4,0,0,0.0,2,5,40.0,0,0,0.0,0,0,0,8,2,6,2,1
 2023-24,2023-10-09,2023,10,9,Manos Kouretsis,Ανηθικοι Πιθηκοι - Proteas Dads,Proteas Dads,Anithikoi Pithikoi,8,9,1,2,50.0,4,8,50.0,0,0,0.0,0,0,0,4,1,3,0,3
 2023-24,2023-10-20,2023,10,20,Manos Kouretsis,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,13,13,1,4,25.0,6,10,60.0,0,0,0.0,1,0,0,6,2,4,0,1
@@ -3808,6 +3891,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Manos Kouretsis,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,5,3,1,2,50.0,1,3,33.33,0,0,0.0,0,1,0,6,0,6,2,3
 2025-26,2026-02-02,2026,2,2,Manos Kouretsis,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,6,2,0,2,0.0,1,5,20.0,0,0,0.0,2,2,0,7,2,5,1,4
 2025-26,2026-02-09,2026,2,9,Manos Kouretsis,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,13,11,5,6,83.33,3,7,42.86,0,0,0.0,3,1,0,3,0,3,0,3
+2025-26,2026-02-18,2026,2,18,Manos Kouretsis,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,4,5,3,6,50.0,1,9,11.11,0,0,0.0,1,1,0,10,2,8,2,4
+2025-26,2026-02-26,2026,2,26,Manos Kouretsis,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,18,16,0,0,0.0,8,15,53.33,0,1,0.0,3,0,0,9,3,6,2,3
 2025-26,2025-09-15,2025,9,15,Michalis Panourgias,Ανηθικοι Πιθηκοι - Proteas Dads,Proteas Dads,Anithikoi Pithikoi,-3,6,0,0,0.0,0,1,0.0,2,9,22.22,2,0,0,0,0,0,3,0
 2025-26,2025-09-22,2025,9,22,Michalis Panourgias,Proteas Dads - Μ.Κ.Ο.,Proteas Dads,M.K.O.,2,0,0,0,0.0,0,1,0.0,0,3,0.0,2,3,0,4,0,4,3,2
 2025-26,2025-10-01,2025,10,1,Michalis Panourgias,Proteas Dads - Hoston Celtics,Proteas Dads,Hoston Celtics,21,16,0,0,0.0,2,4,50.0,4,8,50.0,8,0,0,7,0,7,4,0
@@ -3823,6 +3908,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Michalis Panourgias,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,6,12,1,2,50.0,1,3,33.33,3,9,33.33,2,1,0,2,0,2,2,0
 2025-26,2026-02-02,2026,2,2,Michalis Panourgias,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,13,8,0,1,0.0,1,2,50.0,2,2,100.0,5,1,0,3,0,3,2,1
 2025-26,2026-02-09,2026,2,9,Michalis Panourgias,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,13,16,2,2,100.0,1,4,25.0,4,10,40.0,5,1,0,2,1,1,2,0
+2025-26,2026-02-18,2026,2,18,Michalis Panourgias,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,3,10,0,0,0.0,2,2,100.0,2,12,16.67,1,4,0,1,1,0,3,0
 2024-25,2025-05-16,2025,5,16,Nektarios Mpirmpas,Unleash the clowns - Proteas Dads,Proteas Dads,Unleash The Clowns,13,11,0,0,0.0,4,8,50.0,1,1,100.0,2,1,0,6,3,3,3,1
 2023-24,2023-10-02,2023,10,2,Nikolas Sotiropoulos,Proteas Dads - Chicken Nuggets BC,Proteas Dads,Chicken Nuggets BC,20,5,1,1,100.0,2,4,50.0,0,0,0.0,2,2,0,15,4,11,2,1
 2023-24,2023-10-20,2023,10,20,Nikolas Sotiropoulos,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,9,0,0,2,0.0,0,3,0.0,0,1,0.0,5,1,1,8,1,7,0,0
@@ -3894,6 +3980,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Nikolas Sotiropoulos,Proteas Dads - South Rebels,Proteas Dads,South Rebels,21,21,6,7,85.71,6,10,60.0,1,2,50.0,2,0,1,12,5,7,9,1
 2025-26,2026-01-07,2026,1,7,Nikolas Sotiropoulos,Chicken Nuggets BC - Proteas Dads,Proteas Dads,Chicken Nuggets BC,17,8,2,3,66.67,3,8,37.5,0,2,0.0,6,1,1,12,3,9,3,3
 2025-26,2026-01-16,2026,1,16,Nikolas Sotiropoulos,Unleash the clowns - Proteas Dads,Proteas Dads,Unleash The Clowns,9,3,1,2,50.0,1,6,16.67,0,2,0.0,4,4,0,9,1,8,3,3
+2025-26,2026-02-18,2026,2,18,Nikolas Sotiropoulos,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,13,4,0,1,0.0,2,5,40.0,0,1,0.0,5,2,0,11,3,8,4,2
+2025-26,2026-02-26,2026,2,26,Nikolas Sotiropoulos,Evriali Warriors - Proteas Dads,Proteas Dads,Evriali Warriors,25,8,2,2,100.0,3,7,42.86,0,2,0.0,7,0,1,16,5,11,1,3
 2023-24,2024-01-15,2024,1,15,Vasilis Kuriazis,Chicken Nuggets BC - Proteas Dads,Proteas Dads,Chicken Nuggets BC,20,15,0,0,0.0,6,9,66.67,1,3,33.33,3,0,0,7,1,6,0,1
 2023-24,2024-01-26,2024,1,26,Vasilis Kuriazis,Los Reys - Proteas Dads,Proteas Dads,Los Reys,12,13,3,4,75.0,5,10,50.0,0,3,0.0,0,0,0,8,4,4,0,5
 2023-24,2024-02-08,2024,2,8,Vasilis Kuriazis,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,5,6,6,8,75.0,0,1,0.0,0,2,0.0,1,0,0,5,0,5,2,2
@@ -3983,6 +4071,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-28,2026,1,28,Xenofon Kolokuthas,Proteas Dads - Clicka BC,Proteas Dads,Clicka BC,1,6,0,0,0.0,3,9,33.33,0,0,0.0,0,0,0,4,2,2,3,3
 2025-26,2026-02-02,2026,2,2,Xenofon Kolokuthas,Hoston Celtics - Proteas Dads,Proteas Dads,Hoston Celtics,-1,6,0,2,0.0,3,9,33.33,0,2,0.0,3,0,0,3,0,3,3,1
 2025-26,2026-02-09,2026,2,9,Xenofon Kolokuthas,Proteas Dads - Glyfathers,Proteas Dads,Glyfathers,-3,2,0,0,0.0,1,6,16.67,0,1,0.0,1,0,0,1,1,0,1,5
+2025-26,2026-02-18,2026,2,18,Xenofon Kolokuthas,Proteas Dads - Αεροδρομιακος,Proteas Dads,Aerodromiakos,1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,1,0,1,0,0
 2024-25,2025-02-10,2025,2,10,Charalampos Fountas,Voula Vikings - South Rebels,South Rebels,Voula Vikings,5,5,3,4,75.0,1,1,100.0,0,0,0.0,0,0,0,2,0,2,1,3
 2024-25,2025-03-19,2025,3,19,Charalampos Fountas,Basketopateres - South Rebels,South Rebels,Basketopateres,9,10,0,2,0.0,5,9,55.56,0,2,0.0,3,0,0,8,5,3,4,2
 2024-25,2025-03-31,2025,3,31,Charalampos Fountas,South Rebels - El Maestro,South Rebels,El Maestro,14,9,3,6,50.0,3,5,60.0,0,1,0.0,1,2,0,9,3,6,1,3
@@ -4085,6 +4174,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2024-25,2025-06-26,2025,6,26,Georgios Panagos,Μ.Κ.Ο. - South Rebels,South Rebels,M.K.O.,-2,3,0,0,0.0,0,1,0.0,1,6,16.67,2,0,0,1,0,1,2,0
 2025-26,2025-09-19,2025,9,19,Georgios Panagos,Αντετοκόπροι - South Rebels,South Rebels,Antetokoproi,-1,0,0,0,0.0,0,0,0.0,0,4,0.0,1,0,0,3,0,3,1,0
 2025-26,2025-09-29,2025,9,29,Georgios Panagos,1Support - South Rebels,South Rebels,1Support,-3,0,0,0,0.0,0,0,0.0,0,8,0.0,0,0,0,7,0,7,2,1
+2025-26,2026-02-14,2026,2,14,Georgios Panagos,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,-3,0,0,0,0.0,0,2,0.0,0,2,0.0,2,0,0,0,0,0,1,2
+2025-26,2026-02-28,2026,2,28,Georgios Panagos,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,-5,0,0,0,0.0,0,1,0.0,0,3,0.0,0,0,0,0,0,0,1,1
 2024-25,2024-10-04,2024,10,4,Konstantinos Lutras,South Rebels - Partuzan,South Rebels,Partuzan,11,12,0,0,0.0,6,16,37.5,0,1,0.0,1,2,0,8,5,3,1,2
 2024-25,2024-10-12,2024,10,12,Konstantinos Lutras,South Rebels - Nos Fathers,South Rebels,Nos Fathers,16,13,1,3,33.33,6,11,54.55,0,1,0.0,2,0,0,11,4,7,2,0
 2024-25,2024-10-18,2024,10,18,Konstantinos Lutras,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,23,16,0,0,0.0,8,21,38.1,0,2,0.0,5,3,1,13,6,7,0,3
@@ -4126,6 +4217,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Konstantinos Lutras,South Rebels - Ανηθικοι Πιθηκοι,South Rebels,Anithikoi Pithikoi,17,10,2,3,66.67,4,8,50.0,0,1,0.0,1,1,0,13,1,12,2,2
 2025-26,2026-01-22,2026,1,22,Konstantinos Lutras,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,7,4,0,2,0.0,2,4,50.0,0,1,0.0,0,1,1,7,1,6,1,3
 2025-26,2026-02-03,2026,2,3,Konstantinos Lutras,South Rebels - El Maestro,South Rebels,El Maestro,10,10,0,0,0.0,5,8,62.5,0,2,0.0,0,0,0,10,5,5,5,4
+2025-26,2026-02-14,2026,2,14,Konstantinos Lutras,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,35,20,2,3,66.67,9,10,90.0,0,1,0.0,5,5,0,8,4,4,0,1
+2025-26,2026-02-28,2026,2,28,Konstantinos Lutras,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,7,10,0,0,0.0,5,11,45.45,0,3,0.0,3,0,0,7,1,6,4,3
 2024-25,2025-03-31,2025,3,31,Konstantinos Nanos,South Rebels - El Maestro,South Rebels,El Maestro,-2,6,0,0,0.0,3,10,30.0,0,4,0.0,1,3,0,3,2,1,4,2
 2024-25,2025-04-12,2025,4,12,Konstantinos Nanos,Sharpshooters - South Rebels,South Rebels,Sharpshooters,9,8,0,3,0.0,4,10,40.0,0,0,0.0,3,1,0,10,3,7,4,5
 2024-25,2025-04-23,2025,4,23,Konstantinos Nanos,Beertouozoi - South Rebels,South Rebels,Beertouozoi,-6,2,0,1,0.0,1,9,11.11,0,1,0.0,2,1,0,2,1,1,3,2
@@ -4149,6 +4242,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-07,2026,1,7,Kostantinos Manasis,South Rebels - Hoston Celtics,South Rebels,Hoston Celtics,4,4,0,0,0.0,2,2,100.0,0,4,0.0,1,1,0,4,2,2,2,2
 2025-26,2026-01-22,2026,1,22,Kostantinos Manasis,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,7,7,0,0,0.0,2,2,100.0,1,2,50.0,1,0,0,2,0,2,2,1
 2025-26,2026-01-31,2026,1,31,Kostantinos Manasis,Glyfathers - South Rebels,South Rebels,Glyfathers,-1,5,0,0,0.0,1,4,25.0,1,5,20.0,2,0,0,1,0,1,2,1
+2025-26,2026-02-28,2026,2,28,Kostantinos Manasis,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,3,6,0,0,0.0,0,2,0.0,2,8,25.0,2,0,0,3,1,2,0,0
 2025-26,2025-09-19,2025,9,19,Kostas Stampoulis,Αντετοκόπροι - South Rebels,South Rebels,Antetokoproi,3,0,0,0,0.0,0,3,0.0,0,0,0.0,0,0,1,5,2,3,0,3
 2025-26,2025-09-22,2025,9,22,Kostas Stampoulis,South Rebels - Saronics BC,South Rebels,Saronics BC,5,0,0,0,0.0,0,3,0.0,0,0,0.0,1,1,2,5,0,5,1,4
 2025-26,2025-10-07,2025,10,7,Kostas Stampoulis,South Rebels - Ανηθικοι Πιθηκοι,South Rebels,Anithikoi Pithikoi,1,0,0,0,0.0,0,3,0.0,0,0,0.0,0,1,0,3,2,1,0,1
@@ -4179,6 +4273,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-17,2025,12,17,Nikolaos Fragkos,Proteas Dads - South Rebels,South Rebels,Proteas Dads,19,9,3,4,75.0,3,5,60.0,0,0,0.0,1,7,0,6,4,2,1,1
 2025-26,2026-01-07,2026,1,7,Nikolaos Fragkos,South Rebels - Hoston Celtics,South Rebels,Hoston Celtics,17,10,0,0,0.0,5,10,50.0,0,0,0.0,2,1,0,11,6,5,2,4
 2025-26,2026-01-12,2026,1,12,Nikolaos Fragkos,South Rebels - Ανηθικοι Πιθηκοι,South Rebels,Anithikoi Pithikoi,9,2,0,0,0.0,1,1,100.0,0,0,0.0,1,1,0,5,2,3,0,3
+2025-26,2026-02-28,2026,2,28,Nikolaos Fragkos,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,10,6,0,0,0.0,3,4,75.0,0,0,0.0,0,1,0,5,2,3,1,0
 2024-25,2024-10-21,2024,10,21,Nikos Reppas,1Support - Evriali Warriors,South Rebels,1Support,14,17,2,4,50.0,0,0,0.0,5,8,62.5,1,2,0,1,0,1,2,0
 2024-25,2024-11-14,2024,11,14,Nikos Reppas,Evriali Warriors - Basketopateres,South Rebels,Evriali Warriors,5,5,0,0,0.0,1,3,33.33,1,6,16.67,4,3,0,1,0,1,1,0
 2024-25,2024-11-20,2024,11,20,Nikos Reppas,Evriali Warriors - Voula Vikings,South Rebels,Evriali Warriors,-6,2,0,1,0.0,1,1,100.0,0,5,0.0,0,0,0,1,0,1,3,1
@@ -4210,6 +4305,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-22,2026,1,22,Savvas Anagnostakis,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,0,6,0,0,0.0,0,3,0.0,2,8,25.0,1,3,1,3,1,2,5,3
 2025-26,2026-01-31,2026,1,31,Savvas Anagnostakis,Glyfathers - South Rebels,South Rebels,Glyfathers,5,12,0,2,0.0,0,2,0.0,4,16,25.0,8,1,0,2,1,1,2,3
 2025-26,2026-02-03,2026,2,3,Savvas Anagnostakis,South Rebels - El Maestro,South Rebels,El Maestro,4,6,0,0,0.0,0,2,0.0,2,8,25.0,2,1,0,8,1,7,5,5
+2025-26,2026-02-14,2026,2,14,Savvas Anagnostakis,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,-4,3,0,0,0.0,0,3,0.0,1,8,12.5,1,0,0,5,0,5,3,0
+2025-26,2026-02-28,2026,2,28,Savvas Anagnostakis,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,0,4,0,0,0.0,2,3,66.67,0,8,0.0,2,0,0,3,0,3,0,2
 2023-24,2023-10-05,2023,10,5,Sotirios-nikolaos Kostarellos,Itah Jazz - Beertouozoi,South Rebels,Itah Jazz,2,12,1,2,50.0,1,7,14.29,3,11,27.27,0,1,0,7,2,5,3,1
 2023-24,2023-10-12,2023,10,12,Sotirios-nikolaos Kostarellos,Heart Brokers - Itah Jazz,South Rebels,Heart Brokers,2,9,0,2,0.0,3,9,33.33,1,4,25.0,3,3,0,4,2,2,6,1
 2023-24,2023-11-02,2023,11,2,Sotirios-nikolaos Kostarellos,Voula Vikings - Itah Jazz,South Rebels,Voula Vikings,1,5,0,0,0.0,1,7,14.29,1,5,20.0,0,6,0,4,3,1,4,3
@@ -4307,6 +4404,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-22,2026,1,22,Spuros Kouris,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,5,6,0,0,0.0,0,0,0.0,2,4,50.0,1,1,0,1,0,1,2,2
 2025-26,2026-01-31,2026,1,31,Spuros Kouris,Glyfathers - South Rebels,South Rebels,Glyfathers,-3,2,0,0,0.0,1,3,33.33,0,5,0.0,2,0,0,5,1,4,5,1
 2025-26,2026-02-03,2026,2,3,Spuros Kouris,South Rebels - El Maestro,South Rebels,El Maestro,8,13,1,4,25.0,3,5,60.0,2,9,22.22,2,0,0,7,1,6,2,0
+2025-26,2026-02-14,2026,2,14,Spuros Kouris,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,13,14,0,0,0.0,1,1,100.0,4,10,40.0,1,0,0,4,0,4,0,1
+2025-26,2026-02-28,2026,2,28,Spuros Kouris,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,10,13,1,2,50.0,3,4,75.0,2,5,40.0,2,0,0,1,0,1,1,3
 2023-24,2023-10-05,2023,10,5,Stefanos Kotsidis,Itah Jazz - Beertouozoi,South Rebels,Itah Jazz,-5,13,2,7,28.57,4,18,22.22,1,6,16.67,1,3,1,8,2,6,7,2
 2023-24,2023-10-12,2023,10,12,Stefanos Kotsidis,Heart Brokers - Itah Jazz,South Rebels,Heart Brokers,25,26,0,1,0.0,13,29,44.83,0,0,0.0,2,2,0,18,11,7,6,0
 2023-24,2023-11-02,2023,11,2,Stefanos Kotsidis,Voula Vikings - Itah Jazz,South Rebels,Voula Vikings,6,9,5,8,62.5,2,21,9.52,0,2,0.0,2,3,2,15,8,7,1,2
@@ -4364,6 +4463,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-22,2026,1,22,Stefanos Kotsidis,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,21,7,1,1,100.0,3,9,33.33,0,0,0.0,4,1,1,15,5,10,1,1
 2025-26,2026-01-31,2026,1,31,Stefanos Kotsidis,Glyfathers - South Rebels,South Rebels,Glyfathers,26,12,2,2,100.0,5,14,35.71,0,1,0.0,1,4,0,22,9,13,3,3
 2025-26,2026-02-03,2026,2,3,Stefanos Kotsidis,South Rebels - El Maestro,South Rebels,El Maestro,16,12,0,2,0.0,6,12,50.0,0,1,0.0,1,0,0,12,7,5,0,3
+2025-26,2026-02-14,2026,2,14,Stefanos Kotsidis,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,18,14,0,0,0.0,7,19,36.84,0,1,0.0,1,4,0,12,4,8,0,2
+2025-26,2026-02-28,2026,2,28,Stefanos Kotsidis,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,14,8,0,0,0.0,4,12,33.33,0,0,0.0,0,1,0,14,4,10,1,2
 2024-25,2025-03-28,2025,3,28,Stefanos Mitsiou,South Rebels - Clicka BC,South Rebels,Clicka BC,-3,4,0,0,0.0,2,5,40.0,0,1,0.0,2,1,0,3,1,2,9,2
 2024-25,2025-04-12,2025,4,12,Stefanos Mitsiou,Sharpshooters - South Rebels,South Rebels,Sharpshooters,10,12,2,2,100.0,5,8,62.5,0,2,0.0,2,2,0,4,1,3,5,2
 2024-25,2025-04-23,2025,4,23,Stefanos Mitsiou,Beertouozoi - South Rebels,South Rebels,Beertouozoi,17,13,1,1,100.0,3,5,60.0,2,3,66.67,4,0,0,5,2,3,2,0
@@ -4394,6 +4495,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-18,2025,11,18,Stelmos Simantirakis,Clicka BC - South Rebels,South Rebels,Clicka BC,1,2,0,0,0.0,1,3,33.33,0,1,0.0,0,0,0,2,0,2,0,2
 2025-26,2026-01-22,2026,1,22,Vasilis Digalakis,Vouliagmeni Heat - South Rebels,South Rebels,Vouliagmeni Heat,0,3,0,0,0.0,0,3,0.0,1,5,20.0,0,0,3,3,1,2,2,2
 2025-26,2026-01-31,2026,1,31,Vasilis Digalakis,Glyfathers - South Rebels,South Rebels,Glyfathers,7,6,0,2,0.0,3,5,60.0,0,5,0.0,1,2,0,7,1,6,0,2
+2025-26,2026-02-14,2026,2,14,Vasilis Digalakis,South Rebels - Chicken Nuggets BC,South Rebels,Chicken Nuggets BC,16,13,0,0,0.0,5,6,83.33,1,6,16.67,2,2,0,5,4,1,0,2
+2025-26,2026-02-28,2026,2,28,Vasilis Digalakis,South Rebels - Unleash the clowns,South Rebels,Unleash The Clowns,10,2,0,0,0.0,1,3,33.33,0,1,0.0,3,1,0,7,0,7,0,2
 2025-26,2025-10-03,2025,10,3,Alexis Dafnis,Voula Vikings - Unleash the clowns,Unleash The Clowns,Voula Vikings,20,18,6,7,85.71,3,6,50.0,2,4,50.0,4,1,0,5,2,3,2,1
 2025-26,2025-10-10,2025,10,10,Alexis Dafnis,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,14,14,0,0,0.0,4,10,40.0,2,7,28.57,3,2,0,8,3,5,2,1
 2025-26,2025-10-17,2025,10,17,Alexis Dafnis,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,1,2,0,0,0.0,1,1,100.0,0,1,0.0,0,0,0,0,0,0,0,0
@@ -4408,6 +4511,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-16,2026,1,16,Alexis Dafnis,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,-3,2,0,0,0.0,1,4,25.0,0,3,0.0,0,1,0,1,0,1,1,2
 2025-26,2026-01-23,2026,1,23,Alexis Dafnis,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,12,16,2,2,100.0,7,13,53.85,0,7,0.0,6,0,0,6,1,5,3,0
 2025-26,2026-02-07,2026,2,7,Alexis Dafnis,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,-6,4,1,1,100.0,0,9,0.0,1,8,12.5,1,0,0,5,2,3,0,3
+2025-26,2026-02-13,2026,2,13,Alexis Dafnis,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,3,10,1,5,20.0,3,7,42.86,1,6,16.67,6,2,0,4,1,3,6,0
 2023-24,2023-10-04,2023,10,4,Apollon Grammatikopoulos,Slow Motion - Glyfada Bulls,Unleash The Clowns,Slow Motion,-6,0,0,0,0.0,0,5,0.0,0,5,0.0,0,0,0,6,4,2,2,0
 2023-24,2023-10-10,2023,10,10,Apollon Grammatikopoulos,Unflagged - Glyfada Bulls,Unleash The Clowns,Unflagged,8,5,0,0,0.0,1,4,25.0,1,5,20.0,0,1,0,10,2,8,1,1
 2023-24,2023-10-18,2023,10,18,Apollon Grammatikopoulos,Glyfada Bulls - Hoston Celtics,Unleash The Clowns,Glyfada Bulls,0,3,1,2,50.0,1,8,12.5,0,6,0.0,0,1,0,10,4,6,0,2
@@ -4463,6 +4567,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-14,2025,11,14,Apollon Grammatikopoulos,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,-1,0,0,0,0.0,0,1,0.0,0,3,0.0,2,1,0,3,1,2,3,1
 2025-26,2026-01-31,2026,1,31,Christos Karametos,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,13,9,0,0,0.0,3,5,60.0,1,3,33.33,2,4,0,3,2,1,1,3
 2025-26,2026-02-07,2026,2,7,Christos Karametos,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,4,5,1,4,25.0,2,4,50.0,0,3,0.0,4,0,1,4,2,2,2,4
+2025-26,2026-02-28,2026,2,28,Christos Karametos,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,7,4,0,0,0.0,2,3,66.67,0,3,0.0,6,1,0,1,1,0,1,1
 2023-24,2023-10-06,2023,10,6,Fragkiskos Vamvakaris,Vouliagmeni Heat - Unleash the clowns,Unleash The Clowns,Vouliagmeni Heat,10,14,5,10,50.0,3,6,50.0,1,6,16.67,0,1,0,9,0,9,1,4
 2023-24,2023-10-13,2023,10,13,Fragkiskos Vamvakaris,Unleash the clowns - Glyfathers,Unleash The Clowns,Glyfathers,9,11,2,4,50.0,3,3,100.0,1,5,20.0,0,4,0,5,2,3,5,2
 2023-24,2023-11-04,2023,11,4,Fragkiskos Vamvakaris,Αεροδρομιακος - Unleash the clowns,Unleash The Clowns,Aerodromiakos,12,16,0,2,0.0,5,10,50.0,2,9,22.22,3,1,0,6,4,2,0,4
@@ -4582,6 +4687,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-09,2026,1,9,Giorgos Mousetis,Unleash the clowns - El Maestro,Unleash The Clowns,El Maestro,21,24,0,2,0.0,3,7,42.86,6,12,50.0,4,1,0,6,0,6,2,3
 2025-26,2026-01-16,2026,1,16,Giorgos Mousetis,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,14,16,1,2,50.0,3,8,37.5,3,6,50.0,2,0,1,6,2,4,2,1
 2025-26,2026-01-31,2026,1,31,Giorgos Mousetis,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,28,27,3,3,100.0,6,16,37.5,4,6,66.67,5,1,0,10,1,9,3,4
+2025-26,2026-02-13,2026,2,13,Giorgos Mousetis,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,22,17,1,2,50.0,2,6,33.33,4,11,36.36,2,0,0,17,0,17,2,1
+2025-26,2026-02-28,2026,2,28,Giorgos Mousetis,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,27,23,2,2,100.0,3,8,37.5,5,9,55.56,1,0,1,11,2,9,0,0
 2023-24,2023-10-17,2023,10,17,Ilias Chalkitis,San Antonio Sperms - Unleash the clowns,Unleash The Clowns,San Antonio Sperms,10,17,4,9,44.44,2,5,40.0,3,6,50.0,0,3,0,5,2,3,4,3
 2023-24,2023-11-07,2023,11,7,Ilias Chalkitis,Unleash the clowns - Ποσειδωνες,Unleash The Clowns,Poseidones,15,15,1,2,50.0,4,7,57.14,2,8,25.0,3,3,1,8,1,7,5,3
 2023-24,2023-11-14,2023,11,14,Ilias Chalkitis,Chicken Nuggets BC - Unleash the clowns,Unleash The Clowns,Chicken Nuggets BC,15,10,2,4,50.0,4,5,80.0,0,5,0.0,6,1,0,7,1,6,1,1
@@ -4622,6 +4729,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-24,2025,10,24,Ilias Chalkitis,Unleash the clowns - GenX kids,Unleash The Clowns,GenX Kids,5,3,0,2,0.0,0,1,0.0,1,5,20.0,4,5,0,3,0,3,3,3
 2025-26,2026-01-31,2026,1,31,Ilias Chalkitis,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,8,6,0,0,0.0,0,0,0.0,2,2,100.0,2,0,0,3,0,3,3,2
 2025-26,2026-02-07,2026,2,7,Ilias Chalkitis,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,6,7,2,2,100.0,1,3,33.33,1,2,50.0,1,0,0,3,0,3,2,1
+2025-26,2026-02-13,2026,2,13,Ilias Chalkitis,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,7,3,1,2,50.0,1,2,50.0,0,1,0.0,4,1,0,5,1,4,3,3
+2025-26,2026-02-28,2026,2,28,Ilias Chalkitis,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,17,9,1,2,50.0,1,1,100.0,2,5,40.0,8,1,0,3,0,3,0,1
 2024-25,2025-02-14,2025,2,14,Nikiforos Eleutheriadis,Los Reys - Unleash the clowns,Unleash The Clowns,Los Reys,19,16,1,2,50.0,6,13,46.15,1,3,33.33,5,3,0,6,2,4,1,0
 2024-25,2025-03-07,2025,3,7,Nikiforos Eleutheriadis,Glyfathers - Unleash the clowns,Unleash The Clowns,Glyfathers,15,18,6,8,75.0,3,9,33.33,2,5,40.0,5,4,0,3,1,2,4,1
 2024-25,2025-04-04,2025,4,4,Nikiforos Eleutheriadis,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,1,9,3,5,60.0,3,7,42.86,0,2,0.0,1,2,0,3,1,2,6,4
@@ -4669,6 +4778,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-19,2025,12,19,Nikolaos Vassakis,Unleash the clowns - Αεροδρομιακος,Unleash The Clowns,Aerodromiakos,14,10,1,2,50.0,3,6,50.0,1,4,25.0,4,1,1,5,1,4,0,0
 2025-26,2026-01-09,2026,1,9,Nikolaos Vassakis,Unleash the clowns - El Maestro,Unleash The Clowns,El Maestro,11,9,2,2,100.0,2,4,50.0,1,2,50.0,1,1,0,3,2,1,0,3
 2025-26,2026-02-07,2026,2,7,Nikolaos Vassakis,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,19,11,3,4,75.0,4,9,44.44,0,4,0.0,3,2,1,12,4,8,0,0
+2025-26,2026-02-13,2026,2,13,Nikolaos Vassakis,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,10,9,1,2,50.0,1,5,20.0,2,7,28.57,2,2,0,7,1,6,0,1
+2025-26,2026-02-28,2026,2,28,Nikolaos Vassakis,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,9,8,0,1,0.0,4,8,50.0,0,4,0.0,3,1,0,6,2,4,0,0
 2023-24,2023-10-17,2023,10,17,Nikos Lamprou,San Antonio Sperms - Unleash the clowns,Unleash The Clowns,San Antonio Sperms,7,5,1,4,25.0,2,5,40.0,0,0,0.0,0,1,2,7,3,4,2,2
 2023-24,2023-11-24,2023,11,24,Nikos Lamprou,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,10,8,4,6,66.67,2,7,28.57,0,0,0.0,0,0,0,11,4,7,2,1
 2023-24,2023-12-02,2023,12,2,Nikos Lamprou,Unleash the clowns - Clicka BC,Unleash The Clowns,Clicka BC,12,6,0,0,0.0,3,10,30.0,0,0,0.0,4,1,0,9,3,6,1,3
@@ -4703,6 +4814,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2024-25,2025-06-27,2025,6,27,Notis Faklis,Unleash the clowns - Vouliagmeni Heat,Unleash The Clowns,Vouliagmeni Heat,4,6,4,6,66.67,1,5,20.0,0,2,0.0,1,0,0,8,3,5,3,1
 2025-26,2025-10-17,2025,10,17,Notis Faklis,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,15,14,4,4,100.0,5,12,41.67,0,1,0.0,3,1,0,13,0,13,8,3
 2025-26,2026-01-09,2026,1,9,Notis Faklis,Unleash the clowns - El Maestro,Unleash The Clowns,El Maestro,7,4,0,0,0.0,2,8,25.0,0,0,0.0,1,1,1,7,3,4,1,3
+2025-26,2026-02-28,2026,2,28,Notis Faklis,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,33,22,3,3,100.0,8,14,57.14,1,1,100.0,2,2,1,14,5,9,2,0
 2024-25,2025-03-07,2025,3,7,Panagiotis Sourgias,Glyfathers - Unleash the clowns,Unleash The Clowns,Glyfathers,20,11,0,0,0.0,1,2,50.0,3,4,75.0,1,1,1,9,0,9,1,1
 2024-25,2025-03-29,2025,3,29,Panagiotis Sourgias,Unleash the clowns - Basketopateres,Unleash The Clowns,Basketopateres,23,12,1,2,50.0,1,3,33.33,3,9,33.33,4,0,1,16,3,13,1,1
 2024-25,2025-04-04,2025,4,4,Panagiotis Sourgias,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,15,10,1,4,25.0,0,0,0.0,3,7,42.86,3,2,1,10,2,8,4,4
@@ -4825,12 +4937,16 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-16,2026,1,16,Pavlos Glynos,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,5,3,1,4,25.0,1,1,100.0,0,0,0.0,0,0,0,5,2,3,0,2
 2025-26,2026-01-31,2026,1,31,Pavlos Glynos,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,8,6,0,0,0.0,3,8,37.5,0,0,0.0,0,0,0,7,3,4,0,1
 2025-26,2026-02-07,2026,2,7,Pavlos Glynos,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,12,9,1,5,20.0,4,7,57.14,0,0,0.0,0,0,0,11,4,7,1,3
+2025-26,2026-02-13,2026,2,13,Pavlos Glynos,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,8,6,0,0,0.0,3,4,75.0,0,0,0.0,0,0,0,5,2,3,2,3
+2025-26,2026-02-28,2026,2,28,Pavlos Glynos,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,11,4,0,0,0.0,2,6,33.33,0,0,0.0,1,1,0,9,3,6,0,0
 2025-26,2025-10-17,2025,10,17,Spuridon Grigorios Papadatos,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,12,14,2,2,100.0,6,14,42.86,0,0,0.0,1,0,1,11,1,10,7,1
 2025-26,2025-12-05,2025,12,5,Spuridon Grigorios Papadatos,Vouliagmeni Heat - Unleash the clowns,Unleash The Clowns,Vouliagmeni Heat,4,3,1,2,50.0,1,1,100.0,0,1,0.0,1,0,0,4,0,4,2,2
 2025-26,2025-12-09,2025,12,9,Spuridon Grigorios Papadatos,Ανηθικοι Πιθηκοι - Unleash the clowns,Unleash The Clowns,Anithikoi Pithikoi,18,13,1,3,33.33,6,9,66.67,0,1,0.0,2,1,4,9,1,8,5,4
 2025-26,2026-01-16,2026,1,16,Spuridon Grigorios Papadatos,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,6,7,1,1,100.0,3,8,37.5,0,1,0.0,0,1,0,6,1,5,2,1
 2025-26,2026-01-23,2026,1,23,Spuridon Grigorios Papadatos,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,16,10,2,4,50.0,4,13,30.77,0,1,0.0,6,1,1,12,1,11,2,3
 2025-26,2026-01-31,2026,1,31,Spuridon Grigorios Papadatos,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,11,4,0,0,0.0,2,10,20.0,0,0,0.0,2,5,0,10,2,8,2,1
+2025-26,2026-02-13,2026,2,13,Spuridon Grigorios Papadatos,Unleash the clowns - Hoston Celtics,Unleash The Clowns,Hoston Celtics,5,4,0,0,0.0,2,6,33.33,0,0,0.0,1,4,1,1,1,0,2,3
+2025-26,2026-02-28,2026,2,28,Spuridon Grigorios Papadatos,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,1,0,1,0,0
 2024-25,2025-02-14,2025,2,14,Stauros Papadopoulos,Los Reys - Unleash the clowns,Unleash The Clowns,Los Reys,42,41,5,7,71.43,9,12,75.0,6,8,75.0,2,2,0,6,0,6,2,3
 2024-25,2025-03-15,2025,3,15,Stauros Papadopoulos,Unleash the clowns - Αεροδρομιακος,Unleash The Clowns,Aerodromiakos,23,34,10,13,76.92,6,18,33.33,4,12,33.33,4,5,0,6,0,6,3,3
 2024-25,2025-04-04,2025,4,4,Stauros Papadopoulos,Clicka BC - Unleash the clowns,Unleash The Clowns,Clicka BC,28,36,10,12,83.33,4,10,40.0,6,10,60.0,3,2,0,4,0,4,5,3
@@ -4890,6 +5006,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-09,2026,1,9,Stefanos Megalos,Unleash the clowns - El Maestro,Unleash The Clowns,El Maestro,3,7,0,0,0.0,2,10,20.0,1,4,25.0,3,1,0,4,2,2,1,2
 2025-26,2026-01-16,2026,1,16,Stefanos Megalos,Unleash the clowns - Proteas Dads,Unleash The Clowns,Proteas Dads,4,8,3,4,75.0,1,4,25.0,1,3,33.33,1,0,0,1,0,1,0,2
 2025-26,2026-01-31,2026,1,31,Stefanos Megalos,Unleash the clowns - Chicken Nuggets BC,Unleash The Clowns,Chicken Nuggets BC,-2,4,0,2,0.0,2,9,22.22,0,0,0.0,3,0,0,1,0,1,1,0
+2025-26,2026-02-28,2026,2,28,Stefanos Megalos,South Rebels - Unleash the clowns,Unleash The Clowns,South Rebels,1,5,0,0,0.0,1,8,12.5,1,7,14.29,4,1,0,4,1,3,0,1
 2025-26,2026-02-07,2026,2,7,Stelios Soulas,Unleash the clowns - Evriali Warriors,Unleash The Clowns,Evriali Warriors,13,13,1,2,50.0,6,10,60.0,0,1,0.0,0,0,0,6,1,5,0,0
 2023-24,2023-10-06,2023,10,6,Theodoros Kagkas,Vouliagmeni Heat - Unleash the clowns,Unleash The Clowns,Vouliagmeni Heat,4,4,2,2,100.0,1,3,33.33,0,0,0.0,0,0,0,4,2,2,2,0
 2023-24,2023-10-13,2023,10,13,Theodoros Kagkas,Unleash the clowns - Glyfathers,Unleash The Clowns,Glyfathers,-2,4,2,4,50.0,1,9,11.11,0,2,0.0,1,1,1,4,2,2,1,2
@@ -4978,6 +5095,8 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-12-05,2025,12,5,Dionusis Miliopoulos,Vouliagmeni Heat - Unleash the clowns,Vouliagmeni Heat,Unleash The Clowns,1,0,0,0,0.0,0,1,0.0,0,0,0.0,0,1,0,1,0,1,0,0
 2025-26,2026-01-22,2026,1,22,Dionusis Miliopoulos,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,0,0,0,0,0.0,0,4,0.0,0,0,0.0,1,1,0,2,1,1,0,3
 2025-26,2026-01-29,2026,1,29,Dionusis Miliopoulos,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,12,6,0,0,0.0,3,5,60.0,0,0,0.0,1,2,1,6,2,4,2,2
+2025-26,2026-02-11,2026,2,11,Dionusis Miliopoulos,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,0,0,0,0,0.0,0,2,0.0,0,0,0.0,0,0,0,3,1,2,1,1
+2025-26,2026-02-25,2026,2,25,Dionusis Miliopoulos,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,0,0,0,0,0.0,0,3,0.0,0,0,0.0,0,1,0,3,1,2,1,1
 2023-24,2023-10-11,2023,10,11,Evagelos Protopapas,Vouliagmeni Heat - Αεροδρομιακος,Vouliagmeni Heat,Aerodromiakos,14,10,0,0,0.0,5,10,50.0,0,0,0.0,0,1,1,8,3,5,1,3
 2023-24,2023-10-19,2023,10,19,Evagelos Protopapas,Vouliagmeni Heat - Ποσειδωνες,Vouliagmeni Heat,Poseidones,9,6,0,0,0.0,3,7,42.86,0,0,0.0,0,0,0,7,2,5,0,3
 2023-24,2023-11-03,2023,11,3,Evagelos Protopapas,Vouliagmeni Heat - Proteas Dads,Vouliagmeni Heat,Proteas Dads,-8,0,0,0,0.0,0,6,0.0,0,3,0.0,0,1,0,2,1,1,2,1
@@ -5028,6 +5147,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-09,2026,1,9,Evagelos Protopapas,Vouliagmeni Heat - Clicka BC,Vouliagmeni Heat,Clicka BC,8,6,2,2,100.0,2,6,33.33,0,0,0.0,0,1,0,6,2,4,1,2
 2025-26,2026-01-12,2026,1,12,Evagelos Protopapas,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,-1,4,0,0,0.0,2,10,20.0,0,1,0.0,1,1,0,3,0,3,1,1
 2025-26,2026-01-29,2026,1,29,Evagelos Protopapas,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,3,4,0,0,0.0,2,10,20.0,0,0,0.0,1,0,0,6,4,2,0,1
+2025-26,2026-02-17,2026,2,17,Evagelos Protopapas,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,-2,1,1,4,25.0,0,2,0.0,0,0,0.0,0,0,0,3,3,0,1,3
 2024-25,2024-11-07,2024,11,7,Giannis Lamprinidis,Vouliagmeni Heat - Partuzan,Vouliagmeni Heat,Partuzan,-1,2,0,0,0.0,1,6,16.67,0,1,0.0,0,0,0,5,2,3,2,0
 2024-25,2024-11-12,2024,11,12,Giannis Lamprinidis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,2,2,0,0,0.0,1,3,33.33,0,2,0.0,1,1,0,2,1,1,0,2
 2024-25,2024-11-18,2024,11,18,Giannis Lamprinidis,Ποσειδωνες - Vouliagmeni Heat,Vouliagmeni Heat,Poseidones,5,2,0,0,0.0,1,2,50.0,0,0,0.0,0,1,0,3,2,1,0,2
@@ -5069,6 +5189,21 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Giannis Lamprinidis,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,13,13,0,2,0.0,5,11,45.45,1,5,20.0,4,2,0,10,3,7,4,1
 2025-26,2026-01-22,2026,1,22,Giannis Lamprinidis,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,8,11,1,2,50.0,5,12,41.67,0,6,0.0,2,5,1,7,2,5,4,2
 2025-26,2026-01-29,2026,1,29,Giannis Lamprinidis,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,15,21,5,9,55.56,5,14,35.71,2,3,66.67,2,3,0,7,2,5,4,2
+2025-26,2026-02-11,2026,2,11,Giannis Lamprinidis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,13,17,5,9,55.56,6,9,66.67,0,2,0.0,2,1,2,5,1,4,5,5
+2025-26,2026-02-17,2026,2,17,Giannis Lamprinidis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,19,22,5,6,83.33,4,10,40.0,3,9,33.33,6,2,1,5,1,4,4,4
+2025-26,2026-02-25,2026,2,25,Giannis Lamprinidis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,3,16,2,2,100.0,7,15,46.67,0,9,0.0,2,2,1,2,0,2,3,2
+2025-26,2025-09-19,2025,9,19,Giannis Stauropoulos,Αντετοκόπροι - South Rebels,Vouliagmeni Heat,Antetokoproi,7,3,0,0,0.0,0,0,0.0,1,1,100.0,1,0,0,3,1,2,0,1
+2025-26,2025-09-23,2025,9,23,Giannis Stauropoulos,1Support - Αντετοκόπροι,Vouliagmeni Heat,1Support,8,7,0,0,0.0,2,5,40.0,1,3,33.33,1,1,0,5,0,5,1,1
+2025-26,2025-10-30,2025,10,30,Giannis Stauropoulos,Αντετοκοπροι - Washington Lizards,Vouliagmeni Heat,Αντετοκοπροι,6,3,0,0,0.0,0,3,0.0,1,1,100.0,0,3,0,4,0,4,1,1
+2025-26,2025-11-03,2025,11,3,Giannis Stauropoulos,Caligunners - Αντετοκοπροι,Vouliagmeni Heat,Caligunners,4,0,0,2,0.0,0,1,0.0,0,2,0.0,0,1,0,8,1,7,0,4
+2025-26,2025-11-13,2025,11,13,Giannis Stauropoulos,Αντετοκοπροι - Drizzlers,Vouliagmeni Heat,Αντετοκοπροι,5,3,0,0,0.0,0,3,0.0,1,3,33.33,1,1,0,5,0,5,0,3
+2025-26,2025-11-19,2025,11,19,Giannis Stauropoulos,Αντετοκοπροι - GenX kids,Vouliagmeni Heat,Αντετοκοπροι,0,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,0,0,0,0,1
+2025-26,2025-11-27,2025,11,27,Giannis Stauropoulos,Αντετοκοπροι - Ταχα Laboral,Vouliagmeni Heat,Αντετοκοπροι,2,0,0,0,0.0,0,1,0.0,0,0,0.0,1,0,0,4,0,4,2,0
+2025-26,2025-12-15,2025,12,15,Giannis Stauropoulos,1Support - Αντετοκοπροι,Vouliagmeni Heat,1Support,2,3,0,0,0.0,0,2,0.0,1,3,33.33,1,1,0,1,0,1,0,3
+2025-26,2026-01-12,2026,1,12,Giannis Stauropoulos,Partuzan - Αντετοκοπροι,Vouliagmeni Heat,Partuzan,2,0,0,0,0.0,0,0,0.0,0,3,0.0,1,3,0,4,1,3,3,0
+2025-26,2026-01-30,2026,1,30,Giannis Stauropoulos,Vibers - Αντετοκοπροι,Vouliagmeni Heat,Vibers,5,1,1,2,50.0,0,0,0.0,0,0,0.0,2,0,0,6,2,4,3,3
+2025-26,2026-02-04,2026,2,4,Giannis Stauropoulos,Αντετοκοπροι - Saronicos BC,Vouliagmeni Heat,Αντετοκοπροι,-1,0,0,0,0.0,0,1,0.0,0,0,0.0,1,0,0,2,0,2,3,1
+2025-26,2026-02-11,2026,2,11,Giannis Stauropoulos,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,1,0,0,0,0.0,0,0,0.0,0,0,0.0,0,0,0,1,0,1,0,2
 2025-26,2025-12-16,2025,12,16,Giorgos Chalkiadis,Vouliagmeni Heat - Evriali Warriors,Vouliagmeni Heat,Evriali Warriors,8,4,2,2,100.0,1,1,100.0,0,0,0.0,1,2,0,2,2,0,1,1
 2023-24,2023-10-06,2023,10,6,Giorgos Lamprinidis,Vouliagmeni Heat - Unleash the clowns,Vouliagmeni Heat,Unleash The Clowns,14,7,2,2,100.0,1,6,16.67,1,4,25.0,4,4,0,7,1,6,0,4
 2023-24,2023-10-11,2023,10,11,Giorgos Lamprinidis,Vouliagmeni Heat - Αεροδρομιακος,Vouliagmeni Heat,Aerodromiakos,20,15,2,9,22.22,5,13,38.46,1,2,50.0,4,7,1,12,0,12,3,1
@@ -5138,6 +5273,9 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Giorgos Lamprinidis,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,7,9,1,6,16.67,4,10,40.0,0,2,0.0,2,3,0,10,2,8,4,3
 2025-26,2026-01-22,2026,1,22,Giorgos Lamprinidis,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,8,0,0,0,0.0,0,4,0.0,0,2,0.0,2,1,0,13,3,10,2,2
 2025-26,2026-01-29,2026,1,29,Giorgos Lamprinidis,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,11,8,0,2,0.0,1,5,20.0,2,4,50.0,2,3,0,6,1,5,0,5
+2025-26,2026-02-11,2026,2,11,Giorgos Lamprinidis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,13,10,0,1,0.0,2,2,100.0,2,4,50.0,2,1,0,7,0,7,4,2
+2025-26,2026-02-17,2026,2,17,Giorgos Lamprinidis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,10,4,0,0,0.0,2,6,33.33,0,1,0.0,3,1,0,8,4,4,1,1
+2025-26,2026-02-25,2026,2,25,Giorgos Lamprinidis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,11,2,0,0,0.0,1,1,100.0,0,1,0.0,4,2,0,5,1,4,1,4
 2025-26,2025-09-30,2025,9,30,Ioannis Chatzimorakis,Heart Brokers - Vouliagmeni Heat,Vouliagmeni Heat,Heart Brokers,9,4,0,0,0.0,2,6,33.33,0,2,0.0,1,4,0,7,2,5,1,1
 2025-26,2025-10-06,2025,10,6,Ioannis Chatzimorakis,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,5,4,1,2,50.0,0,0,0.0,1,2,50.0,0,0,0,3,1,2,0,3
 2025-26,2025-10-16,2025,10,16,Ioannis Chatzimorakis,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,-1,0,0,0,0.0,0,2,0.0,0,2,0.0,1,1,1,2,0,2,2,1
@@ -5185,6 +5323,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-19,2025,11,19,Konstantinos Lamprinidis,Proteas Dads - Vouliagmeni Heat,Vouliagmeni Heat,Proteas Dads,14,5,3,4,75.0,1,10,10.0,0,0,0.0,6,3,0,13,2,11,3,2
 2025-26,2025-12-16,2025,12,16,Konstantinos Lamprinidis,Vouliagmeni Heat - Evriali Warriors,Vouliagmeni Heat,Evriali Warriors,14,11,3,9,33.33,4,9,44.44,0,2,0.0,5,3,0,11,4,7,3,3
 2025-26,2026-01-22,2026,1,22,Konstantinos Lamprinidis,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,33,26,2,7,28.57,12,21,57.14,0,0,0.0,2,2,0,20,8,12,3,2
+2025-26,2026-02-17,2026,2,17,Konstantinos Lamprinidis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,12,9,1,2,50.0,4,6,66.67,0,1,0.0,3,2,0,8,1,7,6,0
 2023-24,2023-10-03,2023,10,3,Konstantinos Minatsis,Ποσειδωνες - PlayOn,Vouliagmeni Heat,Poseidones,3,4,0,0,0.0,2,5,40.0,0,1,0.0,1,2,0,2,0,2,2,4
 2025-26,2026-01-29,2026,1,29,Konstantinos Minatsis,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,14,4,0,0,0.0,2,5,40.0,0,1,0.0,5,2,0,9,0,9,2,5
 2024-25,2024-11-12,2024,11,12,Konstantinos Spanakis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,13,23,3,8,37.5,10,19,52.63,0,5,0.0,1,0,0,9,7,2,1,1
@@ -5200,6 +5339,7 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-10-06,2025,10,6,Konstantinos Spanakis,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,19,15,3,4,75.0,6,9,66.67,0,0,0.0,0,1,1,7,3,4,1,1
 2025-26,2025-10-16,2025,10,16,Konstantinos Spanakis,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,9,8,0,0,0.0,4,7,57.14,0,4,0.0,0,1,2,8,4,4,3,0
 2025-26,2025-12-16,2025,12,16,Konstantinos Spanakis,Vouliagmeni Heat - Evriali Warriors,Vouliagmeni Heat,Evriali Warriors,18,10,0,0,0.0,2,5,40.0,2,4,50.0,1,0,1,14,2,12,3,1
+2025-26,2026-02-25,2026,2,25,Konstantinos Spanakis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,25,24,3,3,100.0,9,13,69.23,1,6,16.67,2,5,0,9,2,7,6,1
 2023-24,2023-10-19,2023,10,19,Michail Alfaras,Beertouozoi - Βουλιαγμενοι,Vouliagmeni Heat,Beertouozoi,7,12,0,0,0.0,3,7,42.86,2,7,28.57,2,1,1,3,0,3,3,1
 2023-24,2023-10-26,2023,10,26,Michail Alfaras,Α.Ο. Ναυμαχος - Βουλιαγμενοι,Vouliagmeni Heat,A.O. Navmachos,0,12,1,4,25.0,4,10,40.0,1,6,16.67,2,1,1,1,1,0,3,0
 2023-24,2023-11-06,2023,11,6,Michail Alfaras,Βουλιαγμενοι - Heart Brokers,Vouliagmeni Heat,Vouliagmenoi,-3,2,2,2,100.0,0,5,0.0,0,1,0.0,2,0,0,1,0,1,2,1
@@ -5263,6 +5403,9 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2026-01-12,2026,1,12,Michail Alfaras,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,-3,10,3,7,42.86,2,8,25.0,1,4,25.0,0,0,0,6,2,4,6,3
 2025-26,2026-01-22,2026,1,22,Michail Alfaras,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,10,19,2,2,100.0,7,14,50.0,1,6,16.67,0,1,0,4,1,3,2,0
 2025-26,2026-01-29,2026,1,29,Michail Alfaras,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,6,14,0,2,0.0,4,12,33.33,2,4,50.0,0,0,0,7,0,7,3,2
+2025-26,2026-02-11,2026,2,11,Michail Alfaras,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,12,10,0,0,0.0,2,5,40.0,2,6,33.33,2,3,0,8,1,7,4,1
+2025-26,2026-02-17,2026,2,17,Michail Alfaras,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,7,8,0,0,0.0,1,3,33.33,2,6,33.33,1,0,0,4,1,3,0,3
+2025-26,2026-02-25,2026,2,25,Michail Alfaras,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,9,11,1,2,50.0,2,3,66.67,2,6,33.33,2,0,1,2,0,2,1,2
 2023-24,2023-10-11,2023,10,11,Nikolaos Lekakis,Vouliagmeni Heat - Αεροδρομιακος,Vouliagmeni Heat,Aerodromiakos,1,2,0,0,0.0,1,6,16.67,0,0,0.0,0,0,1,3,1,2,0,2
 2023-24,2023-10-19,2023,10,19,Nikolaos Lekakis,Vouliagmeni Heat - Ποσειδωνες,Vouliagmeni Heat,Poseidones,0,2,0,0,0.0,1,7,14.29,0,0,0.0,0,0,0,4,1,3,0,4
 2023-24,2023-11-03,2023,11,3,Nikolaos Lekakis,Vouliagmeni Heat - Proteas Dads,Vouliagmeni Heat,Proteas Dads,1,4,0,0,0.0,2,8,25.0,0,0,0.0,0,0,0,4,0,4,1,1
@@ -5299,8 +5442,17 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-24,2025,11,24,Nikolaos Lekakis,Αεροδρομιακος - Vouliagmeni Heat,Vouliagmeni Heat,Aerodromiakos,-2,0,0,0,0.0,0,2,0.0,0,0,0.0,0,0,0,1,0,1,1,0
 2025-26,2025-12-05,2025,12,5,Nikolaos Lekakis,Vouliagmeni Heat - Unleash the clowns,Vouliagmeni Heat,Unleash The Clowns,8,10,0,0,0.0,5,7,71.43,0,0,0.0,0,0,0,1,1,0,1,1
 2025-26,2026-01-09,2026,1,9,Nikolaos Lekakis,Vouliagmeni Heat - Clicka BC,Vouliagmeni Heat,Clicka BC,0,0,0,0,0.0,0,4,0.0,0,0,0.0,0,0,0,5,2,3,1,0
+2025-26,2026-02-17,2026,2,17,Nikolaos Lekakis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,4,0,0,0,0.0,0,2,0.0,0,0,0.0,0,0,1,5,0,5,0,0
+2025-26,2026-02-25,2026,2,25,Nikolaos Lekakis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,3,0,0,0,0.0,0,1,0.0,0,0,0.0,0,0,2,4,1,3,2,1
+2025-26,2026-01-30,2026,1,30,Periklis Kakagiotis,Vibers - Αντετοκοπροι,Vouliagmeni Heat,Vibers,4,11,1,2,50.0,5,10,50.0,0,3,0.0,0,0,0,6,1,5,4,5
+2025-26,2026-02-04,2026,2,4,Periklis Kakagiotis,Αντετοκοπροι - Saronicos BC,Vouliagmeni Heat,Αντετοκοπροι,6,13,4,8,50.0,3,9,33.33,1,6,16.67,2,3,0,7,1,6,4,2
+2025-26,2026-02-11,2026,2,11,Periklis Kakagiotis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,6,4,0,0,0.0,2,8,25.0,0,0,0.0,1,0,0,7,0,7,0,1
+2025-26,2026-02-17,2026,2,17,Periklis Kakagiotis,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,9,6,0,2,0.0,3,4,75.0,0,0,0.0,0,0,0,7,2,5,1,0
+2025-26,2026-02-25,2026,2,25,Periklis Kakagiotis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,1,0,0,0,0.0,0,1,0.0,0,0,0.0,0,1,1,1,0,1,1,0
 2025-26,2026-01-09,2026,1,9,Stavros Chousselas,Vouliagmeni Heat - Clicka BC,Vouliagmeni Heat,Clicka BC,-2,7,1,2,50.0,0,7,0.0,2,6,33.33,3,2,0,0,0,0,2,4
 2025-26,2026-01-12,2026,1,12,Stavros Chousselas,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,9,5,0,0,0.0,1,1,100.0,1,1,100.0,0,0,0,4,3,1,0,3
+2025-26,2026-02-11,2026,2,11,Stavros Chousselas,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,17,20,2,2,100.0,6,12,50.0,2,3,66.67,2,1,0,2,0,2,1,4
+2025-26,2026-02-17,2026,2,17,Stavros Chousselas,Vouliagmeni Heat - Chicken Nuggets BC,Vouliagmeni Heat,Chicken Nuggets BC,5,14,0,0,0.0,1,5,20.0,4,8,50.0,0,0,0,0,0,0,1,1
 2025-26,2025-10-06,2025,10,6,Stefanos Vrakas,El Maestro - Vouliagmeni Heat,Vouliagmeni Heat,El Maestro,6,4,0,0,0.0,2,6,33.33,0,2,0.0,3,1,0,5,0,5,1,2
 2025-26,2025-10-16,2025,10,16,Stefanos Vrakas,Vouliagmeni Heat - South Rebels,Vouliagmeni Heat,South Rebels,-1,0,0,0,0.0,0,4,0.0,0,2,0.0,0,1,0,6,0,6,2,1
 2025-26,2025-10-29,2025,10,29,Stefanos Vrakas,Glyfathers - Vouliagmeni Heat,Vouliagmeni Heat,Glyfathers,3,7,1,2,50.0,0,4,0.0,2,9,22.22,1,0,0,8,0,8,1,3
@@ -5360,3 +5512,5 @@ SEASON,DATE,YEAR,MONTH,DAY,PLAYER,MATCH,TEAM,OPPONENT,EFF,PTS,FT_M,FT_A,FT_PCT,2
 2025-26,2025-11-19,2025,11,19,Thodoris Lamprinidis,Proteas Dads - Vouliagmeni Heat,Vouliagmeni Heat,Proteas Dads,13,10,0,2,0.0,5,9,55.56,0,0,0.0,2,4,0,4,1,3,1,2
 2025-26,2025-12-05,2025,12,5,Thodoris Lamprinidis,Vouliagmeni Heat - Unleash the clowns,Vouliagmeni Heat,Unleash The Clowns,4,3,1,2,50.0,1,5,20.0,0,0,0.0,2,3,0,2,0,2,1,3
 2025-26,2026-01-09,2026,1,9,Thodoris Lamprinidis,Vouliagmeni Heat - Clicka BC,Vouliagmeni Heat,Clicka BC,2,3,0,0,0.0,0,4,0.0,1,2,50.0,2,2,0,4,0,4,4,2
+2025-26,2026-02-11,2026,2,11,Thodoris Lamprinidis,Ανηθικοι Πιθηκοι - Vouliagmeni Heat,Vouliagmeni Heat,Anithikoi Pithikoi,6,2,0,0,0.0,1,2,50.0,0,2,0.0,5,2,0,2,0,2,2,4
+2025-26,2026-02-25,2026,2,25,Thodoris Lamprinidis,Hoston Celtics - Vouliagmeni Heat,Vouliagmeni Heat,Hoston Celtics,6,4,2,4,50.0,1,6,16.67,0,0,0.0,4,1,0,5,0,5,1,3

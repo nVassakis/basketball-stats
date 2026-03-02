@@ -21,8 +21,7 @@ HEADERS = {
 
 def get_project_root():
     """Calculates project root relative to this script file."""
-    # src/scraper.py -> dirname = src/ -> dirname = Project Root
-    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def download_player(player_data, save_dir):
     name = player_data['name']
@@ -38,7 +37,7 @@ def download_player(player_data, save_dir):
     filename = f"{safe_name}.html"
     save_path = os.path.join(season_dir, filename)
     
-    if os.path.exists(save_path):
+    if os.path.exists(save_path) and season != "2025-26":
         print(f" [{season}] Skipping {name} (Already downloaded)")
         return
 
@@ -66,12 +65,13 @@ def run_scraper():
     teams_list = []
     if os.path.exists(teams_file):
         with open(teams_file, "r", encoding="utf-8") as f:
-            teams_list = [line.strip() for line in f if line.strip()]
+            teams_list = [line.strip() for line in f]
         print(f"Loaded {len(teams_list)} teams from file.")
     else:
         raise FileNotFoundError(f"Critical Error: Could not find 'teams.txt' at {teams_file}")
 
     # --- 2. MASTER LOOP (Iterate through Teams) ---
+    failed_scans = []
     for team_slug in teams_list:
         print(f"\n PROCESSING TEAM: {team_slug.upper()}")
         print("=" * 60)
@@ -88,10 +88,15 @@ def run_scraper():
         # 2c. Scan Seasons
         for season_id, season_name in SEASONS.items():
             print(f" Scanning Season: {season_name}...", end=" ")
+
+            # Skip older seasons - stats are FROZEN
+            if season_id in [1, 2] and os.path.exists(os.path.join(raw_data_dir, season_name)):
+                print(f" {season_name} frozen. Skipping.")
+                continue
+            print(f" {season_name} active")
             
             # Add ?season=X
             target_url = f"{team_url}?season={season_id}&tab=roster"
-            
             try:
                 response = requests.get(target_url, headers=HEADERS) 
                 soup = BeautifulSoup(response.text, 'html.parser')
@@ -125,6 +130,8 @@ def run_scraper():
                     })
                 
             except Exception as e:
+                error_msg = f"Team: {team_slug} | Season: {season_name} | Error: {str(e)}"f"Team: {team_slug} | Season: {season_name} | Error: {str(e)}"
+                failed_scans.append(error_msg)
                 print(f"\n Error scanning {season_name}: {e}")
 
         # 2d. Execute Download for this team
@@ -133,6 +140,7 @@ def run_scraper():
             # Pass the specific team directory to the function
             download_player(player, raw_data_dir) 
 
+    if failed_scans: print("\n\nFailed Scans:") or [print(f" - {error}") for error in failed_scans]
     print("\n Process completed")
 
 if __name__ == "__main__":

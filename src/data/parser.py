@@ -4,50 +4,13 @@ import os
 from io import StringIO
 import json
 
+from cleaners import greek_to_latin, extract_opponent_name
+
 # --- CONFIG ---
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 INPUT_ROOT = os.path.join(BASE_DIR, 'data', 'raw')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'data', 'processed', 'teams_stats_master.csv')
-
-def greek_to_latin(text):
-    """
-    Converts Greek text to Latin (English) characters.
-    Handles accents and common distinct mappings (e.g., 'Θ' -> 'Th', 'Ξ' -> 'X').
-    """
-    # if not isinstance(text, str):
-    #     return text
-
-    greek_map = {
-        # Lowercase
-        'α': 'a', 'ά': 'a', 'β': 'v', 'γ': 'g', 'δ': 'd', 'ε': 'e', 'έ': 'e',
-        'ζ': 'z', 'η': 'i', 'ή': 'i', 'θ': 'th', 'ι': 'i', 'ί': 'i', 'ϊ': 'i', 'ΐ': 'i',
-        'κ': 'k', 'λ': 'l', 'μ': 'm', 'ν': 'n', 'ξ': 'x', 'ο': 'o', 'ό': 'o',
-        'π': 'p', 'ρ': 'r', 'σ': 's', 'ς': 's', 'τ': 't', 'υ': 'u', 'ύ': 'u', 'ϋ': 'u', 'ΰ': 'u',
-        'φ': 'f', 'χ': 'ch', 'ψ': 'ps', 'ω': 'o', 'ώ': 'o',
-        
-        # Uppercase
-        'Α': 'A', 'Ά': 'A', 'Β': 'V', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Έ': 'E',
-        'Ζ': 'Z', 'Η': 'I', 'Ή': 'I', 'Θ': 'Th', 'Ι': 'I', 'Ί': 'I', 'Ϊ': 'I',
-        'Κ': 'K', 'Λ': 'L', 'Μ': 'M', 'Ν': 'N', 'Ξ': 'X', 'Ο': 'O', 'Ό': 'O',
-        'Π': 'P', 'Ρ': 'R', 'Σ': 'S', 'Τ': 'T', 'Υ': 'Y', 'Ύ': 'Y', 'Ϋ': 'Y',
-        'Φ': 'F', 'Χ': 'Ch', 'Ψ': 'Ps', 'Ω': 'O', 'Ώ': 'O',
-
-        # Add these to prevent crashes on valid formatting:
-        ' ': ' ', 
-        '-': '-',
-        '.': '.',
-        "'": "'"
-    }
-    
-    # Sort keys by length (descending) to handle multi-char replacements like 'Th' or 'Ps' correctly if needed,
-    # though here we are doing char-by-char. For 'Th' output, standard replacement works fine.
-    
-    result = []
-    for char in text:
-        result.append(greek_map.get(char, char)) # Default to original char if not in map
-        
-    return "".join(result)
 
 def parse_html_file(filepath, team_slug, season_id):
     """Extracts stats from a single HTML file"""
@@ -64,10 +27,11 @@ def parse_html_file(filepath, team_slug, season_id):
             print(f"   Warning: Player name not found in expected tags for {filepath}")
             
         if name_tag:
+            # "Nikos   Vassakis" -> "Nikos Vassakis"
             raw_name = name_tag.get_text(separator=' ', strip=True)
             player_name = " ".join(raw_name.split())
         else:
-            # Fallback: Use filename "Nikos_Vassakis.html" -> "Nikos Vassakis"
+            # Use filename "Nikos_Vassakis.html" -> "Nikos Vassakis"
             clean_filename = os.path.basename(filepath).replace('.html', '').replace('_', ' ')
             player_name = clean_filename
 
@@ -88,12 +52,11 @@ def parse_html_file(filepath, team_slug, season_id):
         cols = ['Date', 'Match', 'EFF', 'PTS', '2FG_MA', '2FG_PCT', '3FG_MA', '3FG_PCT', 
                 'FT_MA', 'FT_PCT', 'AST', 'STL', 'BLK', 'REB_TOT', 'REB_OFF', 'REB_DEF', 'TO', 'FLS']
         
-        # Validating column count prevents crashes on bad tables
+        # Checking the number of columns before renaming
         if len(df.columns) == len(cols):
             df.columns = cols
         else:
-            print(f"Skipping {player_name}: Table format mismatch")
-            return None
+            raise SystemExit(f"Table mismatch for {player_name}: Expected {len(cols)} cols, found {len(df.columns)}")
 
         # Splitting columns like "3/5" into "3FG_M" and "3FG_A"
         ma_cols = ['2FG_MA', '3FG_MA', 'FT_MA']
@@ -124,35 +87,7 @@ def parse_html_file(filepath, team_slug, season_id):
         # --- Handle opponent column ---
         if 'Match' in df.columns:
             df['Match'] = df['Match'].astype(str).str.strip()
-            
-            def get_opp(row):
-                # Manual handling of these teams
-                match_str = row['Match']
-                if "Αεροδρομιακ" in match_str and "αεροδρομιακ" not in team_slug.lower():
-                    return "Aerodromiakos"
-                if "Ανηθικ" in match_str and "ανηθικ" not in team_slug.lower():
-                    return "Anithikoi Pithikoi"
-                    
-                # Split by dash
-                parts = match_str.split('-')
-                
-                if len(parts) != 2: 
-                    raise ValueError(f"Match splitting went wrong for {player_name}: {row['Match']}")
-                
-                my_identifier = team_slug.lower().replace('-', '').replace(' ', '')
-
-                if "αεροδρομ" in my_identifier:
-                    my_identifier = "αεροδρομιακος"
-                if "protheas" in my_identifier:
-                    my_identifier = "proteas"
-
-                part1_clean = parts[0].lower().replace(' ', '')
-                if my_identifier in part1_clean:
-                    return parts[1].strip()
-                else:
-                    return parts[0].strip()
-
-            df['Opponent'] = df.apply(get_opp, axis=1)
+            df['Opponent'] = [extract_opponent_name(m, team_slug) for m in df['Match']]
 
         # Add Metadata
         df['Player'] = player_name.strip()
@@ -189,7 +124,9 @@ def run_pipeline():
     # Loop 1: Teams
     for team_slug in os.listdir(INPUT_ROOT):
         team_path = os.path.join(INPUT_ROOT, team_slug)
-        
+        if team_slug.startswith('.'):
+            continue
+       
         # Loop 2: Seasons
         for season_id in os.listdir(team_path):
             season_path = os.path.join(team_path, season_id)
@@ -208,9 +145,8 @@ def run_pipeline():
                 
                 if player_df is not None and not player_df.empty:
                     all_players.append(player_df)
-                elif player_df is None:
+                else:
                     print(f"   No valid table found in {filename}. Skipping.")
-                    pass 
 
     if not all_players:
         print("No data parsed.")
