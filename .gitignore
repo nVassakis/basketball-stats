@@ -3,3 +3,4 @@
 data/raw/*
 data/processed/*
 !data/processed/teams_stats_master.csv
+notebooks/testing_notebook.ipynb
