@@ -88,6 +88,21 @@ def engineer_features():
     df['OPP_REB_ALLOWED_PER_PLAYER'] = df.groupby(['OPPONENT', 'SEASON'])['REB_TOT'].transform(get_season_avg)
 
     # ---------------------------------------------------------
+    # Step 4: Opponent Vulnerability
+    # ---------------------------------------------------------
+    print("Calculating Opponent Vulnerability...")
+    
+    # Sum up all points the opponent allowed in each specific game
+    opp_games = df.groupby(['OPPONENT', 'DATE', 'SEASON'])['PTS'].sum().reset_index(name='game_points_allowed')
+    opp_games = opp_games.sort_values(by=['DATE'])
+    opp_games['OPP_PPG_ALLOWED'] = opp_games.groupby(['OPPONENT', 'SEASON'])['game_points_allowed'].transform(
+        lambda x: x.shift(1).expanding().mean()
+    )
+    
+    # Merge this baseline back into the main dataset
+    df = pd.merge(df, opp_games[['OPPONENT', 'DATE', 'OPP_PPG_ALLOWED']], on=['OPPONENT', 'DATE'], how='left')
+
+    # ---------------------------------------------------------
     # Step 4.5: Lineup Context
     # ---------------------------------------------------------
     print("Calculating Scoring Vacuum (Lineup Context)...")
