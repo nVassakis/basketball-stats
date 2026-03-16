@@ -89,11 +89,6 @@ def parse_html_file(filepath, team_slug, season_id):
             df['Match'] = df['Match'].astype(str).str.strip()
             df['Opponent'] = [extract_opponent_name(m, team_slug) for m in df['Match']]
 
-        # Add Metadata
-        df['Player'] = player_name.strip()
-        df['Team'] = team_slug.strip() 
-        df['Season'] = season_id.strip()
-
         # Drop 'Match' if you don't want the original string anymore
         # df = df.drop(columns=['Match'])
         
@@ -164,12 +159,35 @@ def run_pipeline():
         team_mapping = json.load(f)
     print("Mapping loaded successfully.")
 
-    # Apply mapping to the Team column
-    master_df['Team'] = master_df['Team'].map(team_mapping).fillna(master_df['Team'])
-
     # Apply Mapping to team-name columns
     master_df['Team'] = master_df['Team'].replace(team_mapping)
     master_df['Opponent'] = master_df['Opponent'].replace(team_mapping)
+
+    # --- Drop rows where Team doesn't appear in the Match column ---
+    def _team_in_match(row):
+        parts = str(row['Match']).split('-')
+        if len(parts) != 2:
+            return False
+        team_a = team_mapping.get(parts[0].strip(), parts[0].strip())
+        team_b = team_mapping.get(parts[1].strip(), parts[1].strip())
+        return row['Team'] in (team_a, team_b)
+
+    match_mask = master_df.apply(_team_in_match, axis=1)
+    dropped_df = master_df[~match_mask]
+
+    if not dropped_df.empty:
+        print("\n" + "=" * 60)
+        print(f"DROPPED {len(dropped_df)} row(s) — Team not found in Match column:")
+        print("=" * 60)
+        for _, row in dropped_df.iterrows():
+            print(f"  Player: {row['Player']:<25} Team: {row['Team']:<25} Match: {row['Match']}")
+        print("=" * 60 + "\n")
+
+        dropped_path = os.path.join(os.path.dirname(OUTPUT_FILE), 'dropped_rows.csv')
+        dropped_df.to_csv(dropped_path, index=False)
+        print(f"Dropped rows saved to: {dropped_path}")
+
+    master_df = master_df[match_mask]
 
     # Final Cleanup: Sort by Team, Player, then Date
     master_df['Date'] = pd.to_datetime(master_df['Date'], format='%d/%m/%Y', errors='coerce')
