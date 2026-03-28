@@ -3,7 +3,7 @@ import sqlite3
 import os
 
 def ingest_data():
-    csv_path = 'data/processed/teams_stats_master.csv'
+    csv_path = 'data/processed/full_stats_master.csv'
     db_path = 'data/basketball.db'
 
     print(f"Reading data from {csv_path}...")
