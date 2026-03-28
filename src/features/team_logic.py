@@ -12,7 +12,7 @@ def engineer_team_features():
     
     print("Loading raw stats...")
     df = pd.read_sql("SELECT * FROM raw_stats", conn)
-    df['DATE'] = pd.to_datetime(df['DATE'])
+    df['DATE'] = pd.to_datetime(df['DATE'], format='%d/%m/%Y')
     df = df.sort_values('DATE').reset_index(drop=True)
 
     # Calculate USG
@@ -111,22 +111,19 @@ def engineer_team_features():
     # ---------------------------------------------------------
     # Keep only the columns that exist in the dataframe
     features = [
-        'SEASON', 'DATE','MONTH', 'DAY_OF_WEEK', 'MATCH', 'TEAM', 'OPPONENT', 'TEAM_PTS', 
-        'ROSTER_COUNT', 'SOLID_PLAYER_COUNT', 'BIG_3_EFF_SUM', 
-        'ACTIVE_ROSTER_PTS', 'ACTIVE_ROSTER_EFF', 'ACTIVE_ROSTER_STL', 'ACTIVE_ROSTER_BLK',
-        'ROSTER_SCORING_VARIANCE',
-        'TEAM_PTS_last_5', 'TEAM_PTS_season', 'TEAM_AST_last_5', 'TEAM_AST_season', 
-        'TEAM_REB_last_5', 'TEAM_3PT_PCT_last_5', 'TEAM_3PT_PCT_season',
-        'TEAM_PTS_ALLOWED_last_5', 'TEAM_PTS_ALLOWED_season',
+        'SEASON', 'DATE', 'MONTH', 'DAY_OF_WEEK', 'MATCH', 'TEAM', 'OPPONENT', 'TEAM_PTS',
+        'ROSTER_COUNT', 'SOLID_PLAYER_COUNT', 'BIG_3_EFF_SUM',
+        'ACTIVE_ROSTER_EFF', 'ACTIVE_ROSTER_STL', 'ACTIVE_ROSTER_BLK',
+        'TEAM_PTS_last_5', 'TEAM_AST_last_5', 'TEAM_REB_last_5',
+        'TEAM_3PT_PCT_last_5', 'TEAM_PTS_ALLOWED_last_5',
         # Opponent
         'OPP_ROSTER_COUNT', 'OPP_SOLID_PLAYER_COUNT', 'OPP_BIG_3_EFF_SUM',
         'OPP_ROSTER_SCORING_VARIANCE', 'OPP_ACTIVE_ROSTER_STL', 'OPP_ACTIVE_ROSTER_BLK',
-        'OPP_TEAM_PTS_last_5', 'OPP_TEAM_3PT_PCT_last_5', 'OPP_TEAM_3PT_PCT_season',
-        'OPP_PTS_ALLOWED_last_5', 'OPP_PTS_ALLOWED_season', 
-        'OPP_REB_ALLOWED_last_5', 'OPP_REB_ALLOWED_season',
+        'OPP_TEAM_PTS_last_5', 'OPP_TEAM_3PT_PCT_last_5',
+        'OPP_PTS_ALLOWED_last_5', 'OPP_REB_ALLOWED_last_5',
         'OPP_3PT_PCT_ALLOWED_season',
-        'H2H_PTS_season', 
     ]
+
     final_df = team_df[[c for c in features if c in team_df.columns]]
 
     print("Saving team features to database...")
