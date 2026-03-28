@@ -1,3 +1,5 @@
+import pandas as pd
+
 def greek_to_latin(text):
     """Converts Greek text to Latin (English) characters."""
 
@@ -26,25 +28,50 @@ def greek_to_latin(text):
     result = [greek_map.get(char, char) for char in text]
     return "".join(result)
 
-def extract_opponent_name(match_str, team_slug):
-    """Extracts the opponent name from the raw Match string"""
-    if "Αεροδρομιακ" in match_str and "αεροδρομιακ" not in team_slug.lower():
-        return "Aerodromiakos"
-    if "Ανηθικ" in match_str and "ανηθικ" not in team_slug.lower():
-        return "Anithikoi Pithikoi"
-        
-    parts = match_str.split('-')
-    if len(parts) != 2: 
-        return match_str
-    
-    my_identifier = team_slug.lower().replace('-', '').replace(' ', '')
-    if "αεροδρομ" in my_identifier:
-        my_identifier = "αεροδρομιακος"
-    if "protheas" in my_identifier:
-        my_identifier = "proteas"
+def get_opponent(row):
+    parts = str(row['Match']).split('-', 1)
+    if len(parts) < 2:
+        return ""
 
-    part1_clean = parts[0].lower().replace(' ', '')
-    if my_identifier in part1_clean:
-        return parts[1].strip()
-    else:
-        return parts[0].strip()
+    left, right = parts[0].strip(), parts[1].strip()
+
+    # Normalize strings to compare them safely
+    team_norm = str(row['Team']).lower().replace(' ', '').replace('-', '')
+    left_norm = left.lower().replace(' ', '').replace('-', '')
+
+    # If the team matches the left side, opponent is right. Otherwise, left.
+    return right if team_norm == left_norm else left
+
+def validate_team_points(df):
+    """
+    For each (Date, Match, Team) group, sums player PTS and checks it against the
+    two scores in the Result field (format: '45 - 53'). Drops rows for any team/game
+    where the sum doesn't match either score and logs the discrepancy.
+    """
+    rows_to_drop = []
+
+    for (date, match, result), game_group in df.groupby(['Date', 'Match', 'Result']):
+        try:
+            parts = str(result).split('-')
+            if len(parts) != 2:
+                continue
+            score_left = int(parts[0].strip())
+            score_right = int(parts[1].strip())
+        except (ValueError, AttributeError):
+            continue
+
+        valid_scores = {score_left, score_right}
+
+        for team, team_group in game_group.groupby('Team'):
+            team_pts = pd.to_numeric(team_group['PTS'], errors='coerce').fillna(0).astype(int).sum()
+            if team_pts not in valid_scores:
+                print(
+                    f"[WARN] Points mismatch — {team} | {match} | {date} | "
+                    f"computed={team_pts}, result={score_left}-{score_right}. Dropping {len(team_group)} rows."
+                )
+                rows_to_drop.extend(team_group.index.tolist())
+
+    if rows_to_drop:
+        df = df.drop(index=rows_to_drop).reset_index(drop=True)
+
+    return df

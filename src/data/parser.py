@@ -1,222 +1,141 @@
+import os
+import json
 import pandas as pd
 from bs4 import BeautifulSoup
-import os
-from io import StringIO
-import json
 
-from cleaners import greek_to_latin, extract_opponent_name
+# --- CONFIGURATION ---
+from cleaners import greek_to_latin, get_opponent, validate_team_points
 
-# --- CONFIG ---
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.getcwd()
+INDEX_FILE = os.path.join(BASE_DIR, 'data', 'raw', 'master_games_index.csv')
+OUTPUT_FILE = os.path.join(BASE_DIR, 'data', 'processed', 'full_stats_master.csv')
+MAPPING_FILE = os.path.join(BASE_DIR, 'config', 'team_mapping.json')
 
-INPUT_ROOT = os.path.join(BASE_DIR, 'data', 'raw')
-OUTPUT_FILE = os.path.join(BASE_DIR, 'data', 'processed', 'teams_stats_master.csv')
+with open(MAPPING_FILE, 'r', encoding='utf-8') as f:
+    TEAM_MAPPING = json.load(f)
 
-def parse_html_file(filepath, team_slug, season_id):
-    """Extracts stats from a single HTML file"""
+# --- PARSERS ---
+def get_team_metadata(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            dfs = pd.read_html(f.read())
+        for df in dfs:
+            if {'Date', 'Match', 'Result', 'Season'}.issubset(df.columns):
+                df['Date'] = df['Date'].astype(str).str.split().str[0]
+                return df[['Date', 'Match', 'Result', 'Season']]
+    except Exception:
+        pass
+    return pd.DataFrame()
+
+def parse_game_stats(filepath, team_slug, url):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             soup = BeautifulSoup(f, 'html.parser')
-        
-        # --- GET PLAYER NAME ---
-        player_name = "Unknown"
-        
-        name_tag = soup.find('h1', class_='player-info__name')
-        if not name_tag:
-            name_tag = soup.find('h2', class_='team-roster__member-name')
-            print(f"   Warning: Player name not found in expected tags for {filepath}")
             
-        if name_tag:
-            # "Nikos   Vassakis" -> "Nikos Vassakis"
-            raw_name = name_tag.get_text(separator=' ', strip=True)
-            player_name = " ".join(raw_name.split())
-        else:
-            # Use filename "Nikos_Vassakis.html" -> "Nikos Vassakis"
-            clean_filename = os.path.basename(filepath).replace('.html', '').replace('_', ' ')
-            player_name = clean_filename
-
-        print(f"Processing: {player_name} ({team_slug} | {season_id})")
-
-        # --- GET TABLE ---
-        table = soup.find('table', id='playerDataTable')
-        if not table: 
-            return None
+        date_element = soup.find('time', itemprop='startDate')
+        if not date_element: return None
+        match_date = date_element.text.strip().split()[0] 
         
-        # --- READ DATA ---
-        try:
-            df = pd.read_html(StringIO(str(table)), header=1)[0]
-        except ValueError:
-            return None
-        
-        # Clean Columns
-        cols = ['Date', 'Match', 'EFF', 'PTS', '2FG_MA', '2FG_PCT', '3FG_MA', '3FG_PCT', 
-                'FT_MA', 'FT_PCT', 'AST', 'STL', 'BLK', 'REB_TOT', 'REB_OFF', 'REB_DEF', 'TO', 'FLS']
-        
-        # Checking the number of columns before renaming
-        if len(df.columns) == len(cols):
-            df.columns = cols
-        else:
-            raise SystemExit(f"Table mismatch for {player_name}: Expected {len(cols)} cols, found {len(df.columns)}")
-
-        # Splitting columns like "3/5" into "3FG_M" and "3FG_A"
-        ma_cols = ['2FG_MA', '3FG_MA', 'FT_MA']
-        for col in ma_cols:
-            if col in df.columns:
-                prefix = col.replace('_MA', '') # result: '2FG_MA'->'2FG'
-                
-                # Split and expand into two temp columns
-                split_df = df[col].astype(str).str.split(r'[/]', expand=True)
-                
-                # Assign Made (_M) and Attempted (_A) columns, coerce errors to NaN then fill with 0
-                if split_df.shape[1] == 2:
-                    df[f'{prefix}_M'] = pd.to_numeric(split_df[0], errors='coerce').fillna(0).astype(int)
-                    df[f'{prefix}_A'] = pd.to_numeric(split_df[1], errors='coerce').fillna(0).astype(int)
-                else:
-                    raise ValueError(f"Error parsing {col} for {player_name}: Something went wrong with splitting.")
-        
-        #Drop original MA columns after splitting
-        df = df.drop(columns=ma_cols)
-
-        # Clean percentages
-        cols_to_fix = ['2FG_PCT', '3FG_PCT', 'FT_PCT']
-        for col in cols_to_fix:
-            if col in df.columns:
-                df[col] = df[col].astype(str).str.replace('%', '')
-                df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0.0)
-
-        # --- Handle opponent column ---
-        if 'Match' in df.columns:
-            df['Match'] = df['Match'].astype(str).str.strip()
-            df['Opponent'] = [extract_opponent_name(m, team_slug) for m in df['Match']]
-
-        # Drop 'Match' if you don't want the original string anymore
-        # df = df.drop(columns=['Match'])
-        
-        # Add Name, Team, Season
-        df['Player'] = player_name.strip()
-        df['Team'] = team_slug.strip() 
-        df['Season'] = season_id.strip()
-        
-        return df
-
+        player_data = []
+        for table_id in ['homeDataTable', 'awayDataTable']:
+            table = soup.find('table', id=table_id)
+            if not table: continue
+            
+            actual_team_name = table.find_previous('h4', class_='sp-table-caption').text.strip()
+            for row in table.find('tbody').find_all('tr', class_='sp-total-row'):
+                cols = [c.text.strip() for c in row.find_all(['td', 'th'])]
+                if len(cols) >= 17 and "Σύνολα" not in cols[0]:
+                    player_data.append({
+                        'Date': match_date, 'Team': actual_team_name,
+                        'Player': cols[0], 'EFF': cols[1], 'PTS': cols[2],
+                        '2FG_MA': cols[3], '2FG_PCT': cols[4], '3FG_MA': cols[5], '3FG_PCT': cols[6],
+                        'FT_MA': cols[7], 'FT_PCT': cols[8], 'AST': cols[9], 'STL': cols[10], 
+                        'BLK': cols[11], 'REB_TOT': cols[12], 'REB_OFF': cols[13], 'REB_DEF': cols[14],
+                        'TO': cols[15], 'FLS': cols[16]
+                    })
+        return pd.DataFrame(player_data)
     except Exception as e:
-        print(f"Error parsing file {filepath}: {e}")
+        print(f"Error parsing {filepath}: {e}")
         return None
 
+def transform_and_clean(df, team_meta_df):
+    df = pd.merge(df, team_meta_df, on='Date', how='inner')
+    
+    df['Player'] = df['Player'].apply(
+        lambda x: f"{x.split(',')[1].strip()} {x.split(',')[0].strip()}" if isinstance(x, str) and ',' in x else str(x).strip()
+    )
+    df['Player'] = df['Player'].apply(greek_to_latin)
+
+    # Build opponent directly from Match relative to each player's Team row.
+    team_raw = df['Team'].astype(str).str.strip()
+    match_split = df['Match'].astype(str).str.split('-', n=1, expand=True)
+    left = match_split[0].astype(str).str.strip()
+    right = match_split[1].astype(str).str.strip() if match_split.shape[1] > 1 else pd.Series('', index=df.index)
+    team_norm = team_raw.str.lower().str.replace(r'[\s\-]+', '', regex=True)
+    left_norm = left.str.lower().str.replace(r'[\s\-]+', '', regex=True)
+    right_norm = right.str.lower().str.replace(r'[\s\-]+', '', regex=True)
+
+    team_is_left = team_norm == left_norm
+    team_is_right = team_norm == right_norm
+
+    df['Opponent'] = df.apply(get_opponent, axis=1)
+
+    df['Team'] = team_raw.replace(TEAM_MAPPING)
+    df['Opponent'] = df['Opponent'].replace(TEAM_MAPPING)
+
+    for col in ['2FG_MA', '3FG_MA', 'FT_MA']:
+        if col in df.columns:
+            prefix = col.replace('_MA', '')
+            split_df = df[col].astype(str).str.split(r'[/]', expand=True)
+            df[f'{prefix}_M'] = pd.to_numeric(split_df[0], errors='coerce').fillna(0).astype(int)
+            df[f'{prefix}_A'] = pd.to_numeric(split_df[1], errors='coerce').fillna(0).astype(int)
+    df = df.drop(columns=['2FG_MA', '3FG_MA', 'FT_MA'], errors='ignore')
+
+    for col in ['2FG_PCT', '3FG_PCT', 'FT_PCT']:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', ''), errors='coerce').fillna(0.0)
+
+    df['Date_Obj'] = pd.to_datetime(df['Date'], format='%d/%m/%Y', errors='coerce')
+    df['YEAR'], df['MONTH'], df['DAY'] = df['Date_Obj'].dt.year, df['Date_Obj'].dt.month, df['Date_Obj'].dt.day
+    return df
+
 def run_pipeline():
-    print(f"Starting Batch Parser in: {INPUT_ROOT}")
-    
-    # Create processed folder if it doesn't exist
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    processed_urls = set()
+    index_df = pd.read_csv(INDEX_FILE, header=None, names=['URL', 'Team_Slug', 'File_Path'])
+    team_meta_cache = {}
+    all_data = []
 
-    all_players = []
-    
-    # Check root folder
-    if not os.path.exists(INPUT_ROOT):
-        print(f"Error: Folder not found! {INPUT_ROOT}")
-        return
+    for _, row in index_df.iterrows():
+        url, team_slug, file_path = row['URL'], row['Team_Slug'], row['File_Path']
 
-    # Loop 1: Teams
-    for team_slug in os.listdir(INPUT_ROOT):
-        team_path = os.path.join(INPUT_ROOT, team_slug)
-        if team_slug.startswith('.'):
-            continue
-       
-        # Loop 2: Seasons
-        for season_id in os.listdir(team_path):
-            season_path = os.path.join(team_path, season_id)
-            
-            if not os.path.isdir(season_path) or season_id.startswith('.'):
-                continue
+        if url in processed_urls: continue
+        if not os.path.exists(file_path): continue
 
-            # Loop 3: Files
-            files = [f for f in os.listdir(season_path) if f.endswith(".html")]
-            
-            for filename in files:
-                full_path = os.path.join(season_path, filename)
-                
-                # Parse with metadata
-                player_df = parse_html_file(full_path, team_slug, season_id)
-                
-                if player_df is not None and not player_df.empty:
-                    all_players.append(player_df)
-                else:
-                    print(f"   No valid table found in {filename}. Skipping.")
+        if team_slug not in team_meta_cache:
+            team_page = os.path.join(BASE_DIR, 'data', 'raw', 'teams', team_slug, 'team_page.html')
+            team_meta_cache[team_slug] = get_team_metadata(team_page)
 
-    if not all_players:
-        print("No data parsed.")
-        return
+        game_df = parse_game_stats(file_path, team_slug, url)
+        if game_df is not None and not game_df.empty and not team_meta_cache[team_slug].empty:
+            cleaned_df = transform_and_clean(game_df, team_meta_cache[team_slug])
+            cleaned_df = validate_team_points(cleaned_df)
+            all_data.append(cleaned_df)
+            processed_urls.add(url)
 
-    # Combine
-    master_df = pd.concat(all_players, ignore_index=True)
-
-    print("Translating Player Names...")
-    master_df['Player'] = master_df['Player'].apply(greek_to_latin)
-
-    # Load the JSON Mapping
-    mapping_file = os.path.join(BASE_DIR,'config/team_mapping.json')
-    with open(mapping_file, 'r', encoding='utf-8') as f:
-        team_mapping = json.load(f)
-    print("Mapping loaded successfully.")
-
-    # Apply Mapping to team-name columns
-    master_df['Team'] = master_df['Team'].replace(team_mapping)
-    master_df['Opponent'] = master_df['Opponent'].replace(team_mapping)
-
-    # --- Drop rows where Team doesn't appear in the Match column ---
-    def _team_in_match(row):
-        parts = str(row['Match']).split('-')
-        if len(parts) != 2:
-            return False
-        team_a = team_mapping.get(parts[0].strip(), parts[0].strip())
-        team_b = team_mapping.get(parts[1].strip(), parts[1].strip())
-        return row['Team'] in (team_a, team_b)
-
-    match_mask = master_df.apply(_team_in_match, axis=1)
-    dropped_df = master_df[~match_mask]
-
-    if not dropped_df.empty:
-        print("\n" + "=" * 60)
-        print(f"DROPPED {len(dropped_df)} row(s) — Team not found in Match column:")
-        print("=" * 60)
-        for _, row in dropped_df.iterrows():
-            print(f"  Player: {row['Player']:<25} Team: {row['Team']:<25} Match: {row['Match']}")
-        print("=" * 60 + "\n")
-
-        dropped_path = os.path.join(os.path.dirname(OUTPUT_FILE), 'dropped_rows.csv')
-        dropped_df.to_csv(dropped_path, index=False)
-        print(f"Dropped rows saved to: {dropped_path}")
-
-    master_df = master_df[match_mask]
-
-    # Final Cleanup: Sort by Team, Player, then Date
-    master_df['Date'] = pd.to_datetime(master_df['Date'], format='%d/%m/%Y', errors='coerce')
-    master_df['YEAR'] = master_df['Date'].dt.year.fillna(0).astype(int)
-    master_df['MONTH'] = master_df['Date'].dt.month.fillna(0).astype(int)
-    master_df['DAY'] = master_df['Date'].dt.day.fillna(0).astype(int)
-    master_df = master_df.sort_values(['Team', 'Player', 'Date'])
-
-    final_columns = [
-        'Season', 'Date', 'YEAR', 'MONTH', 'DAY', 
-        'Player', 'Match','Team', 'Opponent', 
-        'EFF', 'PTS', 
-        'FT_M', 'FT_A', 'FT_PCT', 
-        '2FG_M', '2FG_A', '2FG_PCT', 
-        '3FG_M', '3FG_A', '3FG_PCT', 
-        'AST', 'STL', 'BLK', 
-        'REB_TOT', 'REB_OFF', 'REB_DEF', 
-        'TO', 'FLS'
-    ]
-
-    cols_to_keep = [c for c in final_columns if c in master_df.columns]
-    master_df = master_df[cols_to_keep]
-    master_df.columns = master_df.columns.str.upper()
-
-    # Save
-    master_df.to_csv(OUTPUT_FILE, index=False)
-    print("-" * 40)
-    print(f"Success! Saved stats for {len(all_players)} files.")
-    print(f"Location: {OUTPUT_FILE}")
+    if all_data:
+        master_df = pd.concat(all_data, ignore_index=True)
+        cols_to_keep = [
+            'Season', 'Date', 'YEAR', 'MONTH', 'DAY', 'Player', 'Match', 'Result',
+            'Team', 'Opponent', 'EFF', 'PTS', 'FT_M', 'FT_A', 'FT_PCT', '2FG_M', '2FG_A',
+            '2FG_PCT', '3FG_M', '3FG_A', '3FG_PCT', 'AST', 'STL', 'BLK', 'REB_TOT',
+            'REB_OFF', 'REB_DEF', 'TO', 'FLS'
+        ]
+        master_df = master_df[[c for c in cols_to_keep if c in master_df.columns]]
+        master_df.columns = master_df.columns.str.upper()
+        master_df.to_csv(OUTPUT_FILE, mode='w', header=True, index=False)
+        print(f"Wrote {len(all_data)} games to {OUTPUT_FILE}")
+    else:
+        print("No data to process.")
 
 if __name__ == "__main__":
     run_pipeline()

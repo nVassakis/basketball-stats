@@ -1,7 +1,8 @@
 .DS_Store
 .venv/
 data/raw/*
+data/raw_old_scrape_logic/*
 data/processed/*
-!data/processed/teams_stats_master.csv
+!data/processed/full_stats_master.csv
 notebooks/testing_notebook.ipynb
 mlruns/

@@ -9,7 +9,7 @@ def engineer_features():
     df = pd.read_sql("SELECT * FROM raw_stats", conn)
 
     # Sort the data chronologically
-    df['DATE'] = pd.to_datetime(df['DATE'])
+    df['DATE'] = pd.to_datetime(df['DATE'], format='%d/%m/%Y')
     df = df.sort_values(by=['DATE']).reset_index(drop=True)
 
     # Calendar Features
