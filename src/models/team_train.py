@@ -1,6 +1,7 @@
 import pandas as pd
 import sqlite3
 import xgboost as xgb
+from sklearn.dummy import DummyRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import TimeSeriesSplit
 
@@ -26,6 +27,10 @@ def train_model():
 
     df['DATE'] = pd.to_datetime(df['DATE'])
     df = df.sort_values('DATE').reset_index(drop=True)
+
+    # Keep only teams active in the current season across all historical data
+    current_teams = set(df[df['DATE'] >= '2025-10-01']['TEAM'].unique())
+    df = df[df['TEAM'].isin(current_teams) & df['OPPONENT'].isin(current_teams)].reset_index(drop=True)
 
     # ---------------------------------------------------------
     # STEP 2: Define the Target (y) and Features (X)
@@ -67,7 +72,7 @@ def train_model():
         'max_depth': 3,
         'learning_rate': 0.05,
         'gamma': 1.0,
-        'colsample_bytree': 0.2
+        'colsample_bytree': 0.5
     }
 
     tscv = TimeSeriesSplit(n_splits=5)
@@ -110,10 +115,17 @@ def train_model():
     fold_rmse_scores = []
     fold_r2_scores = []
     fold_baseline_mae_scores = []
+    fold_dummy_mae_scores = []
 
     for fold, (train_index, test_index) in enumerate(tscv.split(X), 1):
         X_train, X_test = X.iloc[train_index], X.iloc[test_index]
         y_train, y_test = y.iloc[train_index], y.iloc[test_index]
+
+        # Dummy model: always predicts global mean
+        dummy = DummyRegressor(strategy='mean')
+        dummy.fit(X_train, y_train)
+        dummy_mae = mean_absolute_error(y_test, dummy.predict(X_test))
+        fold_dummy_mae_scores.append(dummy_mae)
 
         # Baseline: predict each team's mean score from training data
         team_means = df.iloc[train_index].groupby('TEAM')['TEAM_PTS'].mean()
@@ -126,12 +138,9 @@ def train_model():
         fold_model = xgb.XGBRegressor(**best_params, random_state=234)
         fold_model.fit(X_train, y_train)
 
-        # Predict on both sets
-        train_preds = fold_model.predict(X_train)
         test_preds = fold_model.predict(X_test)
 
         # Calculate scores
-        train_mae = mean_absolute_error(y_train, train_preds)
         test_mae = mean_absolute_error(y_test, test_preds)
         test_rmse = np.sqrt(mean_squared_error(y_test, test_preds))
         test_r2 = r2_score(y_test, test_preds)
@@ -139,16 +148,18 @@ def train_model():
         fold_mae_scores.append(test_mae)
         fold_rmse_scores.append(test_rmse)
         fold_r2_scores.append(test_r2)
-        print(f"   Fold {fold}: Train MAE: {train_mae:.2f} | Test MAE: {test_mae:.2f} | Baseline MAE: {baseline_mae:.2f} | R²: {test_r2:.3f}")
+        print(f"   Fold {fold}: Dummy MAE: {dummy_mae:.2f} | Per-team MAE: {baseline_mae:.2f} | Model MAE: {test_mae:.2f} | R²: {test_r2:.3f}")
 
     # Mean scores across all folds
     true_mae = sum(fold_mae_scores) / len(fold_mae_scores)
     true_rmse = sum(fold_rmse_scores) / len(fold_rmse_scores)
     true_r2 = sum(fold_r2_scores) / len(fold_r2_scores)
     true_baseline_mae = sum(fold_baseline_mae_scores) / len(fold_baseline_mae_scores)
+    true_dummy_mae = sum(fold_dummy_mae_scores) / len(fold_dummy_mae_scores)
     print("\n--- RESULTS ---")
+    print(f"Dummy (global mean) MAE:      {true_dummy_mae:.2f} points")
     print(f"Baseline (per-team mean) MAE: {true_baseline_mae:.2f} points")
-    print(f"True Average MAE across all periods: {true_mae:.2f} points")
+    print(f"Model MAE:                    {true_mae:.2f} points")
     print(f"True Average RMSE across all periods: {true_rmse:.2f} points")
     print(f"True Average R²: {true_r2:.3f}")
 
