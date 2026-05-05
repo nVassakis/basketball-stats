@@ -20,11 +20,10 @@ def scrape_team_games():
         
         team_page = os.path.join(team_dir, 'team_page.html')
         
-        # 1. Download Team Page
-        if not os.path.exists(team_page):
-            res = requests.get(f"https://www.basketmaniacs.com/team/{team}/", headers=HEADERS)
-            with open(team_page, 'w', encoding='utf-8') as f: f.write(res.text)
-            time.sleep(random.uniform(2, 4))
+        # 1. Download Team Page (refresh to discover new games)
+        res = requests.get(f"https://www.basketmaniacs.com/team/{team}/", headers=HEADERS)
+        with open(team_page, 'w', encoding='utf-8') as f: f.write(res.text)
+        time.sleep(random.uniform(2, 4))
             
         # 2. Parse Game Links
         with open(team_page, 'r', encoding='utf-8') as f:
