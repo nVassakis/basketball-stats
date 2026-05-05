@@ -1,0 +1,58 @@
+name: Weekly Model Update
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6 AM UTC
+  workflow_dispatch:      # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore raw HTML cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw/
+          key: raw-data-${{ github.run_id }}
+          restore-keys: raw-data-
+
+      - name: Scrape new games
+        run: python src/data/scraper.py
+
+      - name: Parse game data
+        run: python src/data/parser.py
+
+      - name: Ingest to database
+        run: python src/data/ingest.py
+
+      - name: Engineer features
+        run: python src/features/logic.py
+
+      - name: Train model
+        run: python src/models/train.py
+        env:
+          MPLBACKEND: Agg  # Prevents plt.show() from hanging in headless CI
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/basketball.db model/xgb_model.json data/processed/full_stats_master.csv
+          git diff --staged --quiet || git commit -m "chore: weekly model update $(date +'%Y-%m-%d')"
+          git push
